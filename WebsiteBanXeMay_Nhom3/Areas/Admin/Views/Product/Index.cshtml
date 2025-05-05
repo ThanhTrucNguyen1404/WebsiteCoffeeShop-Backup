@@ -1,0 +1,46 @@
+﻿<div class="container">
+    <h2 class="text-center mb-4 product-list-title">Danh sách sản phẩm</h2>
+
+    @if (User.IsInRole("Admin")) // Chỉ Admin mới có quyền thêm sản phẩm
+    {
+        <div class="text-end mb-3">
+            <a asp-action="Add" class="btn btn-success btn-pastel">+ Thêm sản phẩm</a>
+        </div>
+    }
+
+    <div class="main-content">
+        <!-- Danh sách sản phẩm -->
+        <div class="product-list">
+            @foreach (var item in Model)
+            {
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="@item.ImageUrl" alt="@item.Name">
+                    </div>
+                    <div class="product-info">
+                        <h3>@item.Name</h3>
+                        <p>@item.Description</p>
+                        <p class="price">Giá: @item.Price.ToString("N0") đ</p>
+                        <p class="category">Loại: @(item.Category?.Name ?? "Không có loại")</p>
+                        <p class="quantity">Số lượng: <strong>@item.Quantity</strong></p> <!-- Thêm số lượng -->
+
+                        <div class="product-actions">
+                            <a asp-action="Display" asp-route-id="@item.Id" class="btn btn-info btn-sm btn-pastel-action">👁️ Xem</a>
+
+                            @if (User.IsInRole("Admin") || User.IsInRole("Employee")) // Admin và Nhân viên có quyền sửa
+                            {
+                                <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-warning btn-sm btn-pastel-action">✏️ Sửa</a>
+                            }
+
+                            @if (User.IsInRole("Admin")) // Chỉ Admin mới có quyền xóa
+                            {
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm btn-pastel-action"
+                                   onclick="return confirm('Bạn có chắc chắn muốn xóa sản phẩm này?')">🗑️ Xóa</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

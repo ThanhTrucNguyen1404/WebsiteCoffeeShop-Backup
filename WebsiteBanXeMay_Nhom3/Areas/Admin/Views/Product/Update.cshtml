@@ -1,0 +1,61 @@
+﻿@model WebsiteBanXeMay_Nhom3.Models.Product
+@using Microsoft.AspNetCore.Mvc.Rendering
+
+@{
+    ViewData["Title"] = "Cập nhật sản phẩm";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center text-primary">Cập nhật sản phẩm</h2>
+
+    <form asp-action="Update" method="post" enctype="multipart/form-data" class="shadow p-4 rounded bg-light">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label class="form-label fw-bold">Tên sản phẩm</label>
+            <input asp-for="Name" class="form-control" required placeholder="Nhập tên sản phẩm" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold">Giá</label>
+            <input asp-for="Price" type="number" class="form-control" required placeholder="Nhập giá sản phẩm" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold">Mô tả</label>
+            <textarea asp-for="Description" class="form-control" rows="4" placeholder="Nhập mô tả sản phẩm"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold">Loại sản phẩm</label>
+            <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-control">
+                <option value="">-- Chọn loại sản phẩm --</option>
+            </select>
+            <span asp-validation-for="CategoryId" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-bold">Ảnh sản phẩm hiện tại</label><br />
+            <img src="@Model.ImageUrl" alt="Ảnh sản phẩm" class="border rounded" width="120" height="120" /><br />
+
+            <label class="form-label mt-2">Chọn ảnh mới</label>
+            <input type="file" name="imageUrl" class="form-control" accept="image/*" />
+        </div>
+
+        <div class="d-flex justify-content-between">
+            <a asp-action="Index" class="btn btn-secondary">
+                <i class="bi bi-arrow-left"></i> Quay lại
+            </a>
+            <button type="submit" class="btn btn-success">
+                <i class="bi bi-save"></i> Cập nhật
+            </button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

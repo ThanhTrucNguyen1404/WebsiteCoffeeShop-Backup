@@ -1,0 +1,425 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Coffee House - Delivery 1800 6936</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+
+    <style>
+        :root {
+            --primary-color: #fa8c16;
+            --light-bg: #f6f6f6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+        }
+
+        .header-top {
+            background-color: #fff;
+            border-bottom: 1px solid #eee;
+            padding: 8px 0;
+        }
+
+        .header-contact {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 15px;
+        }
+
+            .header-contact a {
+                color: #666;
+                text-decoration: none;
+                font-size: 14px;
+            }
+
+                .header-contact a:hover {
+                    color: var(--primary-color);
+                }
+
+        .main-nav {
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            padding: 15px 0;
+        }
+
+        .navbar-brand img {
+            height: 40px;
+        }
+
+        .nav-item {
+            margin: 0 10px;
+        }
+
+        .nav-link {
+            color: #333 !important;
+            font-weight: 500;
+            position: relative;
+        }
+
+            .nav-link:hover {
+                color: var(--primary-color) !important;
+            }
+
+        .hero-section {
+            background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
+            overflow: hidden;
+            position: relative;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .hero-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .hero-text {
+            width: 50%;
+            z-index: 2;
+        }
+
+        .hero-image {
+            width: 50%;
+            text-align: right;
+            z-index: 2;
+        }
+
+            .hero-image img {
+                max-width: 100%;
+                height: auto;
+            }
+
+        .promotion-tag {
+            background-color: var(--primary-color);
+            color: white;
+            font-size: 2.5rem;
+            font-weight: 700;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .product-card {
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+            margin-bottom: 20px;
+            background-color: #fff;
+        }
+
+            .product-card:hover {
+                transform: translateY(-5px);
+            }
+
+        .product-image {
+            height: 200px;
+            overflow: hidden;
+        }
+
+            .product-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: transform 0.3s;
+            }
+
+        .product-card:hover .product-image img {
+            transform: scale(1.05);
+        }
+
+        .product-info {
+            padding: 15px;
+        }
+
+        .product-title {
+            font-weight: 600;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .product-price {
+            color: var(--primary-color);
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        .bestseller-badge {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: #ff4d4f;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .search-form {
+            position: relative;
+            margin-right: 15px;
+        }
+
+        .search-input {
+            border-radius: 20px;
+            padding-left: 15px;
+            border: 1px solid #ddd;
+        }
+
+        .search-button {
+            position: absolute;
+            right: 5px;
+            top: 5px;
+            background: var(--primary-color);
+            border: none;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 30px 0;
+        }
+
+        .hour-badge {
+            background-color: white;
+            color: var(--primary-color);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-weight: 600;
+            display: inline-block;
+        }
+
+        /* Login partial styles */
+        .login-btn, .register-btn {
+            border-radius: 20px;
+            padding: 5px 12px;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+
+            .login-btn:hover {
+                background-color: #e9ecef;
+            }
+
+            .register-btn:hover {
+                background-color: #dc8012;
+            }
+
+        .navbar-nav .dropdown-menu {
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border: none;
+            padding: 8px 0;
+        }
+
+        .navbar-nav .dropdown-item {
+            padding: 8px 20px;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+
+            .navbar-nav .dropdown-item:hover {
+                background-color: #f8f9fa;
+                color: var(--primary-color);
+            }
+
+        /* Adjust navbar items spacing */
+        .navbar-nav.mx-auto .nav-item {
+            margin: 0 8px;
+        }
+
+        .user-actions {
+            display: flex;
+            align-items: center;
+        }
+
+        .cart-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            margin-left: 15px;
+            border: 1px solid #ddd;
+            transition: all 0.3s;
+        }
+
+            .cart-btn:hover {
+                background-color: var(--primary-color);
+                color: white;
+                border-color: var(--primary-color);
+            }
+    </style>
+</head>
+<body>
+    <!-- Top info bar -->
+    <div class="header-top">
+        <div class="container">
+            <div class="header-contact">
+                <a href="#"><i class="bi bi-geo-alt"></i> 93 Cửa hàng khắp cả nước</a>
+                <a href="tel:18006936"><i class="bi bi-telephone"></i> Đặt hàng: 1800.6936</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light main-nav">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <strong>THE COFFEE HOUSE</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/ca-phe">Cà phê</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/tra">Trà</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="menuDropdown" role="button" data-bs-toggle="dropdown">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/menu/cafe">Cà phê</a></li>
+                            <li><a class="dropdown-item" href="/menu/tra">Trà</a></li>
+                            <li><a class="dropdown-item" href="/menu/banh">Bánh ngọt</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="storyDropdown" role="button" data-bs-toggle="dropdown">
+                            Chuyện Nhà
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/chuyen-nha/ve-chung-toi">Về chúng tôi</a></li>
+                            <li><a class="dropdown-item" href="/chuyen-nha/dich-vu">Dịch vụ</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/cua-hang">Cửa hàng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/tuyen-dung">Tuyển dụng</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex align-items-center">
+                    <form class="search-form d-flex" onsubmit="return handleSearch(event)">
+                        <input class="form-control search-input me-2" type="text" id="searchBox" placeholder="Tìm kiếm..." autocomplete="off">
+                        <button class="search-button" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                        <ul id="suggestions" class="list-group position-absolute w-100 mt-5"></ul>
+                    </form>
+
+                    <div class="user-actions d-flex align-items-center">
+                        <partial name="_LoginPartial" />
+
+                        <a class="cart-btn ms-2" asp-controller="ShoppingCart" asp-action="Index">
+                            <i class="bi bi-cart"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <footer class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>The Coffee House</h5>
+                    <p>Come with us - 18029371</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Liên hệ</h5>
+                    <p>Hotline: 1800 6936</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Theo dõi chúng tôi</h5>
+                    <div>
+                        <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#searchBox").autocomplete({
+                source: function (request, response) {
+                    $.ajax({
+                        url: "/Product/GetSuggestions",
+                        type: "GET",
+                        data: { term: request.term },
+                        success: function (data) {
+                            if (data.length > 0) {
+                                response(data);
+                            } else {
+                                response([{ label: "Không tìm thấy sản phẩm", id: null }]);
+                            }
+                        },
+                        error: function () {
+                            console.error("Lỗi khi gọi API GetSuggestions");
+                        }
+                    });
+                },
+                minLength: 2,
+                select: function (event, ui) {
+                    if (ui.item.id) {
+                        window.location.href = "/Product/Display/" + ui.item.id;
+                    }
+                }
+            });
+
+            $(document).click(function (e) {
+                if (!$(e.target).closest("#searchBox, #suggestions").length) {
+                    $("#suggestions").hide();
+                }
+            });
+        });
+
+        function handleSearch(event) {
+            event.preventDefault();
+            var query = document.getElementById("searchBox").value;
+            if (query.trim() !== "") {
+                window.location.href = "/Product/Search?query=" + encodeURIComponent(query);
+            }
+        }
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

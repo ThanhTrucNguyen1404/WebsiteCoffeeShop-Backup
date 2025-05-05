@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebsiteBanXeMay_Nhom3.props" />
+</Project>
