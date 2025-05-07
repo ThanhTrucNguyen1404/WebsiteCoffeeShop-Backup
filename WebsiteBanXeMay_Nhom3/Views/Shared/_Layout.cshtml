@@ -1,9 +1,13 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Coffee House - Delivery 1800 6936</title>
+    <title>Cà Phê Nhà Em - Delivery 093 156 4567</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
@@ -266,6 +270,31 @@
                 color: white;
                 border-color: var(--primary-color);
             }
+
+        /* Role indicator badge */
+        .role-badge {
+            display: inline-block;
+            padding: 3px 10px;
+            font-size: 12px;
+            font-weight: 600;
+            border-radius: 12px;
+            margin-left: 8px;
+        }
+
+        .role-admin {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .role-employee {
+            background-color: #17a2b8;
+            color: white;
+        }
+
+        .role-customer {
+            background-color: #28a745;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -273,8 +302,8 @@
     <div class="header-top">
         <div class="container">
             <div class="header-contact">
-                <a href="#"><i class="bi bi-geo-alt"></i> 93 Cửa hàng khắp cả nước</a>
-                <a href="tel:18006936"><i class="bi bi-telephone"></i> Đặt hàng: 1800.6936</a>
+                <a href="#"><i class="bi bi-geo-alt"></i> 46 Hoàng Văn Thụ, Phường 9, Quận Phú Nhuận, TP. Hồ Chí Minh</a>
+                <a href="tel:18006936"><i class="bi bi-telephone"></i> Đặt hàng: 093 156 4567</a>
             </div>
         </div>
     </div>
@@ -283,44 +312,49 @@
     <nav class="navbar navbar-expand-lg navbar-light main-nav">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <strong>THE COFFEE HOUSE</strong>
+                <strong>CÀ PHÊ NHÀ EM</strong>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
+                    <!-- Common navigation items for all users -->
                     <li class="nav-item">
-                        <a class="nav-link" href="/ca-phe">Cà phê</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/tra">Trà</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="menuDropdown" role="button" data-bs-toggle="dropdown">
-                            Menu
+                        <a class="nav-link custom-nav-link" asp-controller="Product" asp-action="Index">
+                            <i class="bi bi-cup-hot"></i> Sản phẩm
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/menu/cafe">Cà phê</a></li>
-                            <li><a class="dropdown-item" href="/menu/tra">Trà</a></li>
-                            <li><a class="dropdown-item" href="/menu/banh">Bánh ngọt</a></li>
-                        </ul>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="storyDropdown" role="button" data-bs-toggle="dropdown">
-                            Chuyện Nhà
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/chuyen-nha/ve-chung-toi">Về chúng tôi</a></li>
-                            <li><a class="dropdown-item" href="/chuyen-nha/dich-vu">Dịch vụ</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/cua-hang">Cửa hàng</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/tuyen-dung">Tuyển dụng</a>
-                    </li>
+
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <!-- Items for authenticated users (Customer role is minimum) -->
+                        <li class="nav-item">
+                            <a class="nav-link custom-nav-link" asp-controller="Order" asp-action="History">
+                                <i class="bi bi-clock-history"></i> Lịch sử mua hàng
+                            </a>
+                        </li>
+
+                        @if (User.IsInRole("Admin") || User.IsInRole("Employee"))
+                        {
+                            <!-- Items for Employees and Admins -->
+                            <li class="nav-item dropdown">
+                                <ul class="dropdown-menu" aria-labelledby="employeeDropdown">
+                                    <li><a class="dropdown-item" asp-controller="Product" asp-action="Add">Thêm sản phẩm</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link custom-nav-link" asp-controller="Categories" asp-action="Index">
+                                    <i class="bi bi-grid"></i> Danh mục
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link custom-nav-link" asp-controller="DiscountCode" asp-action="Index">
+                                    <i class="bi bi-tag"></i> Mã giảm giá
+                                </a>
+                            </li>
+                        }
+                    }
                 </ul>
 
                 <div class="d-flex align-items-center">
@@ -333,7 +367,60 @@
                     </form>
 
                     <div class="user-actions d-flex align-items-center">
-                        <partial name="_LoginPartial" />
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            <div class="dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown">
+                                    <i class="bi bi-person-circle"></i>
+                                    @UserManager.GetUserName(User)
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        <span class="role-badge role-admin">Admin</span>
+                                    }
+                                    else if (User.IsInRole("Employee"))
+                                    {
+                                        <span class="role-badge role-employee">Nhân viên</span>
+                                    }
+                                    else if (User.IsInRole("Customer"))
+                                    {
+                                        <span class="role-badge role-customer">Khách hàng</span>
+                                    }
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                                    <li>
+                                        <div class="dropdown-item disabled">
+                                            <strong>Vai trò hiện tại:</strong>
+                                            @if (User.IsInRole("Admin"))
+                                            {
+                                                <span class="role-badge role-admin">Admin</span>
+                                            }
+                                            else if (User.IsInRole("Employee"))
+                                            {
+                                                <span class="role-badge role-employee">Nhân viên</span>
+                                            }
+                                            else if (User.IsInRole("Customer"))
+                                            {
+                                                <span class="role-badge role-customer">Khách hàng</span>
+                                            }
+                                        </div>
+                                    </li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/Index"><i class="bi bi-person"></i> Thông tin tài khoản</a></li>
+                                    <li><a class="dropdown-item" asp-controller="Order" asp-action="History"><i class="bi bi-clock-history"></i> Lịch sử đơn hàng</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li>
+                                        <form asp-area="Identity" asp-page="/Account/Logout" method="post">
+                                            <button type="submit" class="dropdown-item"><i class="bi bi-box-arrow-right"></i> Đăng xuất</button>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </div>
+                        }
+                        else
+                        {
+                            <a class="nav-link btn btn-outline-secondary login-btn" asp-area="Identity" asp-page="/Account/Login">Đăng nhập</a>
+                            <a class="nav-link btn btn-primary text-white register-btn ms-2" asp-area="Identity" asp-page="/Account/Register">Đăng ký</a>
+                        }
 
                         <a class="cart-btn ms-2" asp-controller="ShoppingCart" asp-action="Index">
                             <i class="bi bi-cart"></i>
@@ -352,12 +439,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-3">
-                    <h5>The Coffee House</h5>
-                    <p>Come with us - 18029371</p>
+                    <h5>CÀ PHÊ NHÀ EM</h5>
+                    <p>Come with us - 093 156 4567</p>
                 </div>
                 <div class="col-md-4 mb-3">
                     <h5>Liên hệ</h5>
-                    <p>Hotline: 1800 6936</p>
+                    <p>Hotline: 093 156 4567</p>
                 </div>
                 <div class="col-md-4 mb-3">
                     <h5>Theo dõi chúng tôi</h5>

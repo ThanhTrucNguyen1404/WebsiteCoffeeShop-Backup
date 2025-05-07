@@ -9,7 +9,7 @@
 
 <div class="container mt-5">
     <div class="checkout-card">
-        <h2 class="text-center text-white checkout-title">🛒 Thanh toán đơn hàng</h2>
+        <h2 class="text-center checkout-title">🛒 Thanh toán đơn hàng</h2>
 
         @if (TempData["ErrorMessage"] != null)
         {
@@ -25,244 +25,374 @@
             </div>
         }
 
-        <!-- Hiển thị danh sách sản phẩm -->
-        <h4 class="section-title">🛍 Sản phẩm của bạn:</h4>
-        <div class="table-responsive">
-            <table class="table table-striped checkout-table">
-                <thead>
-                    <tr>
-                        <th>Sản phẩm</th>
-                        <th>Hình ảnh</th>
-                        <th>Giá</th>
-                        <th>Số lượng</th>
-                        <th>Tổng</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @if (cartItems != null && cartItems.Any())
-                    {
-                        @foreach (var item in cartItems)
+        <div class="checkout-content">
+            <!-- Phần trái: Danh sách sản phẩm -->
+            <div class="checkout-left">
+                <div class="checkout-section product-section">
+                    <h4 class="section-title"><i class="bi bi-cart-check"></i> Sản phẩm của bạn</h4>
+                    <div class="product-list">
+                        @if (cartItems != null && cartItems.Any())
                         {
-                            <tr>
-                                <td>@item.Name</td>
-                                <td>
+                            @foreach (var item in cartItems)
+                            {
+                                <div class="product-card">
                                     @{
                                         var imagePath = item.ImageUrl.StartsWith("/Images/") ? item.ImageUrl : Url.Content("~/Images/" + item.ImageUrl);
                                     }
-                                    <img src="@imagePath" class="product-img" alt="@item.Name">
-                                </td>
-                                <td>@item.Price.ToString("C", new System.Globalization.CultureInfo("vi-VN"))</td>
-                                <td>@item.Quantity</td>
-                                <td class="fw-bold text-danger">@((item.Price * item.Quantity).ToString("C", new System.Globalization.CultureInfo("vi-VN")))</td>
-                            </tr>
-                        }
-                    }
-                    else
-                    {
-                        <tr>
-                            <td colspan="5" class="text-center text-danger fw-bold">Giỏ hàng trống!</td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        </div>
-
-        <!-- Form nhập thông tin -->
-        <form asp-action="Checkout" asp-controller="ShoppingCart" method="post">
-            <h4 class="section-title">📌 Thông tin giao hàng:</h4>
-
-            <div class="input-group mb-3">
-                <span class="input-group-text"><i class="bi bi-geo-alt-fill"></i></span>
-                <input type="text" name="ShippingAddress" class="form-control" placeholder="Nhập địa chỉ giao hàng" required>
-            </div>
-
-            <div class="input-group mb-3">
-                <span class="input-group-text"><i class="bi bi-chat-left-text-fill"></i></span>
-                <textarea name="Notes" class="form-control" placeholder="Ghi chú thêm (nếu có)" rows="2"></textarea>
-            </div>
-
-            <!-- Phần giảm giá -->
-            <h4 class="section-title">🎁 Giảm giá:</h4>
-
-            <!-- Mã giảm giá -->
-            <div class="discount-section mb-3">
-                <div class="input-group">
-                    <span class="input-group-text"><i class="bi bi-tag-fill"></i></span>
-                    <input type="text" id="discountCodeInput" name="DiscountCode" class="form-control" placeholder="Nhập mã giảm giá">
-                    <button type="button" id="applyDiscountBtn" class="btn btn-warning">Áp dụng</button>
-                </div>
-                <div id="discountMessage" class="mt-2"></div>
-
-                @if (availableDiscountCodes != null && availableDiscountCodes.Any())
-                {
-                    <div class="available-codes mt-2">
-                        <small class="text-muted">Mã giảm giá có sẵn:</small>
-                        <div class="code-badges">
-                            @foreach (var code in availableDiscountCodes)
-                            {
-                                <span class="badge bg-info text-dark discount-badge"
-                                      data-code="@code.Code"
-                                      title="@code.Description">
-                                    @code.Code (@code.DiscountPercent%)
-                                </span>
+                                    <div class="product-img-container">
+                                        <img src="@imagePath" class="product-img" alt="@item.Name">
+                                    </div>
+                                    <div class="product-details">
+                                        <h5 class="product-name">@item.Name</h5>
+                                        <div class="product-info">
+                                            <div class="product-price">@item.Price.ToString("C", new System.Globalization.CultureInfo("vi-VN"))</div>
+                                            <div class="product-quantity">× @item.Quantity</div>
+                                        </div>
+                                        <div class="product-total">@((item.Price * item.Quantity).ToString("C", new System.Globalization.CultureInfo("vi-VN")))</div>
+                                    </div>
+                                </div>
                             }
+                        }
+                        else
+                        {
+                            <div class="empty-cart">
+                                <i class="bi bi-cart-x-fill empty-cart-icon"></i>
+                                <p>Giỏ hàng trống!</p>
+                                <a href="/Products" class="btn btn-primary btn-sm">Tiếp tục mua sắm</a>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phần phải: Form thanh toán -->
+            <div class="checkout-right">
+                <form asp-action="Checkout" asp-controller="ShoppingCart" method="post">
+                    <div class="checkout-section">
+                        <h4 class="section-title"><i class="bi bi-geo-alt-fill"></i> Thông tin giao hàng</h4>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="bi bi-geo-alt"></i></span>
+                            <input type="text" name="ShippingAddress" class="form-control" placeholder="Nhập địa chỉ giao hàng" required>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="bi bi-chat-left-text"></i></span>
+                            <textarea name="Notes" class="form-control" placeholder="Ghi chú thêm (nếu có)" rows="2"></textarea>
                         </div>
                     </div>
-                }
-                <input type="hidden" id="selectedDiscountCodeId" name="DiscountCodeId">
-            </div>
 
-            <!-- Sử dụng điểm thưởng -->
-            <div class="reward-points-section mb-3">
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" id="useRewardPoints" name="UseRewardPoints">
-                    <label class="form-check-label" for="useRewardPoints">
-                        Sử dụng điểm thưởng (@userRewardPoints điểm)
-                    </label>
-                </div>
-                <div class="mt-1">
-                    <small class="text-muted">
-                        Mỗi 100 điểm = 10.000đ giảm giá
-                    </small>
-                </div>
-                <input type="hidden" id="rewardPointsToUse" name="RewardPointsUsed" value="0">
-            </div>
+                    <div class="checkout-section">
+                        <h4 class="section-title"><i class="bi bi-gift"></i> Giảm giá & Ưu đãi</h4>
 
-            <!-- Hiển thị chi tiết thanh toán -->
-            <h4 class="section-title">💰 Thanh toán:</h4>
-            <div class="payment-details">
-                <div class="payment-row">
-                    <span>Tạm tính:</span>
-                    <span id="subtotal">@((cartItems != null) ? cartItems.Sum(i => i.Price * i.Quantity).ToString("#,##0") : "0") đ</span>
-                </div>
-                <div class="payment-row" id="discountRow" style="display:none;">
-                    <span>Giảm giá từ mã:</span>
-                    <span id="discountAmount" class="text-success">0 đ</span>
-                </div>
-                <div class="payment-row" id="rewardPointsRow" style="display:none;">
-                    <span>Giảm giá từ điểm thưởng:</span>
-                    <span id="rewardPointsAmount" class="text-success">0 đ</span>
-                </div>
-                <div class="payment-row total-amount">
-                    <span>Tổng tiền:</span>
-                    <span id="totalPrice">@((cartItems != null) ? cartItems.Sum(i => i.Price * i.Quantity).ToString("#,##0") : "0") đ</span>
-                </div>
-                <div class="payment-row" id="pointsEarnedRow">
-                    <span>Điểm thưởng nhận được:</span>
-                    <span id="pointsEarned">@((cartItems != null) ? Math.Floor(cartItems.Sum(i => i.Price * i.Quantity) / 100000).ToString() : "0") điểm</span>
-                </div>
-            </div>
+                        <!-- Mã giảm giá -->
+                        <div class="discount-section mb-3">
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-tag"></i></span>
+                                <input type="text" id="discountCodeInput" name="DiscountCode" class="form-control" placeholder="Nhập mã giảm giá">
+                                <button type="button" id="applyDiscountBtn" class="btn btn-accent">Áp dụng</button>
+                            </div>
+                            <div id="discountMessage" class="mt-2"></div>
 
-            <div class="mb-3">
-                <label class="form-label">💳 Phương thức thanh toán:</label>
-                <select name="PaymentMethod" class="form-select">
-                    <option value="COD">📦 Thanh toán khi nhận hàng (COD)</option>
-                    <option value="BankTransfer">🏦 Chuyển khoản ngân hàng</option>
-                </select>
-            </div>
+                            @if (availableDiscountCodes != null && availableDiscountCodes.Any())
+                            {
+                                <div class="available-codes mt-2">
+                                    <small class="text-muted">Mã giảm giá có sẵn:</small>
+                                    <div class="code-badges">
+                                        @foreach (var code in availableDiscountCodes)
+                                        {
+                                            <span class="badge bg-info text-dark discount-badge"
+                                                  data-code="@code.Code"
+                                                  title="@code.Description">
+                                                @code.Code (@code.DiscountPercent%)
+                                            </span>
+                                        }
+                                    </div>
+                                </div>
+                            }
+                            <input type="hidden" id="selectedDiscountCodeId" name="DiscountCodeId">
+                        </div>
 
-            <button type="submit" class="btn btn-success btn-lg w-100 fw-bold">✅ Xác nhận đơn hàng</button>
-        </form>
+                        <!-- Sử dụng điểm thưởng -->
+                        <div class="reward-points-section mb-3">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" id="useRewardPoints" name="UseRewardPoints">
+                                <label class="form-check-label" for="useRewardPoints">
+                                    Sử dụng điểm thưởng (@userRewardPoints điểm)
+                                </label>
+                            </div>
+                            <div class="mt-1">
+                                <small class="text-muted">
+                                    Mỗi 100 điểm = 10.000đ giảm giá
+                                </small>
+                            </div>
+                            <input type="hidden" id="rewardPointsToUse" name="RewardPointsUsed" value="0">
+                        </div>
+                    </div>
+
+                    <div class="checkout-section">
+                        <h4 class="section-title"><i class="bi bi-cash-coin"></i> Thanh toán</h4>
+                        <div class="payment-details">
+                            <div class="payment-row">
+                                <span>Tạm tính:</span>
+                                <span id="subtotal">@((cartItems != null) ? cartItems.Sum(i => i.Price * i.Quantity).ToString("#,##0") : "0") đ</span>
+                            </div>
+                            <div class="payment-row" id="discountRow" style="display:none;">
+                                <span>Giảm giá từ mã:</span>
+                                <span id="discountAmount" class="text-success">0 đ</span>
+                            </div>
+                            <div class="payment-row" id="rewardPointsRow" style="display:none;">
+                                <span>Giảm giá từ điểm thưởng:</span>
+                                <span id="rewardPointsAmount" class="text-success">0 đ</span>
+                            </div>
+                            <div class="payment-row total-amount">
+                                <span>Tổng tiền:</span>
+                                <span id="totalPrice">@((cartItems != null) ? cartItems.Sum(i => i.Price * i.Quantity).ToString("#,##0") : "0") đ</span>
+                            </div>
+                            <div class="payment-row" id="pointsEarnedRow">
+                                <span>Điểm thưởng nhận được:</span>
+                                <span id="pointsEarned">@((cartItems != null) ? Math.Floor(cartItems.Sum(i => i.Price * i.Quantity) / 1000).ToString() : "0") điểm</span>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label"><i class="bi bi-credit-card"></i> Phương thức thanh toán:</label>
+                            <div class="payment-methods">
+                                <div class="payment-method-option">
+                                    <input type="radio" id="cod" name="PaymentMethod" value="COD" checked>
+                                    <label for="cod">
+                                        <i class="bi bi-box-seam"></i>
+                                        <span>Thanh toán khi nhận hàng (COD)</span>
+                                    </label>
+                                </div>
+                                <div class="payment-method-option">
+                                    <input type="radio" id="bankTransfer" name="PaymentMethod" value="BankTransfer">
+                                    <label for="bankTransfer">
+                                        <i class="bi bi-bank"></i>
+                                        <span>Chuyển khoản ngân hàng</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-success btn-lg w-100 fw-bold">
+                            <i class="bi bi-check-circle"></i> Xác nhận đơn hàng
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 </div>
 
 <style>
+    /* Thiết lập chung */
+    :root {
+        --primary-color: #27ae60;
+        --secondary-color: #2ecc71;
+        --accent-color: #ffcc00;
+        --text-color: #333;
+        --bg-color: #f8f9fa;
+        --card-bg: linear-gradient(135deg, #c9c0bb, #f2f3f4);
+        --card-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+        --border-radius: 12px;
+    }
+
+    /* Card thanh toán */
     .checkout-card {
-        max-width: 850px;
+        width: 1200px;
         margin: auto;
-        background: linear-gradient(135deg, #c9c0bb, #f2f3f4 );
-        color: black;
-        padding: 30px;
-        border-radius: 15px;
-        box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+        background: var(--card-bg);
+        color: var(--text-color);
+        padding: 2rem;
+        border-radius: var(--border-radius);
+        box-shadow: var(--card-shadow);
     }
 
     .checkout-title {
-        background: rgba(255, 255, 255, 0.1);
-        padding: 15px;
-        border-radius: 10px;
-    }
-
-    .section-title {
-        font-size: 20px;
+        font-size: 2rem;
         font-weight: bold;
-        margin: 20px 0 10px;
-        color: black;
+        margin-bottom: 1.5rem;
+        background: rgba(255, 255, 255, 0.3);
+        padding: 0.8rem;
+        border-radius: var(--border-radius);
+        color: #222;
     }
 
-    .checkout-table {
+    /* Layout chính dùng Flexbox */
+    .checkout-content {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .checkout-left {
+        width: 40%;
+    }
+
+    .checkout-right {
+        width: 60%;
+    }
+
+    /* Section titles */
+    .section-title {
+        font-size: 1.25rem;
+        font-weight: bold;
+        margin: 1rem 0;
+        color: var(--text-color);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid rgba(0,0,0,0.1);
+    }
+
+    /* Product list styling */
+    .product-list {
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: var(--border-radius);
+        padding: 1rem;
+        height: 450px;
+        overflow-y: auto;
+    }
+
+    .product-section {
+        height: 600px;
+    }
+
+    .product-card {
+        display: flex;
+        background: white;
         border-radius: 10px;
-        overflow: hidden;
+        margin-bottom: 0.8rem;
+        padding: 0.8rem;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        transition: transform 0.2s ease;
     }
 
-    .table-striped tbody tr:nth-of-type(odd) {
-        background: rgba(255, 255, 255, 0.1);
-    }
+        .product-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
 
-    .table th, .table td {
-        text-align: center;
-        vertical-align: middle;
-        color: black;
+    .product-img-container {
+        width: 80px;
+        height: 80px;
+        flex-shrink: 0;
     }
 
     .product-img {
-        width: 80px;
-        height: 80px;
-        border-radius: 8px;
+        width: 100%;
+        height: 100%;
         object-fit: cover;
+        border-radius: 6px;
     }
 
+    .product-details {
+        flex-grow: 1;
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-name {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+    }
+
+    .product-info {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+    }
+
+    .product-price {
+        color: #555;
+    }
+
+    .product-quantity {
+        font-weight: 500;
+    }
+
+    .product-total {
+        align-self: flex-end;
+        font-weight: bold;
+        color: #e74c3c;
+        font-size: 1.1rem;
+    }
+
+    /* Empty cart styling */
+    .empty-cart {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0;
+        color: #7f8c8d;
+    }
+
+    .empty-cart-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        color: #95a5a6;
+    }
+
+    /* Checkout sections */
+    .checkout-section {
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: var(--border-radius);
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Forms styling */
     .input-group-text {
-        background: #ffcc00;
-        color: black;
+        background: var(--accent-color);
+        color: var(--text-color);
         border: none;
     }
 
     .form-control {
         border-radius: 8px;
+        border: 1px solid rgba(0,0,0,0.1);
     }
 
-    .total-amount {
-        font-size: 22px;
-        font-weight: bold;
-        color: black;
-    }
-
-    .btn-success {
-        font-size: 20px;
-        background: linear-gradient(90deg, #27ae60, #2ecc71);
+    .btn-accent {
+        background: var(--accent-color);
+        color: #222;
         border: none;
-        padding: 12px;
-        border-radius: 10px;
-        transition: 0.3s;
+        font-weight: 500;
     }
 
-        .btn-success:hover {
-            background: linear-gradient(90deg, #2ecc71, #27ae60);
-            transform: scale(1.05);
-        }
-
+    /* Discount section */
     .discount-badge {
         cursor: pointer;
-        margin: 0 3px;
-        transition: all 0.3s;
+        margin: 0.2rem;
+        padding: 0.35rem 0.7rem;
+        transition: transform 0.2s ease;
     }
 
         .discount-badge:hover {
-            transform: scale(1.1);
+            transform: scale(1.05);
         }
 
+    .code-badges {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0.5rem;
+    }
+
+    /* Payment details */
     .payment-details {
-        background: rgba(255, 255, 255, 0.2);
-        padding: 15px;
-        border-radius: 10px;
-        margin-bottom: 20px;
+        background: rgba(255, 255, 255, 0.6);
+        padding: 1rem;
+        border-radius: 8px;
+        margin-bottom: 1.5rem;
     }
 
     .payment-row {
         display: flex;
         justify-content: space-between;
-        padding: 8px 0;
+        padding: 0.6rem 0;
         border-bottom: 1px dashed rgba(0,0,0,0.1);
     }
 
@@ -270,13 +400,63 @@
             border-bottom: none;
         }
 
-    .code-badges {
-        margin-top: 5px;
+    .total-amount {
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: #222;
+        padding-top: 0.8rem;
     }
+
+    /* Payment methods */
+    .payment-methods {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .payment-method-option {
+        display: flex;
+        align-items: center;
+    }
+
+        .payment-method-option input[type="radio"] {
+            margin-right: 0.8rem;
+        }
+
+        .payment-method-option label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .payment-method-option i {
+            margin-right: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+    /* Button styles */
+    .btn-success {
+        background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+        border: none;
+        padding: 0.8rem;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+        .btn-success:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(46, 204, 113, 0.4);
+        }
+
+    /* Đã loại bỏ phần media queries */
 </style>
 
 <script>
-            document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function() {
         // Các biến theo dõi
         let subtotal = @((cartItems != null) ? cartItems.Sum(i => i.Price * i.Quantity) : 0);
         let discountPercent = 0;
@@ -312,7 +492,7 @@
             cancelBtn.type = 'button';
             cancelBtn.id = 'cancelDiscountBtn';
             cancelBtn.className = 'btn btn-danger ms-2';
-            cancelBtn.textContent = 'Hủy';
+            cancelBtn.innerHTML = '<i class="bi bi-x-circle"></i>';
             cancelBtn.addEventListener('click', resetDiscount);
 
             // Thêm nút hủy vào sau nút áp dụng
@@ -451,7 +631,7 @@
             // Cập nhật hiển thị tổng tiền
             totalPriceElement.textContent = `${formatCurrency(totalAfterDiscount)} đ`;
 
-            // Cập nhật điểm thưởng nhận được (1 điểm cho mỗi 1,000 VND)
+            // Cập nhật điểm thưởng nhận được (1 điểm cho mỗi 1000 VND)
             const pointsEarned = Math.floor(totalAfterDiscount / 1000);
             document.getElementById('pointsEarned').textContent = `${pointsEarned} điểm`;
         }

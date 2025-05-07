@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|d:\\coding\\websitebanxemay_nhom3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|d:\\coding\\websitebanxemay_nhom3\\views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|solutionrelative:views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|d:\\coding\\websitebanxemay_nhom3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|d:\\coding\\websitebanxemay_nhom3\\views\\order\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|solutionrelative:views\\order\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|d:\\coding\\websitebanxemay_nhom3\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|solutionrelative:views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|d:\\coding\\websitebanxemay_nhom3\\views\\shoppingcart\\confirmpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|solutionrelative:views\\shoppingcart\\confirmpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|d:\\coding\\websitebanxemay_nhom3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|d:\\coding\\websitebanxemay_nhom3\\views\\shoppingcart\\ordercompleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -21,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|d:\\coding\\websitebanxemay_nhom3\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|solutionrelative:controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|d:\\coding\\websitebanxemay_nhom3\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|solutionrelative:views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|d:\\coding\\websitebanxemay_nhom3\\models\\discountcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,10 +59,6 @@
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|d:\\coding\\websitebanxemay_nhom3\\views\\order\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|solutionrelative:views\\order\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|d:\\coding\\websitebanxemay_nhom3\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -65,10 +73,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Coding\\WebsiteBanXeMay_Nhom3\\Migrations\\20250505115439_KhoiTaoDBIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250505115439_KhoiTaoDBIdentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|d:\\coding\\websitebanxemay_nhom3\\views\\shoppingcart\\confirmpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|solutionrelative:views\\shoppingcart\\confirmpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|d:\\coding\\websitebanxemay_nhom3\\views\\shared\\_cartcountpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -129,10 +133,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|d:\\coding\\websitebanxemay_nhom3\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|d:\\coding\\websitebanxemay_nhom3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteBanXeMay_Nhom3.csproj|d:\\coding\\websitebanxemay_nhom3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -318,7 +318,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -326,68 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAFUBAAAAAAAAAAAcwGABAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T07:55:59.904Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
-              "ToolTip": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AgIAAKIAAAAAAAAAAAAMwAcBAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T07:10:31.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
-              "ToolTip": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Controllers\\ProductController.cs",
-              "ViewState": "AgIAAMEAAAAALJLW9UUfwLkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T07:18:35.468Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Models\\Order.cs",
-              "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAA7wCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T06:44:22.637Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ShoppingCartController.cs",
-              "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Controllers\\ShoppingCartController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ShoppingCartController.cs",
-              "ToolTip": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Controllers\\ShoppingCartController.cs",
-              "RelativeToolTip": "Controllers\\ShoppingCartController.cs",
-              "ViewState": "AgIAAAEBAAAAAAAAAAAmwBcBAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T07:18:22.246Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Models\\Category.cs",
               "RelativeDocumentMoniker": "Models\\Category.cs",
@@ -399,20 +338,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\ShoppingCart\\Checkout.cshtml",
               "RelativeDocumentMoniker": "Views\\ShoppingCart\\Checkout.cshtml",
               "ToolTip": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\ShoppingCart\\Checkout.cshtml",
               "RelativeToolTip": "Views\\ShoppingCart\\Checkout.cshtml",
-              "ViewState": "AgIAAFkBAAAAAAAAAAAewG4BAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIECAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-08T09:20:41.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "OrderCompleted.cshtml",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\ShoppingCart\\OrderCompleted.cshtml",
               "RelativeDocumentMoniker": "Views\\ShoppingCart\\OrderCompleted.cshtml",
@@ -420,12 +359,11 @@
               "RelativeToolTip": "Views\\ShoppingCart\\OrderCompleted.cshtml",
               "ViewState": "AgIAAEgAAAAAAAAAAAAAAMUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T09:20:54.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-08T09:20:54.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
@@ -437,19 +375,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\ShoppingCart\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\ShoppingCart\\Index.cshtml",
               "ToolTip": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\ShoppingCart\\Index.cshtml",
               "RelativeToolTip": "Views\\ShoppingCart\\Index.cshtml",
-              "ViewState": "AgIAAL8AAAAAAAAAAAAcwBoAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAADgBAAAAAAAAAAAuwFYBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T09:20:47.074Z"
+              "WhenOpened": "2025-04-08T09:20:47.074Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -457,12 +396,111 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAWwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T06:58:18.361Z",
+              "WhenOpened": "2025-04-08T06:58:18.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAcwB4BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T07:28:44.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConfirmPayment.cshtml",
+              "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\ShoppingCart\\ConfirmPayment.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\ConfirmPayment.cshtml",
+              "ToolTip": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\ShoppingCart\\ConfirmPayment.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\ConfirmPayment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T09:20:43.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACgBAAAAAAAAAAAiwD4BAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T07:55:59.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\Order\\History.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\History.cshtml",
+              "ToolTip": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\Order\\History.cshtml",
+              "RelativeToolTip": "Views\\Order\\History.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAiwFgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T09:19:52.388Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShoppingCartController.cs",
+              "ToolTip": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "Controllers\\ShoppingCartController.cs",
+              "ViewState": "AgIAAAEBAAAAAAAAAAAmwBcBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T07:18:22.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA7wCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T06:44:22.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAMEAAAAALJLW9UUfwLkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T07:18:35.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAMwAcBAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T07:10:31.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Product.cs",
@@ -474,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "CartItem.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Models\\CartItem.cs",
               "RelativeDocumentMoniker": "Models\\CartItem.cs",
@@ -486,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "DiscountCode.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Models\\DiscountCode.cs",
               "RelativeDocumentMoniker": "Models\\DiscountCode.cs",
@@ -498,19 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "History.cshtml",
-              "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\Order\\History.cshtml",
-              "RelativeDocumentMoniker": "Views\\Order\\History.cshtml",
-              "ToolTip": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\Order\\History.cshtml",
-              "RelativeToolTip": "Views\\Order\\History.cshtml",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAAIcAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T09:19:52.388Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "RewardPoints.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Models\\RewardPoints.cs",
               "RelativeDocumentMoniker": "Models\\RewardPoints.cs",
@@ -522,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "_CartCountPartial.cshtml",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\Shared\\_CartCountPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_CartCountPartial.cshtml",
@@ -546,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
@@ -558,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -570,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "20250505115439_KhoiTaoDBIdentity.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Migrations\\20250505115439_KhoiTaoDBIdentity.cs",
               "RelativeDocumentMoniker": "Migrations\\20250505115439_KhoiTaoDBIdentity.cs",
@@ -582,19 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ConfirmPayment.cshtml",
-              "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\ShoppingCart\\ConfirmPayment.cshtml",
-              "RelativeDocumentMoniker": "Views\\ShoppingCart\\ConfirmPayment.cshtml",
-              "ToolTip": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\ShoppingCart\\ConfirmPayment.cshtml",
-              "RelativeToolTip": "Views\\ShoppingCart\\ConfirmPayment.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T09:20:43.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Models\\OrderDetail.cs",
               "RelativeDocumentMoniker": "Models\\OrderDetail.cs",
@@ -606,7 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "ProductImage.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Models\\ProductImage.cs",
               "RelativeDocumentMoniker": "Models\\ProductImage.cs",
@@ -618,7 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "SD.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Models\\SD.cs",
               "RelativeDocumentMoniker": "Models\\SD.cs",
@@ -630,7 +644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\DiscountCode\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\DiscountCode\\Index.cshtml",
@@ -642,7 +656,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
@@ -654,7 +668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -666,7 +680,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\DiscountCode\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\DiscountCode\\Create.cshtml",
@@ -678,7 +692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
@@ -690,7 +704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "DiscountCodeController.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Controllers\\DiscountCodeController.cs",
               "RelativeDocumentMoniker": "Controllers\\DiscountCodeController.cs",
@@ -726,7 +740,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "20250505114302_KhoiTaoDBIdentity.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Migrations\\20250505114302_KhoiTaoDBIdentity.cs",
               "RelativeDocumentMoniker": "Migrations\\20250505114302_KhoiTaoDBIdentity.cs",
@@ -738,7 +752,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -747,18 +761,6 @@
               "ViewState": "AgIAAAsAAAAAAAAAAAAkwB4AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-08T09:08:49.313Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAABAAAAAAAAAAAswB4BAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T07:28:44.936Z"
             },
             {
               "$type": "Document",
