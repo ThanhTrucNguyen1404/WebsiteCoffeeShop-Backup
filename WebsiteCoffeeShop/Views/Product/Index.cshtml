@@ -15,7 +15,7 @@
     }
 
     <div class="product-container">
-        <div class="product-list">
+        <div class="product-list" id="product-list">
             @foreach (var item in Model)
             {
                 <div class="product-card">
@@ -39,8 +39,7 @@
 
                             @if (User.IsInRole("Admin"))
                             {
-                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm btn-pastel-action"
-                                   onclick="return confirm('Bạn có chắc chắn muốn xóa sản phẩm này?')">🗑️ Xóa</a>
+                                <button class="btn btn-danger btn-sm btn-pastel-action delete-product" data-id="@item.Id">🗑️ Xóa</button>
                             }
                         </div>
                     </div>
@@ -268,3 +267,55 @@
 
     }
 </style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Thêm event listener cho các nút xóa
+        document.querySelectorAll('.delete-product').forEach(button => {
+            button.addEventListener('click', function() {
+                const productId = this.getAttribute('data-id');
+
+                if (confirm('Bạn có chắc chắn muốn xóa sản phẩm này?')) {
+                    deleteProduct(productId);
+                }
+            });
+        });
+
+        // Hàm xóa sản phẩm sử dụng Fetch API
+        function deleteProduct(id) {
+            // Lấy anti-forgery token từ form hoặc meta tag (nếu có)
+            const token = document.querySelector('input[name="__RequestVerificationToken"]')?.value;
+
+            fetch(`/Product/Delete/${id}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': token || '' // Thêm token nếu có
+                },
+                credentials: 'same-origin' // Quan trọng để gửi cookies bao gồm authentication
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Lỗi khi xóa sản phẩm');
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.success) {
+                    // Tìm và xóa card sản phẩm khỏi DOM
+                    const productCard = document.querySelector(`.delete-product[data-id="${id}"]`).closest('.product-card');
+                    productCard.remove();
+
+                    // Hiển thị thông báo thành công (có thể thêm thư viện toast notification)
+                    alert('Xóa sản phẩm thành công!');
+                } else {
+                    alert(data.message || 'Có lỗi xảy ra khi xóa sản phẩm.');
+                }
+            })
+            .catch(error => {
+                console.error('Lỗi:', error);
+                alert('Có lỗi xảy ra khi xóa sản phẩm.');
+            });
+        }
+    });
+</script>
