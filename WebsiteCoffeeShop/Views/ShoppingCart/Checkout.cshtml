@@ -102,81 +102,115 @@
                                         {
                                             <span class="badge bg-info text-dark discount-badge"
                                                   data-code="@code.Code"
-                                                  title="@code.Description">
-                                                @code.Code (@code.DiscountPercent%)
+                                                  data-is-percentage="@code.IsPercentage.ToString().ToLower()"
+                                                  data-discount-percent="@code.DiscountPercent"
+                                                  data-discount-amount="@code.DiscountAmount"
+                                                  data-min-order="@code.MinimumOrderAmount">
+                                                @code.Code
+                                                (@(code.IsPercentage ? $"{code.DiscountPercent}%" : $"{code.DiscountAmount.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))}"))
                                             </span>
                                         }
                                     </div>
                                 </div>
                             }
-                            <input type="hidden" id="selectedDiscountCodeId" name="DiscountCodeId">
                         </div>
 
-                        <!-- Sử dụng điểm thưởng -->
-                        <div class="reward-points-section mb-3">
-                            <div class="form-check form-switch">
-                                <input class="form-check-input" type="checkbox" id="useRewardPoints" name="UseRewardPoints">
-                                <label class="form-check-label" for="useRewardPoints">
-                                    Sử dụng điểm thưởng (@userRewardPoints điểm)
-                                </label>
+                        <!-- Điểm thưởng -->
+                        <div class="rewards-section mb-3">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span><i class="bi bi-star-fill text-warning"></i> Điểm thưởng của bạn: <strong>@userRewardPoints</strong></span>
+                                <span class="text-muted small">(10 điểm = 10.000₫)</span>
                             </div>
-                            <div class="mt-1">
-                                <small class="text-muted">
-                                    Mỗi 100 điểm = 10.000đ giảm giá
-                                </small>
+                            <div class="input-group">
+                                <span class="input-group-text"><i class="bi bi-star"></i></span>
+                                <input type="number" id="rewardPointsInput" name="RewardPointsUsed" class="form-control"
+                                       placeholder="Nhập số điểm muốn sử dụng" min="0" max="@userRewardPoints" value="0">
+                                <button type="button" id="applyPointsBtn" class="btn btn-accent">Áp dụng</button>
                             </div>
-                            <input type="hidden" id="rewardPointsToUse" name="RewardPointsUsed" value="0">
+                            <div id="pointsMessage" class="mt-2"></div>
                         </div>
                     </div>
 
                     <div class="checkout-section">
-                        <h4 class="section-title"><i class="bi bi-cash-coin"></i> Thanh toán</h4>
-                        <div class="payment-details">
-                            <div class="payment-row">
-                                <span>Tạm tính:</span>
-                                <span id="subtotal">@((cartItems != null) ? cartItems.Sum(i => i.Price * i.Quantity).ToString("#,##0") : "0") đ</span>
+                        <h4 class="section-title"><i class="bi bi-credit-card"></i> Phương thức thanh toán</h4>
+                        <div class="payment-methods">
+                            <div class="form-check payment-method">
+                                <input class="form-check-input" type="radio" name="PaymentMethod" id="codPayment" value="COD" checked>
+                                <label class="form-check-label" for="codPayment">
+                                    <span class="payment-icon"><i class="bi bi-cash"></i></span>
+                                    <span class="payment-title">Thanh toán khi nhận hàng (COD)</span>
+                                </label>
                             </div>
-                            <div class="payment-row" id="discountRow" style="display:none;">
-                                <span>Giảm giá từ mã:</span>
-                                <span id="discountAmount" class="text-success">0 đ</span>
+                            <div class="form-check payment-method">
+                                <input class="form-check-input" type="radio" name="PaymentMethod" id="bankTransfer" value="BankTransfer">
+                                <label class="form-check-label" for="bankTransfer">
+                                    <span class="payment-icon"><i class="bi bi-bank"></i></span>
+                                    <span class="payment-title">Chuyển khoản ngân hàng</span>
+                                </label>
                             </div>
-                            <div class="payment-row" id="rewardPointsRow" style="display:none;">
-                                <span>Giảm giá từ điểm thưởng:</span>
-                                <span id="rewardPointsAmount" class="text-success">0 đ</span>
+                            <div class="form-check payment-method">
+                                <input class="form-check-input" type="radio" name="PaymentMethod" id="momoPayment" value="Momo">
+                                <label class="form-check-label" for="momoPayment">
+                                    <span class="payment-icon momo-icon">M</span>
+                                    <span class="payment-title">Ví MoMo</span>
+                                </label>
                             </div>
-                            <div class="payment-row total-amount">
-                                <span>Tổng tiền:</span>
-                                <span id="totalPrice">@((cartItems != null) ? cartItems.Sum(i => i.Price * i.Quantity).ToString("#,##0") : "0") đ</span>
+                        </div>
+                    </div>
+
+                    <div class="checkout-section order-summary">
+                        <h4 class="section-title"><i class="bi bi-receipt"></i> Tổng quan đơn hàng</h4>
+                        <div class="summary-row">
+                            <div class="summary-label">Tạm tính:</div>
+                            <div class="summary-value" id="subtotal">
+                                @{
+                                    var subtotal = cartItems?.Sum(i => i.Price * i.Quantity) ?? 0;
+                                    @subtotal.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))
+                                }
                             </div>
-                            <div class="payment-row" id="pointsEarnedRow">
-                                <span>Điểm thưởng nhận được:</span>
-                                <span id="pointsEarned">@((cartItems != null) ? Math.Floor(cartItems.Sum(i => i.Price * i.Quantity) / 1000).ToString() : "0") điểm</span>
+                        </div>
+                        <div class="summary-row">
+                            <div class="summary-label">Phí vận chuyển:</div>
+                            <div class="summary-value" id="shippingFee">
+                                @{
+                                    var shippingFee = subtotal > 200000 ? 0 : 30000;
+                                    @shippingFee.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))
+                                }
+                            </div>
+                        </div>
+                        <div class="summary-row">
+                            <div class="summary-label">Giảm giá:</div>
+                            <div class="summary-value text-danger" id="discountAmount">0₫</div>
+                        </div>
+                        <div class="summary-row">
+                            <div class="summary-label">Điểm thưởng:</div>
+                            <div class="summary-value text-danger" id="pointsDiscount">0₫</div>
+                        </div>
+                        <div class="summary-row total-row">
+                            <div class="summary-label">Tổng thanh toán:</div>
+                            <div class="summary-value total-amount" id="totalAmount">
+                                @{
+                                    var total = subtotal + shippingFee;
+                                    @total.ToString("C0", new System.Globalization.CultureInfo("vi-VN"))
+                                }
                             </div>
                         </div>
 
-                        <div class="mb-3">
-                            <label class="form-label"><i class="bi bi-credit-card"></i> Phương thức thanh toán:</label>
-                            <div class="payment-methods">
-                                <div class="payment-method-option">
-                                    <input type="radio" id="cod" name="PaymentMethod" value="COD" checked>
-                                    <label for="cod">
-                                        <i class="bi bi-box-seam"></i>
-                                        <span>Thanh toán khi nhận hàng (COD)</span>
-                                    </label>
-                                </div>
-                                <div class="payment-method-option">
-                                    <input type="radio" id="bankTransfer" name="PaymentMethod" value="BankTransfer">
-                                    <label for="bankTransfer">
-                                        <i class="bi bi-bank"></i>
-                                        <span>Chuyển khoản ngân hàng</span>
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
+                        <!-- Hidden fields for form submission -->
+                        <input type="hidden" id="subtotalHidden" name="Subtotal" value="@subtotal">
+                        <input type="hidden" id="shippingFeeHidden" name="ShippingFee" value="@shippingFee">
+                        <input type="hidden" id="discountAmountHidden" name="DiscountAmount" value="0">
+                        <input type="hidden" id="pointsDiscountHidden" name="PointsDiscountAmount" value="0">
+                        <input type="hidden" id="totalAmountHidden" name="TotalAmount" value="@total">
+                    </div>
 
-                        <button type="submit" class="btn btn-success btn-lg w-100 fw-bold">
-                            <i class="bi bi-check-circle"></i> Xác nhận đơn hàng
+                    <div class="checkout-actions">
+                        <button type="submit" class="btn btn-primary btn-lg w-100">
+                            <i class="bi bi-bag-check"></i> Đặt hàng
                         </button>
+                        <a href="/ShoppingCart" class="btn btn-outline-secondary btn-sm w-100 mt-2">
+                            <i class="bi bi-arrow-left"></i> Quay lại giỏ hàng
+                        </a>
                     </div>
                 </form>
             </div>
@@ -184,461 +218,299 @@
     </div>
 </div>
 
-<style>
-    /* Thiết lập chung */
-    :root {
-        --primary-color: #27ae60;
-        --secondary-color: #2ecc71;
-        --accent-color: #ffcc00;
-        --text-color: #333;
-        --bg-color: #f8f9fa;
-        --card-bg: linear-gradient(135deg, #c9c0bb, #f2f3f4);
-        --card-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
-        --border-radius: 12px;
-    }
+<!-- jQuery library - Add this before your script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    /* Card thanh toán */
+<script>
+    $(document).ready(function() {
+        // Constants
+        const POINT_VALUE = 1000; // 1 điểm = 1.000₫
+        let subtotal = @(cartItems?.Sum(i => i.Price * i.Quantity) ?? 0);
+        let shippingFee = subtotal > 200000 ? 0 : 30000;
+        let discountAmount = 0;
+        let pointsDiscount = 0;
+
+        // Format currency function
+        function formatCurrency(amount) {
+            return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND', minimumFractionDigits: 0 }).format(amount);
+        }
+
+        // Update total summary
+        function updateTotalSummary() {
+            let total = subtotal + shippingFee - discountAmount - pointsDiscount;
+            if (total < 0) total = 0;
+
+            $('#discountAmount').text('-' + formatCurrency(discountAmount));
+            $('#pointsDiscount').text('-' + formatCurrency(pointsDiscount));
+            $('#totalAmount').text(formatCurrency(total));
+
+            // Update hidden fields
+            $('#discountAmountHidden').val(discountAmount);
+            $('#pointsDiscountHidden').val(pointsDiscount);
+            $('#totalAmountHidden').val(total);
+        }
+
+        // Click on discount badge
+        $('.discount-badge').click(function() {
+            $('#discountCodeInput').val($(this).data('code'));
+            $('#applyDiscountBtn').click();
+        });
+
+        // Apply discount code
+        $('#applyDiscountBtn').click(function() {
+            const code = $('#discountCodeInput').val().trim();
+            if (!code) {
+                $('#discountMessage').html('<div class="alert alert-warning">Vui lòng nhập mã giảm giá!</div>');
+                return;
+            }
+
+            // Find the discount badge with matching code
+            const discountBadge = $(`.discount-badge[data-code="${code}"]`);
+
+            if (discountBadge.length) {
+                const isPercentage = discountBadge.data('is-percentage') === 'true';
+                const discountPercent = parseFloat(discountBadge.data('discount-percent'));
+                const discountValue = parseFloat(discountBadge.data('discount-amount'));
+                const minOrder = parseFloat(discountBadge.data('min-order'));
+
+                if (subtotal < minOrder) {
+                    $('#discountMessage').html(`<div class="alert alert-warning">Đơn hàng tối thiểu ${formatCurrency(minOrder)} để sử dụng mã này!</div>`);
+                    return;
+                }
+
+                // Calculate discount
+                discountAmount = isPercentage ? (subtotal * discountPercent / 100) : discountValue;
+
+                $('#discountMessage').html(`<div class="alert alert-success">Đã áp dụng mã giảm giá: ${code}</div>`);
+                updateTotalSummary();
+            } else {
+                $('#discountMessage').html('<div class="alert alert-danger">Mã giảm giá không hợp lệ!</div>');
+            }
+        });
+
+        // Apply reward points
+        $('#applyPointsBtn').click(function() {
+            const pointsToUse = parseInt($('#rewardPointsInput').val()) || 0;
+            const maxPoints = @userRewardPoints;
+
+            if (pointsToUse < 0) {
+                $('#pointsMessage').html('<div class="alert alert-warning">Số điểm không hợp lệ!</div>');
+                return;
+            }
+
+            if (pointsToUse > maxPoints) {
+                $('#pointsMessage').html('<div class="alert alert-warning">Bạn không đủ điểm thưởng!</div>');
+                return;
+            }
+
+            pointsDiscount = pointsToUse * POINT_VALUE;
+            $('#pointsMessage').html(`<div class="alert alert-success">Đã áp dụng ${pointsToUse} điểm (${formatCurrency(pointsDiscount)})</div>`);
+            updateTotalSummary();
+        });
+
+        // Payment method details toggle
+        $('.payment-method').click(function() {
+            $(this).find('input').prop('checked', true);
+        });
+    });
+</script>
+
+<!-- CSS cho trang thanh toán -->
+<style>
     .checkout-card {
-        width: 1200px;
-        margin: auto;
-        background: var(--card-bg);
-        color: var(--text-color);
-        padding: 2rem;
-        border-radius: var(--border-radius);
-        box-shadow: var(--card-shadow);
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        margin-bottom: 50px;
     }
 
     .checkout-title {
-        font-size: 2rem;
-        font-weight: bold;
-        margin-bottom: 1.5rem;
-        background: rgba(255, 255, 255, 0.3);
-        padding: 0.8rem;
-        border-radius: var(--border-radius);
-        color: #222;
+        color: #3a3a3a;
+        font-weight: 700;
+        margin-bottom: 30px;
     }
 
-    /* Layout chính dùng Flexbox */
     .checkout-content {
         display: flex;
-        gap: 2rem;
+        flex-wrap: wrap;
+        gap: 30px;
     }
 
     .checkout-left {
-        width: 40%;
+        flex: 1;
+        min-width: 300px;
     }
 
     .checkout-right {
-        width: 60%;
+        flex: 1;
+        min-width: 300px;
     }
 
-    /* Section titles */
+    .checkout-section {
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
     .section-title {
-        font-size: 1.25rem;
-        font-weight: bold;
-        margin: 1rem 0;
-        color: var(--text-color);
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        color: #333;
         display: flex;
         align-items: center;
-        gap: 0.5rem;
-        padding-bottom: 0.5rem;
-        border-bottom: 2px solid rgba(0,0,0,0.1);
-    }
-
-    /* Product list styling */
-    .product-list {
-        background: rgba(255, 255, 255, 0.5);
-        border-radius: var(--border-radius);
-        padding: 1rem;
-        height: 450px;
-        overflow-y: auto;
+        gap: 10px;
     }
 
     .product-section {
-        height: 600px;
+        max-height: 500px;
+        overflow-y: auto;
     }
 
     .product-card {
         display: flex;
-        background: white;
-        border-radius: 10px;
-        margin-bottom: 0.8rem;
-        padding: 0.8rem;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-        transition: transform 0.2s ease;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     }
 
-        .product-card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-
     .product-img-container {
-        width: 80px;
-        height: 80px;
-        flex-shrink: 0;
+        width: 70px;
+        height: 70px;
+        overflow: hidden;
+        border-radius: 5px;
+        margin-right: 15px;
     }
 
     .product-img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        border-radius: 6px;
     }
 
     .product-details {
-        flex-grow: 1;
-        margin-left: 1rem;
-        display: flex;
-        flex-direction: column;
+        flex: 1;
     }
 
     .product-name {
-        font-size: 1rem;
+        font-size: 15px;
         font-weight: 600;
-        margin-bottom: 0.5rem;
+        margin-bottom: 5px;
     }
 
     .product-info {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 0.5rem;
-    }
-
-    .product-price {
-        color: #555;
-    }
-
-    .product-quantity {
-        font-weight: 500;
+        color: #666;
+        font-size: 14px;
     }
 
     .product-total {
-        align-self: flex-end;
-        font-weight: bold;
-        color: #e74c3c;
-        font-size: 1.1rem;
+        font-weight: 600;
+        color: #333;
+        margin-top: 5px;
     }
 
-    /* Empty cart styling */
     .empty-cart {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 2rem 0;
-        color: #7f8c8d;
+        text-align: center;
+        padding: 30px 0;
     }
 
     .empty-cart-icon {
-        font-size: 3rem;
-        margin-bottom: 1rem;
-        color: #95a5a6;
+        font-size: 40px;
+        color: #ccc;
+        margin-bottom: 10px;
     }
 
-    /* Checkout sections */
-    .checkout-section {
-        background: rgba(255, 255, 255, 0.5);
-        border-radius: var(--border-radius);
-        padding: 1.5rem;
-        margin-bottom: 1.5rem;
-    }
-
-    /* Forms styling */
-    .input-group-text {
-        background: var(--accent-color);
-        color: var(--text-color);
-        border: none;
-    }
-
-    .form-control {
-        border-radius: 8px;
-        border: 1px solid rgba(0,0,0,0.1);
-    }
-
-    .btn-accent {
-        background: var(--accent-color);
-        color: #222;
-        border: none;
-        font-weight: 500;
-    }
-
-    /* Discount section */
     .discount-badge {
         cursor: pointer;
-        margin: 0.2rem;
-        padding: 0.35rem 0.7rem;
-        transition: transform 0.2s ease;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        transition: all 0.2s;
     }
 
         .discount-badge:hover {
             transform: scale(1.05);
         }
 
-    .code-badges {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 0.5rem;
-    }
-
-    /* Payment details */
-    .payment-details {
-        background: rgba(255, 255, 255, 0.6);
-        padding: 1rem;
-        border-radius: 8px;
-        margin-bottom: 1.5rem;
-    }
-
-    .payment-row {
-        display: flex;
-        justify-content: space-between;
-        padding: 0.6rem 0;
-        border-bottom: 1px dashed rgba(0,0,0,0.1);
-    }
-
-        .payment-row:last-child {
-            border-bottom: none;
-        }
-
-    .total-amount {
-        font-size: 1.3rem;
-        font-weight: bold;
-        color: #222;
-        padding-top: 0.8rem;
-    }
-
-    /* Payment methods */
     .payment-methods {
         display: flex;
         flex-direction: column;
-        gap: 0.8rem;
+        gap: 10px;
     }
 
-    .payment-method-option {
-        display: flex;
-        align-items: center;
+    .payment-method {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 10px 15px;
+        cursor: pointer;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        transition: all 0.2s;
     }
 
-        .payment-method-option input[type="radio"] {
-            margin-right: 0.8rem;
+        .payment-method:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
 
-        .payment-method-option label {
-            display: flex;
-            align-items: center;
-            cursor: pointer;
-        }
-
-        .payment-method-option i {
-            margin-right: 0.5rem;
-            font-size: 1.2rem;
-        }
-
-    /* Button styles */
-    .btn-success {
-        background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
-        border: none;
-        padding: 0.8rem;
-        border-radius: 10px;
-        transition: all 0.3s ease;
-        display: flex;
+    .payment-icon {
+        display: inline-flex;
         justify-content: center;
         align-items: center;
-        gap: 0.5rem;
+        width: 30px;
+        height: 30px;
+        background-color: #f0f0f0;
+        border-radius: 50%;
+        margin-right: 10px;
     }
 
-        .btn-success:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(46, 204, 113, 0.4);
+    .momo-icon {
+        background-color: #d82d8b;
+        color: white;
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    .order-summary {
+        background-color: #f5f5f5;
+    }
+
+    .summary-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 0;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    .total-row {
+        border-bottom: none;
+        margin-top: 10px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .btn-accent {
+        background-color: #775dd0;
+        color: white;
+    }
+
+        .btn-accent:hover {
+            background-color: #6449c0;
+            color: white;
         }
 
-    /* Đã loại bỏ phần media queries */
+    /* Media query for mobile responsiveness */
+    {
+        flex-direction: column;
+    }
+
+    .checkout-card {
+        padding: 15px;
+    }
+
+    }
 </style>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Các biến theo dõi
-        let subtotal = @((cartItems != null) ? cartItems.Sum(i => i.Price * i.Quantity) : 0);
-        let discountPercent = 0;
-        let discountAmount = 0;
-        let rewardPointsDiscount = 0;
-        let selectedDiscountCodeId = null;
-        let currentDiscountCode = null; // Thêm biến để theo dõi mã giảm giá hiện tại
-
-        // Hằng số
-        const POINTS_CONVERSION_RATE = 100; // 100 điểm = 10,000 VND
-        const POINTS_VALUE = 100; // Giá trị 1 điểm = 100 VND
-
-        // DOM Elements
-        const discountCodeInput = document.getElementById('discountCodeInput');
-        const applyDiscountBtn = document.getElementById('applyDiscountBtn');
-        const discountMessage = document.getElementById('discountMessage');
-        const selectedDiscountCodeIdInput = document.getElementById('selectedDiscountCodeId');
-        const useRewardPointsCheckbox = document.getElementById('useRewardPoints');
-        const rewardPointsToUseInput = document.getElementById('rewardPointsToUse');
-        const discountRow = document.getElementById('discountRow');
-        const discountAmountElement = document.getElementById('discountAmount');
-        const rewardPointsRow = document.getElementById('rewardPointsRow');
-        const rewardPointsAmountElement = document.getElementById('rewardPointsAmount');
-        const totalPriceElement = document.getElementById('totalPrice');
-
-        // Thêm nút hủy mã giảm giá
-        const createCancelButton = () => {
-            // Kiểm tra xem nút hủy đã tồn tại chưa
-            const existingBtn = document.getElementById('cancelDiscountBtn');
-            if (existingBtn) return;
-
-            const cancelBtn = document.createElement('button');
-            cancelBtn.type = 'button';
-            cancelBtn.id = 'cancelDiscountBtn';
-            cancelBtn.className = 'btn btn-danger ms-2';
-            cancelBtn.innerHTML = '<i class="bi bi-x-circle"></i>';
-            cancelBtn.addEventListener('click', resetDiscount);
-
-            // Thêm nút hủy vào sau nút áp dụng
-            applyDiscountBtn.parentNode.appendChild(cancelBtn);
-        };
-
-        // Xóa nút hủy mã giảm giá
-        const removeCancelButton = () => {
-            const cancelBtn = document.getElementById('cancelDiscountBtn');
-            if (cancelBtn) {
-                cancelBtn.remove();
-            }
-        };
-
-        // Mã giảm giá có sẵn
-        const discountBadges = document.querySelectorAll('.discount-badge');
-        discountBadges.forEach(badge => {
-            badge.addEventListener('click', function() {
-                discountCodeInput.value = this.dataset.code;
-                verifyDiscountCode(this.dataset.code);
-            });
-        });
-
-        // Xử lý nút áp dụng mã giảm giá
-        applyDiscountBtn.addEventListener('click', function() {
-            const code = discountCodeInput.value.trim();
-            if (code) {
-                // Kiểm tra nếu đang áp dụng cùng một mã
-                if (code === currentDiscountCode) {
-                    showDiscountMessage('Mã giảm giá này đã được áp dụng', 'warning');
-                    return;
-                }
-                verifyDiscountCode(code);
-            } else {
-                showDiscountMessage('Vui lòng nhập mã giảm giá', 'warning');
-            }
-        });
-
-        // Xác minh mã giảm giá - Đã loại bỏ phần API và sử dụng hoàn toàn dữ liệu giả lập
-        function verifyDiscountCode(code) {
-            // Các mã giảm giá có sẵn (trong thực tế sẽ lấy từ server)
-            const availableCodes = {
-                'WELCOME10': { id: 1, percent: 10 },
-                'SALE20': { id: 2, percent: 20 },
-                'GIAMGIA15': { id: 3, percent: 15 },
-                'NEW25': { id: 4, percent: 25 },
-                'THANKS5': { id: 5, percent: 5 },
-                'GIAMGIA20': { id: 6, percent: 20 },
-                'GIAMGIA50': { id: 7, percent: 50 },
-                'GIAMGIA100': { id: 8, percent: 100 }
-            };
-
-            // Kiểm tra xem mã có tồn tại không
-            if (availableCodes[code]) {
-                discountPercent = availableCodes[code].percent;
-                selectedDiscountCodeId = availableCodes[code].id;
-                selectedDiscountCodeIdInput.value = selectedDiscountCodeId;
-                currentDiscountCode = code; // Cập nhật mã giảm giá hiện tại
-
-                showDiscountMessage(`Áp dụng thành công: Giảm ${discountPercent}%`, 'success');
-                createCancelButton(); // Thêm nút hủy
-            } else {
-                showDiscountMessage('Mã giảm giá không hợp lệ hoặc đã hết hạn', 'danger');
-                // Không reset discount ở đây vì có thể đang áp dụng mã khác
-            }
-
-            updateTotalPrice();
-        }
-
-        // Hiển thị thông báo giảm giá
-        function showDiscountMessage(message, type) {
-            discountMessage.innerHTML = `<div class="alert alert-${type} py-1">${message}</div>`;
-        }
-
-        // Reset thông tin giảm giá
-        function resetDiscount() {
-            discountPercent = 0;
-            selectedDiscountCodeId = null;
-            selectedDiscountCodeIdInput.value = '';
-            currentDiscountCode = null; // Reset mã giảm giá hiện tại
-            discountCodeInput.value = ''; // Xóa nội dung input mã giảm giá
-            showDiscountMessage('Đã hủy mã giảm giá', 'info'); // Thông báo đã hủy
-            removeCancelButton(); // Xóa nút hủy
-            updateTotalPrice();
-        }
-
-        // Xử lý checkbox sử dụng điểm thưởng
-        useRewardPointsCheckbox.addEventListener('change', function() {
-            const userPoints = @userRewardPoints;
-
-            if (this.checked) {
-                // Tính toán số điểm có thể sử dụng (tối đa là số điểm hiện có của user)
-                const maxPointsToUse = Math.min(userPoints, Math.floor(subtotal / POINTS_VALUE));
-                const pointsToUse = maxPointsToUse > POINTS_CONVERSION_RATE ?
-                    Math.floor(maxPointsToUse / POINTS_CONVERSION_RATE) * POINTS_CONVERSION_RATE : 0;
-
-                if (pointsToUse > 0) {
-                    rewardPointsToUseInput.value = pointsToUse;
-                    rewardPointsDiscount = pointsToUse * POINTS_VALUE;
-                } else {
-                    this.checked = false;
-                    alert('Bạn không có đủ điểm thưởng để đổi');
-                }
-            } else {
-                rewardPointsToUseInput.value = 0;
-                rewardPointsDiscount = 0;
-            }
-
-            updateTotalPrice();
-        });
-
-        // Cập nhật tổng tiền
-        function updateTotalPrice() {
-            // Tính giảm giá từ mã
-            discountAmount = subtotal * (discountPercent / 100);
-
-            // Hiển thị hoặc ẩn hàng giảm giá từ mã
-            if (discountPercent > 0) {
-                discountRow.style.display = 'flex';
-                discountAmountElement.textContent = `-${formatCurrency(discountAmount)} đ`;
-            } else {
-                discountRow.style.display = 'none';
-            }
-
-            // Hiển thị hoặc ẩn hàng giảm giá từ điểm thưởng
-            if (rewardPointsDiscount > 0) {
-                rewardPointsRow.style.display = 'flex';
-                rewardPointsAmountElement.textContent = `-${formatCurrency(rewardPointsDiscount)} đ`;
-            } else {
-                rewardPointsRow.style.display = 'none';
-            }
-
-            // Tính tổng tiền sau khi trừ các loại giảm giá
-            const totalAfterDiscount = Math.max(0, subtotal - discountAmount - rewardPointsDiscount);
-
-            // Cập nhật hiển thị tổng tiền
-            totalPriceElement.textContent = `${formatCurrency(totalAfterDiscount)} đ`;
-
-            // Cập nhật điểm thưởng nhận được (1 điểm cho mỗi 1000 VND)
-            const pointsEarned = Math.floor(totalAfterDiscount / 1000);
-            document.getElementById('pointsEarned').textContent = `${pointsEarned} điểm`;
-        }
-
-        // Định dạng số thành tiền tệ
-        function formatCurrency(value) {
-            return new Intl.NumberFormat('vi-VN').format(Math.round(value));
-        }
-    });
-</script>

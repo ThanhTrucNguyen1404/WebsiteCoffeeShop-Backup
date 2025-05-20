@@ -312,6 +312,9 @@ namespace WebsiteCoffeeShop.Migrations
                     b.Property<bool>("IsPercentage")
                         .HasColumnType("bit");
 
+                    b.Property<decimal>("MinimumOrderAmount")
+                        .HasColumnType("decimal(18,2)");
+
                     b.HasKey("Id");
 
                     b.ToTable("DiscountCodes");

@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace WebsiteCoffeeShop.Migrations
 {
     /// <inheritdoc />
-    public partial class Github : Migration
+    public partial class KhoiTaoDatabaseIdentity : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -94,6 +94,7 @@ namespace WebsiteCoffeeShop.Migrations
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     DiscountPercent = table.Column<int>(type: "int", nullable: false),
                     DiscountAmount = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    MinimumOrderAmount = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     ExpiryDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     IsPercentage = table.Column<bool>(type: "bit", nullable: false)

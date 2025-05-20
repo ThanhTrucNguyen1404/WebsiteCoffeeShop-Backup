@@ -62,6 +62,7 @@ D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\wwwroot\lib\bootstr
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\Images\0099531f-47f8-407a-957c-58999539e72b.jpg
 wwwroot\Images\1907a802-b3b1-44db-8211-ce1b5c558e9c.jpg
 wwwroot\Images\3531948b-67f6-4581-af8c-fa4e3c657f7f.jpg
 wwwroot\Images\3cbe9db4-4746-4a63-ab00-a6d1e7ad434e_R.jpg
@@ -79,6 +80,7 @@ wwwroot\Images\a4b921d1-46e9-434c-ad0f-e78c9d681ed4.jpg
 wwwroot\Images\b232b169-31e6-4ec8-a200-99e0f7307d90.jpg
 wwwroot\Images\bc84c8c5-43d3-45e9-be7a-8dfc8686d44f.jpg
 wwwroot\Images\cd0c642b-ae76-482a-a96c-495a5dabc658.jpg
+wwwroot\Images\cfa535ff-80b5-4419-bb24-10e1780b401e.jpg
 wwwroot\Images\coffee-hero.jpg
 wwwroot\Images\f084e952-521d-4982-906b-40844e64ddec.png
 wwwroot\Images\fdc2496f-8725-48f2-945e-8b4324b0952e.jpg

@@ -12,8 +12,8 @@ using WebsiteCoffeeShop.Models;
 namespace WebsiteCoffeeShop.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250507021308_Github")]
-    partial class Github
+    [Migration("20250520064033_KhoiTaoDatabaseIdentity")]
+    partial class KhoiTaoDatabaseIdentity
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -314,6 +314,9 @@ namespace WebsiteCoffeeShop.Migrations
 
                     b.Property<bool>("IsPercentage")
                         .HasColumnType("bit");
+
+                    b.Property<decimal>("MinimumOrderAmount")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
