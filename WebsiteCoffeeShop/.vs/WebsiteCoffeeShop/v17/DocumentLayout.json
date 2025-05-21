@@ -3,24 +3,68 @@
   "WorkspaceRootPath": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\discountcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\discountcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:controllers\\shoppingcartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:views\\shoppingcart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\views\\shoppingcart\\ordercompleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:views\\shoppingcart\\ordercompleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\views\\shoppingcart\\confirmpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:views\\shoppingcart\\confirmpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\controllers\\discountcodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:controllers\\discountcodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\discountcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\discountcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -35,20 +79,12 @@
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:views\\shoppingcart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -69,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\views\\discountcode\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:views\\discountcode\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -187,10 +219,6 @@
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:views\\categories\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\controllers\\discountcodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:controllers\\discountcodecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\areas\\admin\\controller\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:areas\\admin\\controller\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -205,10 +233,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\views\\shoppingcart\\ordercompleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:views\\shoppingcart\\ordercompleted.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -307,10 +331,6 @@
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:repositories\\discountcoderepositories\\discountcoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -323,24 +343,8 @@
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -399,10 +403,6 @@
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:areas\\admin\\views\\categories\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\views\\shoppingcart\\confirmpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:views\\shoppingcart\\confirmpayment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|d:\\csdl n\u00E2ng cao\\websitecoffeeshop-backup\\websitecoffeeshop\\migrations\\20250520064033_khoitaodatabaseidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6044BCD1-7C35-4232-A443-FF4B400EDBAF}|WebsiteCoffeeShop.csproj|solutionrelative:migrations\\20250520064033_khoitaodatabaseidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -414,7 +414,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -422,19 +422,174 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAoCAAAAAAAAAAAgwBoCAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShoppingCartController.cs",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "Controllers\\ShoppingCartController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T07:18:22.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\Checkout.cshtml",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\Checkout.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\Checkout.cshtml",
+              "ViewState": "AgIAAGICAAAAAAAAAAAkwHoCAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T07:55:59.904Z"
+              "WhenOpened": "2025-04-08T09:20:41.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T11:42:23.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T06:37:03.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\Index.cshtml",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\Index.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\Index.cshtml",
+              "ViewState": "AgIAADoBAAAAAAAAAAAkwFIBAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T09:20:47.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderCompleted.cshtml",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\OrderCompleted.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\OrderCompleted.cshtml",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\OrderCompleted.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\OrderCompleted.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T09:20:54.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "Models\\ShoppingCart.cs",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "Models\\ShoppingCart.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T06:52:49.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DiscountCode.cs",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\DiscountCode.cs",
+              "RelativeDocumentMoniker": "Models\\DiscountCode.cs",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\DiscountCode.cs",
+              "RelativeToolTip": "Models\\DiscountCode.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA0wBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T11:35:08.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwCQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T06:44:22.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T11:52:53.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConfirmPayment.cshtml",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\ConfirmPayment.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\ConfirmPayment.cshtml",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\ConfirmPayment.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\ConfirmPayment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T09:20:43.874Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T06:45:54.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T06:36:11.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -446,68 +601,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-08T06:56:30.731Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\ShoppingCart\\Index.cshtml",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\Index.cshtml",
-              "RelativeToolTip": "Views\\ShoppingCart\\Index.cshtml",
-              "ViewState": "AgIAADoBAAAAAAAAAAAkwFIBAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T09:20:47.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ShoppingCartController.cs",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\ShoppingCartController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ShoppingCartController.cs",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\ShoppingCartController.cs",
-              "RelativeToolTip": "Controllers\\ShoppingCartController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAewC0AAAAuAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "DiscountCodeController.cs",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\DiscountCodeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DiscountCodeController.cs",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\DiscountCodeController.cs",
+              "RelativeToolTip": "Controllers\\DiscountCodeController.cs",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAAwBMBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T07:18:22.246Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T12:15:23.278Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\Order.cs",
-              "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAA9wBcAAAA8AAAAAAAAAA==",
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAYwB4BAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T06:44:22.637Z"
+              "WhenOpened": "2025-04-08T07:10:31.51Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Product\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Delete.cshtml",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Product\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Product\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T07:52:42.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
@@ -519,28 +638,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Checkout.cshtml",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\Checkout.cshtml",
-              "RelativeDocumentMoniker": "Views\\ShoppingCart\\Checkout.cshtml",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\Checkout.cshtml",
-              "RelativeToolTip": "Views\\ShoppingCart\\Checkout.cshtml",
-              "ViewState": "AgIAAOQBAAAAAAAAAAAkwAMCAAAIAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Delete.cshtml",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T09:20:41.752Z"
+              "WhenOpened": "2025-04-08T07:52:42.434Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "Controllers\\OrderController.cs",
-              "ViewState": "AgIAAOUAAAAAAAAAAAAYwPAAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T07:10:31.51Z",
-              "EditorCaption": ""
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-08T06:56:30.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAoCAAAAAAAAAAAgwBoCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T07:55:59.904Z"
             },
             {
               "$type": "Document",
@@ -556,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Product\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Add.cshtml",
@@ -568,19 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DiscountCode.cs",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\DiscountCode.cs",
-              "RelativeDocumentMoniker": "Models\\DiscountCode.cs",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\DiscountCode.cs",
-              "RelativeToolTip": "Models\\DiscountCode.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAcwBoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T11:35:08.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
@@ -592,7 +710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 22,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Product\\Update.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Update.cshtml",
@@ -604,7 +722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 23,
               "Title": "History.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Order\\History.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\History.cshtml",
@@ -616,7 +734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -628,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\DiscountCode\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\DiscountCode\\Create.cshtml",
@@ -640,19 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T06:45:54.133Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 58,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -664,7 +770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 57,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
@@ -676,7 +782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 56,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -688,19 +794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "DiscountCodeController.cs",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\DiscountCodeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DiscountCodeController.cs",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\DiscountCodeController.cs",
-              "RelativeToolTip": "Controllers\\DiscountCodeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T12:15:23.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 54,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Categories\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Add.cshtml",
@@ -712,7 +806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 55,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Admin\\Controller\\ProductController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controller\\ProductController.cs",
@@ -724,19 +818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "OrderCompleted.cshtml",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\OrderCompleted.cshtml",
-              "RelativeDocumentMoniker": "Views\\ShoppingCart\\OrderCompleted.cshtml",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\OrderCompleted.cshtml",
-              "RelativeToolTip": "Views\\ShoppingCart\\OrderCompleted.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T09:20:54.859Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 26,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -748,7 +830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 59,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -760,7 +842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 60,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -772,7 +854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 61,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
@@ -784,7 +866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 62,
               "Title": "_CartCountPartial.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Shared\\_CartCountPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_CartCountPartial.cshtml",
@@ -796,7 +878,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 63,
               "Title": "Display.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Product\\Display.cshtml",
               "RelativeDocumentMoniker": "Views\\Product\\Display.cshtml",
@@ -808,7 +890,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 64,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Order\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\Details.cshtml",
@@ -820,7 +902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 65,
               "Title": "BankTransferInstructions.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Order\\BankTransferInstructions.cshtml",
               "RelativeDocumentMoniker": "Views\\Order\\BankTransferInstructions.cshtml",
@@ -832,7 +914,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 66,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -844,7 +926,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 67,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\DiscountCode\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\DiscountCode\\Index.cshtml",
@@ -856,7 +938,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 68,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\DiscountCode\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\DiscountCode\\Edit.cshtml",
@@ -868,7 +950,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 69,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\DiscountCode\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\DiscountCode\\Details.cshtml",
@@ -880,7 +962,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 70,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\DiscountCode\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\DiscountCode\\Delete.cshtml",
@@ -892,7 +974,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 71,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Categories\\Update.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Update.cshtml",
@@ -904,7 +986,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 72,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Index.cshtml",
@@ -916,7 +998,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 73,
               "Title": "Display.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Categories\\Display.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Display.cshtml",
@@ -928,7 +1010,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 74,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\Categories\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Categories\\Delete.cshtml",
@@ -940,7 +1022,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 75,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Repositories\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IProductRepository.cs",
@@ -952,7 +1034,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 76,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Repositories\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ICategoryRepository.cs",
@@ -964,7 +1046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 77,
               "Title": "EFProductRepository.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Repositories\\EFProductRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\EFProductRepository.cs",
@@ -976,7 +1058,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 78,
               "Title": "EFCategoryRepository.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Repositories\\EFCategoryRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\EFCategoryRepository.cs",
@@ -988,7 +1070,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 79,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Repositories\\IOrderRepository\\OrderRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IOrderRepository\\OrderRepository.cs",
@@ -1000,7 +1082,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 80,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Repositories\\IOrderRepository\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IOrderRepository\\IOrderRepository.cs",
@@ -1012,7 +1094,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 81,
               "Title": "IDiscountCodeRepository.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Repositories\\DiscountCodeRepositories\\IDiscountCodeRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\DiscountCodeRepositories\\IDiscountCodeRepository.cs",
@@ -1024,7 +1106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 82,
               "Title": "DiscountCodeRepository.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Repositories\\DiscountCodeRepositories\\DiscountCodeRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\DiscountCodeRepositories\\DiscountCodeRepository.cs",
@@ -1036,19 +1118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "ShoppingCart.cs",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\ShoppingCart.cs",
-              "RelativeDocumentMoniker": "Models\\ShoppingCart.cs",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\ShoppingCart.cs",
-              "RelativeToolTip": "Models\\ShoppingCart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T06:52:49.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 83,
               "Title": "SD.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\SD.cs",
               "RelativeDocumentMoniker": "Models\\SD.cs",
@@ -1060,7 +1130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 84,
               "Title": "RewardPoints.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\RewardPoints.cs",
               "RelativeDocumentMoniker": "Models\\RewardPoints.cs",
@@ -1072,7 +1142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 85,
               "Title": "ProductImage.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\ProductImage.cs",
               "RelativeDocumentMoniker": "Models\\ProductImage.cs",
@@ -1084,19 +1154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T06:36:11.086Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 86,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\OrderDetail.cs",
               "RelativeDocumentMoniker": "Models\\OrderDetail.cs",
@@ -1108,43 +1166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T11:52:53.764Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 84,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\Category.cs",
-              "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T06:37:03.646Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 85,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\CartItem.cs",
-              "RelativeDocumentMoniker": "Models\\CartItem.cs",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\CartItem.cs",
-              "RelativeToolTip": "Models\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T11:42:23.398Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 87,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
@@ -1156,7 +1178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 88,
               "Title": "SessionExtensions.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Extensions\\SessionExtensions.cs",
               "RelativeDocumentMoniker": "Extensions\\SessionExtensions.cs",
@@ -1168,7 +1190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
@@ -1180,7 +1202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 28,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
@@ -1192,7 +1214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 29,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
@@ -1204,7 +1226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 30,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
@@ -1216,7 +1238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 89,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -1228,7 +1250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
@@ -1240,7 +1262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 32,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Employee\\Product\\Update.cshtml",
               "RelativeDocumentMoniker": "Areas\\Employee\\Product\\Update.cshtml",
@@ -1252,7 +1274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Employee\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Employee\\Product\\Index.cshtml",
@@ -1264,7 +1286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "OrderCompleted.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Customer\\ShoppingCart\\OrderCompleted.cshtml",
               "RelativeDocumentMoniker": "Areas\\Customer\\ShoppingCart\\OrderCompleted.cshtml",
@@ -1276,7 +1298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Customer\\ShoppingCart\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Customer\\ShoppingCart\\Index.cshtml",
@@ -1288,7 +1310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 90,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
@@ -1300,7 +1322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 91,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -1312,7 +1334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 92,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -1324,7 +1346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "ConfirmPayment.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Customer\\ShoppingCart\\ConfirmPayment.cshtml",
               "RelativeDocumentMoniker": "Areas\\Customer\\ShoppingCart\\ConfirmPayment.cshtml",
@@ -1336,7 +1358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 93,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -1348,7 +1370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 37,
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Customer\\ShoppingCart\\Checkout.cshtml",
               "RelativeDocumentMoniker": "Areas\\Customer\\ShoppingCart\\Checkout.cshtml",
@@ -1360,7 +1382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 38,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Customer\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Areas\\Customer\\Home\\Privacy.cshtml",
@@ -1372,7 +1394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 39,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Customer\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Customer\\Home\\Index.cshtml",
@@ -1384,7 +1406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 40,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Admin\\Views\\Product\\Update.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Update.cshtml",
@@ -1396,7 +1418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 41,
               "Title": "Display.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Admin\\Views\\Product\\Display.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Display.cshtml",
@@ -1408,7 +1430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 42,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Delete.cshtml",
@@ -1420,7 +1442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 43,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Admin\\Views\\DiscountCode\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\DiscountCode\\Index.cshtml",
@@ -1432,7 +1454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 44,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Admin\\Views\\DiscountCode\\Edit.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\DiscountCode\\Edit.cshtml",
@@ -1444,7 +1466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 45,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Admin\\Views\\DiscountCode\\Details.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\DiscountCode\\Details.cshtml",
@@ -1456,7 +1478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 46,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Admin\\Views\\DiscountCode\\Delete.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\DiscountCode\\Delete.cshtml",
@@ -1468,7 +1490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 47,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Admin\\Views\\DiscountCode\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\DiscountCode\\Create.cshtml",
@@ -1480,7 +1502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 48,
               "Title": "WebsiteCoffeeShop",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\WebsiteCoffeeShop.csproj",
               "RelativeDocumentMoniker": "WebsiteCoffeeShop.csproj",
@@ -1491,7 +1513,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 49,
               "Title": "WebsiteCoffeeShop.csproj",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\WebsiteCoffeeShop.csproj",
               "RelativeDocumentMoniker": "WebsiteCoffeeShop.csproj",
@@ -1503,7 +1525,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 94,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Index.cshtml",
@@ -1515,7 +1537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 95,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Admin\\Views\\Product\\Add.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Add.cshtml",
@@ -1527,7 +1549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 50,
               "Title": "20250507015649_GithubAdded.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteBanXeMay_Nhom3\\Migrations\\20250507015649_GithubAdded.cs",
               "RelativeDocumentMoniker": "..\\WebsiteBanXeMay_Nhom3\\Migrations\\20250507015649_GithubAdded.cs",
@@ -1539,7 +1561,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 96,
               "Title": "Add.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Admin\\Views\\Categories\\Add.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Categories\\Add.cshtml",
@@ -1551,7 +1573,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 97,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Admin\\Views\\Categories\\Delete.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Categories\\Delete.cshtml",
@@ -1563,7 +1585,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 98,
               "Title": "Display.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Admin\\Views\\Categories\\Display.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Categories\\Display.cshtml",
@@ -1575,7 +1597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 99,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Categories\\Index.cshtml",
@@ -1587,7 +1609,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 100,
               "Title": "Update.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Areas\\Admin\\Views\\Categories\\Update.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Categories\\Update.cshtml",
@@ -1599,19 +1621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
-              "Title": "ConfirmPayment.cshtml",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\ConfirmPayment.cshtml",
-              "RelativeDocumentMoniker": "Views\\ShoppingCart\\ConfirmPayment.cshtml",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\ConfirmPayment.cshtml",
-              "RelativeToolTip": "Views\\ShoppingCart\\ConfirmPayment.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T09:20:43.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 51,
               "Title": "20250505115439_KhoiTaoDBIdentity.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Migrations\\20250505115439_KhoiTaoDBIdentity.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Coding\\WebsiteBanXeMay_Nhom3\\Migrations\\20250505115439_KhoiTaoDBIdentity.cs",
@@ -1622,7 +1632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 52,
               "Title": "20250505114302_KhoiTaoDBIdentity.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Migrations\\20250505114302_KhoiTaoDBIdentity.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Coding\\WebsiteBanXeMay_Nhom3\\Migrations\\20250505114302_KhoiTaoDBIdentity.cs",
@@ -1633,7 +1643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 53,
               "Title": "20250408072429_KhoiTaoIdentity-Database.cs",
               "DocumentMoniker": "D:\\Coding\\WebsiteBanXeMay_Nhom3\\Migrations\\20250408072429_KhoiTaoIdentity-Database.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Coding\\WebsiteBanXeMay_Nhom3\\Migrations\\20250408072429_KhoiTaoIdentity-Database.cs",
