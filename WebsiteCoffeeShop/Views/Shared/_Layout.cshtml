@@ -565,44 +565,23 @@
                     <li class="nav-item">
                         <a class="nav-link" asp-controller="Product" asp-action="Index">Cà phê</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Trà</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Chuyện Nhà</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Cửa hàng</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tuyển dụng</a>
-                    </li>
 
-                    @if (SignInManager.IsSignedIn(User))
-                    {
-                        <!-- Items for authenticated users (Customer role is minimum) -->
-                        <li class="nav-item">
-                            <a class="nav-link" asp-controller="Order" asp-action="History">Lịch sử mua hàng</a>
-                        </li>
+                </ul>
 
-                        @if (User.IsInRole("Admin") || User.IsInRole("Employee"))
-                        {
-                            <!-- Items for Employees and Admins -->
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="adminDropdown" role="button" data-bs-toggle="dropdown">
-                                    Quản lý
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="adminDropdown">
-                                    <li><a class="dropdown-item" asp-controller="Categories" asp-action="Index">Danh mục</a></li>
-                                    <li><a class="dropdown-item" asp-controller="DiscountCode" asp-action="Index">Mã giảm giá</a></li>
-                                    <li><a class="dropdown-item" asp-controller="Product" asp-action="Add">Thêm sản phẩm</a></li>
-                                </ul>
-                            </li>
-                        }
-                    }
+                @if (User.IsInRole("Admin"))
+                {
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="adminDropdown" role="button" data-bs-toggle="dropdown">
+                            <i class="bi bi-gear"></i> Quản lý
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="adminDropdown">
+                            <li><a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index"><i class="bi bi-box"></i> Quản lý sản phẩm</a></li>
+                            <li><a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Create"><i class="bi bi-plus-circle"></i> Thêm sản phẩm</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" asp-area="Admin" asp-controller="Categories" asp-action="Index"><i class="bi bi-tags"></i> Quản lý Danh mục</a></li>
+                        </ul>
+                    </li>
+                }
                 </ul>
 
                 <div class="d-flex align-items-center">

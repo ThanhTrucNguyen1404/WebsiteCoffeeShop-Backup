@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using WebsiteCoffeeShop.IRepository;
 using WebsiteCoffeeShop.Models;
-using WebsiteCoffeeShop.Repositories;
 
 namespace WebsiteCoffeeShop.Controllers
 {

@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+
 namespace WebsiteCoffeeShop.Models
 {
     public class DiscountCode
@@ -8,19 +9,27 @@ namespace WebsiteCoffeeShop.Models
             // Initialize Orders collection to empty to avoid null reference
             Orders = new List<Order>();
         }
+
         [Key]
         public int Id { get; set; }
+
         [Required]
         public string Code { get; set; }
+
         [Required]
         public string Description { get; set; }
+
         [Required]
         public int DiscountPercent { get; set; }
-        public decimal DiscountAmount { get; set; }
-        public decimal MinimumOrderAmount { get; set; } // Thêm thuộc tính MinimumOrderAmount
+
+        public decimal DiscountAmount { get; set; } // Add this property
+
         public DateTime ExpiryDate { get; set; }
+
         public bool IsActive { get; set; } = true;
-        public bool IsPercentage { get; set; }
+
+        public bool IsPercentage { get; set; } // Add this property
+
         // Navigation property (optional)
         public ICollection<Order> Orders { get; set; }
     }

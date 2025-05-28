@@ -797,67 +797,35 @@ D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\co
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\e47me8anwn-b9sayid5wm.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\b67yuhgivs-61n19gt1b8.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\h5axv9p9uw-xtxxf3hu2r.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ekdohrsmii-bqjiyaj88i.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\za4hebw4xa-c2jlpeoesf.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\2v7melwj3j-erw9l3u2r3.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\jmqr9v7e57-aexeepp0ev.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\bakmk57hfz-d7shbmvgxk.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\yzi02k7s3d-ausgxo2sd3.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\1ahnibhlp1-k8d9w2qqmf.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\fiqylpwm56-cosvhxvwiu.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\o12l694x9m-ub07r2b239.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ihtjy9b2o4-fvhpjtyr6v.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\k6qj12wbww-b7pk76d08c.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\l4kix46of9-fsbi9cje9m.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\jlatiivznp-rzd6atqjts.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\91mqwz6c3e-ee0r1s7dh0.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\drdo60xize-dxx9fxp4il.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\94181dtpuy-jd9uben2k1.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\rafz0j7vww-khv3u5hwcm.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\xcf3o8km30-r4e9w2rdcm.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\g7v7u7ynjn-lcd1t2u6c8.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\am8hqpn5wj-c2oey78nd0.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\w8oazbs83m-tdbxkamptv.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\0sg6p0sj3z-j5mq2jizvt.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\zufw7l25tj-06098lyss8.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\4bcqlf0wjh-nvvlpmu67g.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\omm4l0ed41-s35ty4nyc5.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\p9n0kvryqk-pj5nd1wqec.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\q6x048b11u-46ein0sx1k.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\0o2l7wfdvh-v0zj4ognzu.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\q3eybx5nf2-37tfw0ft22.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\yhgcce5xxf-hrwsygsryq.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\jmsul4jruz-pk9g2wxc8p.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\t8uuqvm60n-ft3s53vfgj.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ziu8l1eu97-6cfz1n2cew.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\7rmghd6v62-6pdc2jztkx.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ovwm2uz7yo-493y06b0oq.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\u2l64tsijh-iovd86k7lj.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\yijs9xjr45-vr1egmr9el.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\hf8gr1fcvw-kbrnm935zg.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\qhwmdjrp9b-jj8uyg4cgr.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\vev4sif1pz-y7v9cxd14o.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\mfrhl75bro-notf2xhcfb.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\rixuza5ojz-h1s4sie4z3.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\7dqppnxd93-63fj8s7r0e.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\zdrlih9zt2-0j3bgjxly4.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\0mqcotphxz-47otxtyo56.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\6d2wegxaxu-4v8eqarkd7.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\hamf8h437e-356vix0kms.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\3tqu5pu10t-83jwlth58m.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\2qhwzd8ix5-mrlpezrjn3.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\6nswd6dm22-lzl9nlhx6b.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\p3m2e0ap07-ag7o75518u.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\7e44l11ao1-x0q3zqp4vz.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\02q7xj3mz6-0i3buxo5is.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\vghgkwg53r-o1o13a6vjx.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\schf0hc0r1-ttgo8qnofa.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\o9ivb16fql-2z0ns9nrw6.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\90335a4ri0-muycvpuwrr.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\jeq0wmkyky-87fc7y1x7t.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\bz2oqdw0tk-mlv21k5csn.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\hweuk5cjrw-2yvrskdc8t.gz
-D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\bxmeufdl7h-2yvrskdc8t.gz
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\staticwebassets.build.json
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\staticwebassets.development.json
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -874,3 +842,1060 @@ D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\re
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.pdb
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.genruntimeconfig.cache
 D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\ref\WebsiteCoffeeShop.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\appsettings.Development.json
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\appsettings.json
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\WebsiteCoffeeShop.staticwebassets.runtime.json
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\WebsiteCoffeeShop.staticwebassets.endpoints.json
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\WebsiteCoffeeShop.exe
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\WebsiteCoffeeShop.deps.json
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\WebsiteCoffeeShop.runtimeconfig.json
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\WebsiteCoffeeShop.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\WebsiteCoffeeShop.pdb
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Azure.Core.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Azure.Identity.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Humanizer.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Build.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Mono.TextTemplating.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\Newtonsoft.Json.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\NuGet.Common.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\NuGet.Configuration.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\NuGet.Frameworks.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\NuGet.LibraryModel.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\NuGet.Packaging.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\NuGet.ProjectModel.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\NuGet.Protocol.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\NuGet.Versioning.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\SQLitePCLRaw.core.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\System.ClientModel.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\System.CodeDom.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\System.Composition.Convention.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\System.Composition.Hosting.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\System.Composition.Runtime.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\System.Composition.TypedParts.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\System.Memory.Data.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\System.Runtime.Caching.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\af\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ar\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\az\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\bg\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\cs\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\da\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\de\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\el\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\es\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\fa\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\fr\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\he\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\hr\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\hu\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\hy\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\id\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\is\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\it\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ja\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ku\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\lv\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\mt\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\nb\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\nl\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\pl\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\pt\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ro\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ru\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\sk\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\sl\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\sr\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\sv\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\tr\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\uk\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\vi\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.csproj.AssemblyReference.cache
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.GeneratedMSBuildEditorConfig.editorconfig
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.AssemblyInfoInputs.cache
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.AssemblyInfo.cs
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.csproj.CoreCompileInputs.cache
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.MvcApplicationPartsAssemblyInfo.cs
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.MvcApplicationPartsAssemblyInfo.cache
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.RazorAssemblyInfo.cache
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.RazorAssemblyInfo.cs
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.sourcelink.json
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\scopedcss\bundle\WebsiteCoffeeShop.styles.css
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\scopedcss\projectbundle\WebsiteCoffeeShop.bundle.scp.css
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ofa40bqe71-b9sayid5wm.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\j9swiz3yzq-90yqlj465b.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\vltxs1u3vm-xtxxf3hu2r.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\14ipv7q33s-bqjiyaj88i.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\rh65p086id-c2jlpeoesf.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\eb27mqwgz2-erw9l3u2r3.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\9glsckmvxo-aexeepp0ev.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\hh8ihyobdx-d7shbmvgxk.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\bww8ud00yd-ausgxo2sd3.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\edcrak57d7-k8d9w2qqmf.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\sf8kf2lula-cosvhxvwiu.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\3tzsqhslk9-ub07r2b239.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\oxk5o6czdw-fvhpjtyr6v.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\k8b25g0zwc-b7pk76d08c.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\8axix7wldr-fsbi9cje9m.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\d5z9sfpxbi-rzd6atqjts.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\u8428c4e9i-ee0r1s7dh0.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\tg53r17ghy-dxx9fxp4il.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\nlrl0f3xs3-jd9uben2k1.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\1fc4q00scq-khv3u5hwcm.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\8xykfy6qmd-r4e9w2rdcm.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\vsrbd71spn-lcd1t2u6c8.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\cynp17w084-c2oey78nd0.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\7o8oyvng68-tdbxkamptv.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\h9vwtoirpy-j5mq2jizvt.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\o5k23vqhrk-06098lyss8.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\iznc766avz-nvvlpmu67g.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ns4583i71s-s35ty4nyc5.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\47012z8l2l-pj5nd1wqec.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\4vzefxwp2m-46ein0sx1k.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\bh4v3mdph9-v0zj4ognzu.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\l186vlgaag-37tfw0ft22.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\rsc7qacj1u-hrwsygsryq.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\z408qb6q7a-pk9g2wxc8p.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\qfr28sqcy1-ft3s53vfgj.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\0k1i85ntyh-6cfz1n2cew.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\xa379ftczi-6pdc2jztkx.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\lr5hmrr0j7-493y06b0oq.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ivy2s9gwh5-iovd86k7lj.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\higufxz8op-vr1egmr9el.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\s3tglgz8hr-kbrnm935zg.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\vw9sls9bhj-jj8uyg4cgr.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ym8tkpcl2i-y7v9cxd14o.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\zzna4nrm5w-notf2xhcfb.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\igscs4x0yk-h1s4sie4z3.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\zap00c0tb5-63fj8s7r0e.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\pogzkicjpz-0j3bgjxly4.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\j3hwsq15kh-47otxtyo56.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\q3naettu8c-4v8eqarkd7.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ldxy2n3w6q-356vix0kms.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ypthv7q62w-83jwlth58m.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\t6e3b82hrf-mrlpezrjn3.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\uocis9wxbx-lzl9nlhx6b.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\2tikzqlmtu-ag7o75518u.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\9muusbdg0a-x0q3zqp4vz.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\tpsq5dibur-0i3buxo5is.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\t0qo7o574p-o1o13a6vjx.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\b9lhb08218-ttgo8qnofa.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\a3ygkwa5zy-2z0ns9nrw6.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\e47me8anwn-b9sayid5wm.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\b67yuhgivs-61n19gt1b8.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\h5axv9p9uw-xtxxf3hu2r.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ekdohrsmii-t1cqhe9u97.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\za4hebw4xa-c2jlpeoesf.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\2v7melwj3j-sejl45xvog.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\jmqr9v7e57-aexeepp0ev.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\bakmk57hfz-xvp3kq03qx.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\yzi02k7s3d-ausgxo2sd3.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\1ahnibhlp1-22vffe00uq.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\fiqylpwm56-cosvhxvwiu.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\o12l694x9m-qesaa3a1fm.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ihtjy9b2o4-fvhpjtyr6v.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\k6qj12wbww-tmc1g35s3z.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\l4kix46of9-fsbi9cje9m.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\jlatiivznp-rxsg74s51o.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\91mqwz6c3e-ee0r1s7dh0.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\drdo60xize-q9ht133ko3.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\94181dtpuy-jd9uben2k1.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\rafz0j7vww-gye83jo8yx.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\xcf3o8km30-r4e9w2rdcm.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\g7v7u7ynjn-wl58j5mj3v.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\am8hqpn5wj-c2oey78nd0.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\w8oazbs83m-d4r6k3f320.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\0sg6p0sj3z-j5mq2jizvt.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\zufw7l25tj-keugtjm085.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\4bcqlf0wjh-nvvlpmu67g.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\omm4l0ed41-zub09dkrxp.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\p9n0kvryqk-pj5nd1wqec.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\q6x048b11u-43atpzeawx.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\0o2l7wfdvh-v0zj4ognzu.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\q3eybx5nf2-ynyaa8k90p.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\yhgcce5xxf-hrwsygsryq.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\jmsul4jruz-c63t5i9ira.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\t8uuqvm60n-ft3s53vfgj.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ziu8l1eu97-4094rpi4f9.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\7rmghd6v62-6pdc2jztkx.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ovwm2uz7yo-hd3gran6i8.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\u2l64tsijh-iovd86k7lj.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\yijs9xjr45-ltid2c489k.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\hf8gr1fcvw-kbrnm935zg.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\qhwmdjrp9b-8vyfqsqgz1.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\vev4sif1pz-y7v9cxd14o.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\mfrhl75bro-u9q1upor1n.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\rixuza5ojz-h1s4sie4z3.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\7dqppnxd93-4d85u1mtcx.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\zdrlih9zt2-0j3bgjxly4.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\0mqcotphxz-03hjc8e09r.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\6d2wegxaxu-48y08845bh.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\hamf8h437e-356vix0kms.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\3tqu5pu10t-83jwlth58m.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\2qhwzd8ix5-mrlpezrjn3.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\6nswd6dm22-worgj0nhwm.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\p3m2e0ap07-gk0pw8i4co.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\7e44l11ao1-x0q3zqp4vz.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\02q7xj3mz6-d6nrnj6jjx.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\vghgkwg53r-m9qm4tazc0.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\schf0hc0r1-ttgo8qnofa.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\o9ivb16fql-jjsuc0puko.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\90335a4ri0-9vr69e8ynj.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\jeq0wmkyky-87fc7y1x7t.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\bz2oqdw0tk-mlv21k5csn.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\staticwebassets.build.json
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\staticwebassets.build.json.cache
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\staticwebassets.development.json
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteC.4C3CA5AF.Up2Date
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\refint\WebsiteCoffeeShop.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.pdb
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.genruntimeconfig.cache
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\ref\WebsiteCoffeeShop.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Black.ttf
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-BlackItalic.ttf
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Bold.ttf
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-BoldItalic.ttf
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-ExtraBold.ttf
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-ExtraBoldItalic.ttf
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-ExtraLight.ttf
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-ExtraLightItalic.ttf
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Italic.ttf
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Light.ttf
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-LightItalic.ttf
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Medium.ttf
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-MediumItalic.ttf
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Regular.ttf
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-SemiBold.ttf
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-SemiBoldItalic.ttf
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Thin.ttf
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-ThinItalic.ttf
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\OFL.txt
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\QuestPDF.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-arm64\native\libcrypto.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-arm64\native\libjpeg.so.8
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-arm64\native\libqpdf.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libcrypto.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libjpeg.so.8
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libqpdf.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-x64\native\libQuestPdfSkia.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-x64\native\libcrypto.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-x64\native\libjpeg.so.8
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-x64\native\libqpdf.so
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-arm64\native\libcrypto.dylib
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-arm64\native\libjpeg.dylib
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-arm64\native\libqpdf.dylib
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-x64\native\libcrypto.dylib
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-x64\native\libjpeg.dylib
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-x64\native\libqpdf.dylib
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\QuestPdfSkia.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\libgcc_s_seh-1.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\libstdc++-6.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\libwinpthread-1.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\qpdf.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\QuestPdfSkia.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\libgcc_s_dw2-1.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\libstdc++-6.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\libwinpthread-1.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\qpdf.dll
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\lltxyp0e8t-ki8jww3cvp.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\scopedcss\Areas\Employee\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\hweuk5cjrw-5nlpcayye4.gz
+E:\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\bxmeufdl7h-5nlpcayye4.gz
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\appsettings.Development.json
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\appsettings.json
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Black.ttf
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-BlackItalic.ttf
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Bold.ttf
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-BoldItalic.ttf
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-ExtraBold.ttf
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-ExtraBoldItalic.ttf
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-ExtraLight.ttf
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-ExtraLightItalic.ttf
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Italic.ttf
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Light.ttf
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-LightItalic.ttf
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Medium.ttf
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-MediumItalic.ttf
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Regular.ttf
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-SemiBold.ttf
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-SemiBoldItalic.ttf
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Thin.ttf
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-ThinItalic.ttf
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\OFL.txt
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\WebsiteCoffeeShop.staticwebassets.runtime.json
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\WebsiteCoffeeShop.staticwebassets.endpoints.json
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\WebsiteCoffeeShop.exe
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\WebsiteCoffeeShop.deps.json
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\WebsiteCoffeeShop.runtimeconfig.json
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\WebsiteCoffeeShop.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\WebsiteCoffeeShop.pdb
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Azure.Core.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Azure.Identity.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Humanizer.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Build.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Build.Framework.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.Features.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.DiaSymReader.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.NET.StringTools.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\dotnet-aspnet-codegenerator-design.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\NuGet.Common.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\NuGet.Configuration.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\NuGet.DependencyResolver.Core.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\NuGet.Frameworks.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\NuGet.LibraryModel.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\NuGet.Packaging.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\NuGet.ProjectModel.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\NuGet.Protocol.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\NuGet.Versioning.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\QuestPDF.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\SQLitePCLRaw.batteries_v2.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\SQLitePCLRaw.core.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\System.ClientModel.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\System.CodeDom.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\System.Memory.Data.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\System.Reflection.MetadataLoadContext.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\System.Runtime.Caching.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\af\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ar\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\az\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\bg\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\bn-BD\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\cs\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\da\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\de\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\el\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\es\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\fa\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\fi-FI\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\fr\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\fr-BE\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\he\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\hr\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\hu\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\hy\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\id\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\is\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\it\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ja\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ko-KR\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ku\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\lv\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ms-MY\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\mt\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\nb\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\nb-NO\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\nl\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\pl\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\pt\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ro\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ru\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\sk\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\sl\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\sr\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\sr-Latn\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\sv\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\th-TH\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\tr\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\uk\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\vi\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-CN\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hans\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hant\Humanizer.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-arm64\native\libcrypto.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-arm64\native\libjpeg.so.8
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-arm64\native\libqpdf.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libcrypto.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libjpeg.so.8
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libqpdf.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-x64\native\libQuestPdfSkia.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-x64\native\libcrypto.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-x64\native\libjpeg.so.8
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-x64\native\libqpdf.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-arm64\native\libcrypto.dylib
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-arm64\native\libjpeg.dylib
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-arm64\native\libqpdf.dylib
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-x64\native\libcrypto.dylib
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-x64\native\libjpeg.dylib
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-x64\native\libqpdf.dylib
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\QuestPdfSkia.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\libgcc_s_seh-1.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\libstdc++-6.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\libwinpthread-1.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\qpdf.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\QuestPdfSkia.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\libgcc_s_dw2-1.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\libstdc++-6.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\libwinpthread-1.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\qpdf.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\DACS\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.csproj.AssemblyReference.cache
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.GeneratedMSBuildEditorConfig.editorconfig
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.AssemblyInfoInputs.cache
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.AssemblyInfo.cs
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.csproj.CoreCompileInputs.cache
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.MvcApplicationPartsAssemblyInfo.cs
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.MvcApplicationPartsAssemblyInfo.cache
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.RazorAssemblyInfo.cache
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.RazorAssemblyInfo.cs
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\scopedcss\Areas\Employee\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\scopedcss\bundle\WebsiteCoffeeShop.styles.css
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\scopedcss\projectbundle\WebsiteCoffeeShop.bundle.scp.css
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ofa40bqe71-b9sayid5wm.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\j9swiz3yzq-90yqlj465b.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\vltxs1u3vm-xtxxf3hu2r.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\14ipv7q33s-bqjiyaj88i.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\rh65p086id-c2jlpeoesf.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\eb27mqwgz2-erw9l3u2r3.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\9glsckmvxo-aexeepp0ev.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\hh8ihyobdx-d7shbmvgxk.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\bww8ud00yd-ausgxo2sd3.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\edcrak57d7-k8d9w2qqmf.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\sf8kf2lula-cosvhxvwiu.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\3tzsqhslk9-ub07r2b239.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\oxk5o6czdw-fvhpjtyr6v.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\k8b25g0zwc-b7pk76d08c.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\8axix7wldr-fsbi9cje9m.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\d5z9sfpxbi-rzd6atqjts.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\u8428c4e9i-ee0r1s7dh0.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\tg53r17ghy-dxx9fxp4il.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\nlrl0f3xs3-jd9uben2k1.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\1fc4q00scq-khv3u5hwcm.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\8xykfy6qmd-r4e9w2rdcm.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\vsrbd71spn-lcd1t2u6c8.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\cynp17w084-c2oey78nd0.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\7o8oyvng68-tdbxkamptv.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\h9vwtoirpy-j5mq2jizvt.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\o5k23vqhrk-06098lyss8.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\iznc766avz-nvvlpmu67g.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ns4583i71s-s35ty4nyc5.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\47012z8l2l-pj5nd1wqec.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\4vzefxwp2m-46ein0sx1k.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\bh4v3mdph9-v0zj4ognzu.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\l186vlgaag-37tfw0ft22.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\rsc7qacj1u-hrwsygsryq.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\z408qb6q7a-pk9g2wxc8p.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\qfr28sqcy1-ft3s53vfgj.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\0k1i85ntyh-6cfz1n2cew.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\xa379ftczi-6pdc2jztkx.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\lr5hmrr0j7-493y06b0oq.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ivy2s9gwh5-iovd86k7lj.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\higufxz8op-vr1egmr9el.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\s3tglgz8hr-kbrnm935zg.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\vw9sls9bhj-jj8uyg4cgr.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ym8tkpcl2i-y7v9cxd14o.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\zzna4nrm5w-notf2xhcfb.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\igscs4x0yk-h1s4sie4z3.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\zap00c0tb5-63fj8s7r0e.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\pogzkicjpz-0j3bgjxly4.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\j3hwsq15kh-47otxtyo56.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\q3naettu8c-4v8eqarkd7.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ldxy2n3w6q-356vix0kms.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ypthv7q62w-83jwlth58m.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\t6e3b82hrf-mrlpezrjn3.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\uocis9wxbx-lzl9nlhx6b.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\2tikzqlmtu-ag7o75518u.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\9muusbdg0a-x0q3zqp4vz.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\tpsq5dibur-0i3buxo5is.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\t0qo7o574p-o1o13a6vjx.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\b9lhb08218-ttgo8qnofa.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\a3ygkwa5zy-2z0ns9nrw6.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\nezrqnk58p-muycvpuwrr.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\v0zgfp0y55-87fc7y1x7t.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\e47me8anwn-b9sayid5wm.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\b67yuhgivs-61n19gt1b8.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\lltxyp0e8t-ki8jww3cvp.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\h5axv9p9uw-xtxxf3hu2r.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ekdohrsmii-t1cqhe9u97.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\za4hebw4xa-c2jlpeoesf.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\2v7melwj3j-sejl45xvog.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\jmqr9v7e57-aexeepp0ev.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\bakmk57hfz-xvp3kq03qx.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\yzi02k7s3d-ausgxo2sd3.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\1ahnibhlp1-22vffe00uq.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\fiqylpwm56-cosvhxvwiu.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\o12l694x9m-qesaa3a1fm.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ihtjy9b2o4-fvhpjtyr6v.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\k6qj12wbww-tmc1g35s3z.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\l4kix46of9-fsbi9cje9m.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\jlatiivznp-rxsg74s51o.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\91mqwz6c3e-ee0r1s7dh0.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\drdo60xize-q9ht133ko3.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\94181dtpuy-jd9uben2k1.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\rafz0j7vww-gye83jo8yx.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\xcf3o8km30-r4e9w2rdcm.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\g7v7u7ynjn-wl58j5mj3v.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\am8hqpn5wj-c2oey78nd0.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\w8oazbs83m-d4r6k3f320.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\0sg6p0sj3z-j5mq2jizvt.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\zufw7l25tj-keugtjm085.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\4bcqlf0wjh-nvvlpmu67g.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\omm4l0ed41-zub09dkrxp.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\p9n0kvryqk-pj5nd1wqec.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\q6x048b11u-43atpzeawx.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\0o2l7wfdvh-v0zj4ognzu.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\q3eybx5nf2-ynyaa8k90p.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\yhgcce5xxf-hrwsygsryq.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\jmsul4jruz-c63t5i9ira.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\t8uuqvm60n-ft3s53vfgj.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ziu8l1eu97-4094rpi4f9.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\7rmghd6v62-6pdc2jztkx.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ovwm2uz7yo-hd3gran6i8.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\u2l64tsijh-iovd86k7lj.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\yijs9xjr45-ltid2c489k.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\hf8gr1fcvw-kbrnm935zg.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\qhwmdjrp9b-8vyfqsqgz1.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\vev4sif1pz-y7v9cxd14o.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\mfrhl75bro-u9q1upor1n.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\rixuza5ojz-h1s4sie4z3.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\7dqppnxd93-4d85u1mtcx.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\zdrlih9zt2-0j3bgjxly4.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\0mqcotphxz-03hjc8e09r.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\6d2wegxaxu-48y08845bh.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\hamf8h437e-356vix0kms.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\3tqu5pu10t-83jwlth58m.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\2qhwzd8ix5-mrlpezrjn3.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\6nswd6dm22-worgj0nhwm.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\p3m2e0ap07-gk0pw8i4co.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\7e44l11ao1-x0q3zqp4vz.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\02q7xj3mz6-d6nrnj6jjx.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\vghgkwg53r-m9qm4tazc0.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\schf0hc0r1-ttgo8qnofa.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\o9ivb16fql-jjsuc0puko.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\90335a4ri0-9vr69e8ynj.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\jeq0wmkyky-87fc7y1x7t.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\bz2oqdw0tk-mlv21k5csn.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\hweuk5cjrw-5nlpcayye4.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\bxmeufdl7h-5nlpcayye4.gz
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\staticwebassets.build.json
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\staticwebassets.development.json
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\staticwebassets\msbuild.WebsiteCoffeeShop.Microsoft.AspNetCore.StaticWebAssets.props
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\staticwebassets\msbuild.WebsiteCoffeeShop.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\staticwebassets\msbuild.build.WebsiteCoffeeShop.props
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.WebsiteCoffeeShop.props
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.WebsiteCoffeeShop.props
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\staticwebassets.pack.json
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteC.4C3CA5AF.Up2Date
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.dll
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\refint\WebsiteCoffeeShop.dll
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.pdb
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\WebsiteCoffeeShop.genruntimeconfig.cache
+D:\DACS\WebsiteCoffeeShop\obj\Debug\net9.0\ref\WebsiteCoffeeShop.dll
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Black.ttf
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-BlackItalic.ttf
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Bold.ttf
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-BoldItalic.ttf
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-ExtraBold.ttf
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-ExtraBoldItalic.ttf
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-ExtraLight.ttf
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-ExtraLightItalic.ttf
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Italic.ttf
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Light.ttf
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-LightItalic.ttf
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Medium.ttf
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-MediumItalic.ttf
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Regular.ttf
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-SemiBold.ttf
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-SemiBoldItalic.ttf
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-Thin.ttf
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\Lato-ThinItalic.ttf
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\LatoFont\OFL.txt
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\QuestPDF.dll
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-arm64\native\libQuestPdfSkia.so
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-arm64\native\libcrypto.so
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-arm64\native\libjpeg.so.8
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-arm64\native\libqpdf.so
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libQuestPdfSkia.so
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libcrypto.so
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libjpeg.so.8
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-musl-x64\native\libqpdf.so
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-x64\native\libQuestPdfSkia.so
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-x64\native\libcrypto.so
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-x64\native\libjpeg.so.8
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\linux-x64\native\libqpdf.so
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-arm64\native\libQuestPdfSkia.dylib
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-arm64\native\libcrypto.dylib
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-arm64\native\libjpeg.dylib
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-arm64\native\libqpdf.dylib
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-x64\native\libQuestPdfSkia.dylib
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-x64\native\libcrypto.dylib
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-x64\native\libjpeg.dylib
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\osx-x64\native\libqpdf.dylib
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\QuestPdfSkia.dll
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\libgcc_s_seh-1.dll
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\libstdc++-6.dll
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\libwinpthread-1.dll
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x64\native\qpdf.dll
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\QuestPdfSkia.dll
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\libgcc_s_dw2-1.dll
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\libstdc++-6.dll
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\libwinpthread-1.dll
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\bin\Debug\net9.0\runtimes\win-x86\native\qpdf.dll
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\scopedcss\Areas\Employee\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\lltxyp0e8t-ki8jww3cvp.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ekdohrsmii-t1cqhe9u97.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\2v7melwj3j-sejl45xvog.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\bakmk57hfz-xvp3kq03qx.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\1ahnibhlp1-22vffe00uq.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\o12l694x9m-qesaa3a1fm.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\k6qj12wbww-tmc1g35s3z.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\jlatiivznp-rxsg74s51o.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\drdo60xize-q9ht133ko3.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\rafz0j7vww-gye83jo8yx.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\g7v7u7ynjn-wl58j5mj3v.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\w8oazbs83m-d4r6k3f320.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\zufw7l25tj-keugtjm085.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\omm4l0ed41-zub09dkrxp.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\q6x048b11u-43atpzeawx.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\q3eybx5nf2-ynyaa8k90p.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\jmsul4jruz-c63t5i9ira.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ziu8l1eu97-4094rpi4f9.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\ovwm2uz7yo-hd3gran6i8.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\yijs9xjr45-ltid2c489k.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\qhwmdjrp9b-8vyfqsqgz1.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\mfrhl75bro-u9q1upor1n.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\7dqppnxd93-4d85u1mtcx.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\0mqcotphxz-03hjc8e09r.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\6d2wegxaxu-48y08845bh.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\6nswd6dm22-worgj0nhwm.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\p3m2e0ap07-gk0pw8i4co.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\02q7xj3mz6-d6nrnj6jjx.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\vghgkwg53r-m9qm4tazc0.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\o9ivb16fql-jjsuc0puko.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\90335a4ri0-9vr69e8ynj.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\hweuk5cjrw-5nlpcayye4.gz
+D:\CSDL Nâng cao\WebsiteCoffeeShop-Backup\WebsiteCoffeeShop\obj\Debug\net9.0\compressed\bxmeufdl7h-5nlpcayye4.gz

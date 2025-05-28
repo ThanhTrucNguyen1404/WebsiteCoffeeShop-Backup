@@ -1,7 +1,7 @@
 ﻿@model WebsiteCoffeeShop.Models.DiscountCode
 @{
-    ViewData["Title"] = "Chỉnh sửa mã giảm giá";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Chi tiết mã giảm giá";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
 <div class="container-fluid pt-4 px-4">
@@ -89,15 +89,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="d-flex justify-content-end mt-3">
-                <button type="submit" class="btn btn-primary me-2">
-                    <i class="fa fa-save"></i> Lưu thay đổi
-                </button>
-                <a asp-action="Index" class="btn btn-secondary">
-                    <i class="fa fa-arrow-left"></i> Hủy
-                </a>
             </div>
         </form>
     </div>

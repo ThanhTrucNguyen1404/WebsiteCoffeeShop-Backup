@@ -5,9 +5,10 @@ using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using WebsiteCoffeeShop.Context;
 using WebsiteCoffeeShop.Extensions;
+using WebsiteCoffeeShop.IRepository;
 using WebsiteCoffeeShop.Models;
-using WebsiteCoffeeShop.Repositories;
 
 namespace we.Controllers
 {
@@ -173,6 +174,13 @@ namespace we.Controllers
                 await _context.SaveChangesAsync();
 
                 HttpContext.Session.Remove("Cart");
+                // ✅ Nếu người dùng chọn "Chuyển khoản ngân hàng" (BankTransfer), chuyển khoảng ngân han
+                if (order.PaymentMethod == "VNPAY")
+                {
+                    // Gửi tới VNPay (PaymentController)
+                    return RedirectToAction("CreatePaymentUrl", "Payment", new { amount = order.TotalPrice, orderId = order.Id });
+                }
+
                 TempData["SuccessMessage"] = $"Đơn hàng đã đặt thành công! Bạn nhận được {order.RewardPointsEarned} điểm thưởng 🎉";
                 return RedirectToAction("OrderCompleted", new { orderId = order.Id });
             }
@@ -390,14 +398,6 @@ namespace we.Controllers
             }
 
             return View(order);
-        }
-
-        [HttpGet]
-        public IActionResult GetCartCount()
-        {
-            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart") ?? new ShoppingCart();
-            int count = cart.Items.Sum(item => item.Quantity);
-            return Json(new { count });
         }
     }
 }

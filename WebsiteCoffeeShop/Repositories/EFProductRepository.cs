@@ -1,12 +1,14 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using WebsiteCoffeeShop.Context;
+using WebsiteCoffeeShop.IRepository;
 using WebsiteCoffeeShop.Models;
 
 namespace WebsiteCoffeeShop.Repositories
 {
-    public class EFProductRepository : IProductRepository
+    public class ProductRepository : IProductRepository
     {
         private readonly ApplicationDbContext _context;
-        public EFProductRepository(ApplicationDbContext context)
+        public ProductRepository(ApplicationDbContext context)
         {
             _context = context;
         }

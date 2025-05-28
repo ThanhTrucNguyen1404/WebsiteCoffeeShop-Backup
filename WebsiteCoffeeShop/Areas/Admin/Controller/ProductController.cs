@@ -2,12 +2,11 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc;
 using WebsiteCoffeeShop.Models;
-using WebsiteCoffeeShop.Repositories;
+using WebsiteCoffeeShop.IRepository;
 
-namespace WebsiteCoffeeShop.Areas.Admin.Controlleres
+namespace WebsiteCoffeeShop.Controllers
 {
-    [Area("Admin")]
-    [Authorize] // Yêu cầu đăng nhập
+    [Authorize(Roles = "Admin")]
     public class ProductController : Controller
     {
         private readonly IProductRepository _productRepository;
@@ -22,8 +21,16 @@ namespace WebsiteCoffeeShop.Areas.Admin.Controlleres
         [Authorize(Roles = "Admin,Employer")]
         public async Task<IActionResult> Index()
         {
-            var products = await _productRepository.GetAllAsync();
-            return View(products);
+            try
+            {
+                var products = await _productRepository.GetAllAsync();
+                return View(products);
+            }
+            catch (Exception ex)
+            {
+                // Ghi log hoặc xem lỗi trực tiếp
+                return Content("Lỗi: " + ex.Message);
+            }
         }
 
         [Authorize(Roles = "Admin")] // Chỉ Admin mới có quyền thêm sản phẩm
@@ -136,6 +143,7 @@ namespace WebsiteCoffeeShop.Areas.Admin.Controlleres
             }
             return "/Images/" + fileName;
         }
+
         public async Task<IActionResult> Display(int id)
         {
             var product = await _productRepository.GetByIdAsync(id);
@@ -146,6 +154,5 @@ namespace WebsiteCoffeeShop.Areas.Admin.Controlleres
 
             return View(product);
         }
-
     }
 }

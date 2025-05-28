@@ -1,4 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using WebsiteCoffeeShop.Context;
+using WebsiteCoffeeShop.IRepository;
 using WebsiteCoffeeShop.Models;
 
 namespace WebsiteCoffeeShop.Repositories

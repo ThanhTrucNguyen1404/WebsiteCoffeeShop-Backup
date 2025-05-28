@@ -11,19 +11,19 @@
     <div class="checkout-card">
         <h2 class="text-center checkout-title">🛒 Thanh toán đơn hàng</h2>
 
-        @if (TempData["ErrorMessage"] != null)
-        {
-            <div class="alert alert-danger" role="alert">
-                @TempData["ErrorMessage"]
-            </div>
-        }
+        @* @if (TempData["ErrorMessage"] != null) *@
+        @* { *@
+        @*     <div class="alert alert-danger" role="alert"> *@
+        @*         @TempData["ErrorMessage"] *@
+        @*     </div> *@
+        @* } *@
 
-        @if (TempData["SuccessMessage"] != null)
-        {
-            <div class="alert alert-success" role="alert">
-                @TempData["SuccessMessage"]
-            </div>
-        }
+        @* @if (TempData["SuccessMessage"] != null) *@
+        @* { *@
+        @*     <div class="alert alert-success" role="alert"> *@
+        @*         @TempData["SuccessMessage"] *@
+        @*     </div> *@
+        @* } *@
 
         <div class="checkout-content">
             <!-- Phần trái: Danh sách sản phẩm -->
@@ -171,6 +171,14 @@
                                         <span>Chuyển khoản ngân hàng</span>
                                     </label>
                                 </div>
+                                <div class="payment-method-option">
+                                    <input type="radio" id="VNPAY" name="PaymentMethod" value="VNPAY">
+                                    <label for="VNPAY">
+                                        <img src="/Images/VNPAY/VNPAY.svg" alt="VNPAY" style="height: 20px; vertical-align: middle; margin-right: 5px;" />
+                                        <span>Thanh toán VNPAY</span>
+                                    </label>
+                                </div>
+
                             </div>
                         </div>
 

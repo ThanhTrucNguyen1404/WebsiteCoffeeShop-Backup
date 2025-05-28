@@ -68,6 +68,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGlzY291bnRDb2RlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Admin/Views/Order/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Admin/Views/Order/History.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcT3JkZXJcSGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Admin/Views/Product/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxBZGQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -86,6 +94,34 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Admin/Views/Product/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Admin/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Admin/Views/Shared/_CartCountPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9DYXJ0Q291bnRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Admin/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Admin/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Admin/Views/Statistics/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU3RhdGlzdGljc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Customer/Home/Index.cshtml]
@@ -112,12 +148,64 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcU2hvcHBpbmdDYXJ0XE9yZGVyQ29tcGxldGVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Employee/Product/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Employee/Views/Categories/Display.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcQ2F0ZWdvcmllc1xEaXNwbGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Employee/Product/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcUHJvZHVjdFxVcGRhdGUuY3NodG1s
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Employee/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Employee/Views/Categories/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcQ2F0ZWdvcmllc1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Employee/Views/DiscountCode/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcRGlzY291bnRDb2RlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Employee/Views/DiscountCode/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcRGlzY291bnRDb2RlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Employee/Views/DiscountCode/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcRGlzY291bnRDb2RlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Employee/Views/Product/Display.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcUHJvZHVjdFxEaXNwbGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Employee/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Employee/Views/Product/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Employee/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Employee/Views/Shared/_CartCountPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2hhcmVkXF9DYXJ0Q291bnRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Employee/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Employee/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Employee/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Employee/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Identity/Pages/Account/Login.cshtml]
@@ -148,46 +236,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/Categories/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xBZGQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/Categories/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/Categories/Display.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEaXNwbGF5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/Categories/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/Categories/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xVcGRhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/DiscountCode/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRDb2RlXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/DiscountCode/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRDb2RlXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/DiscountCode/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRDb2RlXERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/DiscountCode/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRDb2RlXEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/DiscountCode/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzY291bnRDb2RlXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -200,6 +248,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQmFua1RyYW5zZmVySW5zdHJ1Y3Rpb25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/Order/Completed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ29tcGxldGVkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/Order/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -208,24 +260,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSGlzdG9yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/Product/Add.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/Product/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/Product/Display.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEaXNwbGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/Product/Update.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/Shared/Error.cshtml]
@@ -256,10 +296,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/ShoppingCart/OrderCompleted.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcHBpbmdDYXJ0XE9yZGVyQ29tcGxldGVkLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -267,6 +303,14 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-nx00hwiv53
+
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Employee/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcRW1wbG95ZWVcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-l9p7jiimjg
 
 [D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s

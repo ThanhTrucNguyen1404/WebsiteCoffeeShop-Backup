@@ -1,13 +1,19 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using WebsiteCoffeeShop.Config;
+using WebsiteCoffeeShop.Context;
+using WebsiteCoffeeShop.IRepository;
 using WebsiteCoffeeShop.Models;
 using WebsiteCoffeeShop.Repositories;
+using QuestPDF.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Cấu hình database
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+// cấu hình VN PAY
+builder.Services.Configure<VNPaySettings>(builder.Configuration.GetSection("VNPay"));
 
 // Cấu hình Identity (chỉ giữ AddIdentity, không dùng AddDefaultIdentity)
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
@@ -37,9 +43,16 @@ builder.Services.ConfigureApplicationCookie(options =>
 // Đăng ký các services
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages(); // Đảm bảo Razor Pages hoạt động cho Identity
-builder.Services.AddScoped<IProductRepository, EFProductRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<ICategoryRepository, EFCategoryRepository>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IDiscountCodeRepository, DiscountCodeRepository>();
+builder.Services.AddScoped<IStatisticsRepository, StatisticsRepository>();
+
+// thêm pdf 
+//builder.Services.AddSingleton(typeof(IConverter), CustomConverter.Instance);
+
+QuestPDF.Settings.License = LicenseType.Community;
 
 // Tạo ứng dụng web
 var app = builder.Build();
@@ -63,14 +76,19 @@ app.UseAuthorization();
 
 // Định tuyến trang Razor (cho Identity hoạt động)
 app.MapRazorPages();
-
 // Định tuyến khu vực Admin
 app.MapAreaControllerRoute(
     name: "Admin",
     areaName: "Admin",
-    pattern: "Admin/{controller=Product}/{action=Index}/{id?}");
+    pattern: "Admin/{controller=Statistics}/{action=Index}/{id?}");
 
-// Định tuyến mặc định
+
+// Định tuyến khu vực Employee
+app.MapAreaControllerRoute(
+    name: "Employee",
+    areaName: "Employee",
+    pattern: "Employee/{controller=Product}/{action=Index}/{id?}");
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

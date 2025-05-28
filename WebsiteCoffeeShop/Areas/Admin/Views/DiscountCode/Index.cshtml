@@ -2,7 +2,7 @@
 
 @{
     ViewData["Title"] = "Danh sách mã giảm giá";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
 <div class="container-fluid pt-4 px-4">
@@ -75,18 +75,22 @@
                             <td>
                                 <div class="btn-group" role="group">
                                     <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-primary" title="Sửa">
-                                        <i class="fa fa-edit"></i>
+                                        <i class="fa fa-edit">✏️Sửa</i>
                                     </a>
                                     <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info" title="Chi tiết">
-                                        <i class="fa fa-eye"></i>
+                                        <i class="fa fa-eye">👁️Chi tiết</i>
                                     </a>
                                     <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger" title="Xóa">
-                                        <i class="fa fa-trash"></i>
+                                        <i class="fa fa-trash">
+                                            🗑️Xóa
+                                        </i>
                                     </a>
                                     <a asp-action="Toggle" asp-route-id="@item.Id"
                                        class="btn btn-sm @(item.IsActive ? "btn-warning" : "btn-success")"
                                        title="@(item.IsActive ? "Vô hiệu hóa" : "Kích hoạt")">
-                                        <i class="fa @(item.IsActive ? "fa-ban" : "fa-check")"></i>
+                                        <i class="fa @(item.IsActive ? "fa-ban" : "fa-check")">
+                                            @(item.IsActive ? "Vô hiệu hóa" : "Kích hoạt")
+                                        </i>
                                     </a>
                                 </div>
                             </td>

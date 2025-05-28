@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WebsiteCoffeeShop.Models;
+using WebsiteCoffeeShop.Context;
 
 #nullable disable
 
@@ -311,9 +311,6 @@ namespace WebsiteCoffeeShop.Migrations
 
                     b.Property<bool>("IsPercentage")
                         .HasColumnType("bit");
-
-                    b.Property<decimal>("MinimumOrderAmount")
-                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 

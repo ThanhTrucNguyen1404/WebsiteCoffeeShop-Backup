@@ -5,12 +5,13 @@ using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
 using WebsiteCoffeeShop.Extensions;
-using WebsiteCoffeeShop.Repositories;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using System.Security.Claims; // Thêm namespace cho IOrderRepository
+using System.Security.Claims;
+using WebsiteCoffeeShop.IRepository;
+using WebsiteCoffeeShop.Context;
 
 namespace WebsiteCoffeeShop.Controllers
 {
@@ -25,6 +26,8 @@ namespace WebsiteCoffeeShop.Controllers
             _context = context;
             _userManager = userManager;
             _orderRepository = orderRepository;  // Thêm vào constructor
+
+
         }
 
         public IActionResult Checkout()
@@ -82,18 +85,23 @@ namespace WebsiteCoffeeShop.Controllers
 
             if (order.PaymentMethod == "COD")
             {
-                return RedirectToAction("OrderSuccess", new { id = order.Id });
+                return RedirectToAction("OrderCompleted", new { id = order.Id });
             }
             else if (order.PaymentMethod == "BankTransfer")
             {
                 return RedirectToAction("BankTransferInstructions", new { id = order.Id });
+            }
+            else if (order.PaymentMethod == "VNPAY")
+            {
+                return RedirectToAction("CreatePaymentUrl", "PaymentController", new { amount = order.TotalPrice, orderId = order.Id });
+
             }
 
             TempData["ErrorMessage"] = "Phương thức thanh toán không hợp lệ!";
             return RedirectToAction("Checkout");
         }
 
-        public async Task<IActionResult> OrderSuccess(int id)
+        public async Task<IActionResult> OrderCompleted(int id)
         {
             var order = await _context.Orders
                 .Include(o => o.OrderDetails)
@@ -106,7 +114,23 @@ namespace WebsiteCoffeeShop.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
-            return View(order);
+            return View("Completed", order);
+
+        }
+        [HttpGet]
+        public async Task<IActionResult> PrintInvoice(int id)
+        {
+            
+            var order = await _orderRepository.GetOrderByIdToPrint(id);
+            if (order == null || order.ApplicationUser == null || order.OrderDetails == null || !order.OrderDetails.Any())
+            {
+                return NotFound("Dữ liệu đơn hàng không đầy đủ.");
+            }
+
+
+            var pdfBytes = InvoiceGenerator.GenerateInvoicePdf(order);
+            return File(pdfBytes, "application/pdf", $"HoaDon-{order.Id}.pdf");
+
         }
 
         public async Task<IActionResult> BankTransferInstructions(int id)
@@ -125,6 +149,7 @@ namespace WebsiteCoffeeShop.Controllers
         public async Task<IActionResult> History()
         {
             var userId = _userManager.GetUserId(User); // Lấy ID người dùng từ Claims
+
             var orders = await _context.Orders
                 .Where(o => o.UserId == userId)
                 .Include(o => o.OrderDetails)
@@ -283,5 +308,7 @@ namespace WebsiteCoffeeShop.Controllers
 
             return RedirectToAction("OrderHistory");
         }
+
+
     }
 }
