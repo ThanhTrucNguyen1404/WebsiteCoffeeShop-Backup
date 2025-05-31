@@ -50,7 +50,7 @@ namespace WebsiteCoffeeShop.Controllers
             }
 
             var discountCode = await _context.DiscountCodes
-                .Where(d => d.Code.ToUpper() == code.ToUpper() && d.IsActive && d.ExpiryDate >= DateTime.Now)
+                .Where(d => d.Code.ToUpper() == code.ToUpper() && d.IsActive && d.ExpiryDate.Date >= DateTime.Now.Date)
                 .FirstOrDefaultAsync();
 
             if (discountCode == null)
@@ -80,7 +80,7 @@ namespace WebsiteCoffeeShop.Controllers
                 IsPercentage = discountCode.IsPercentage,
                 DiscountPercent = discountCode.DiscountPercent,
                 DiscountAmount = discountCode.DiscountAmount,
-                ExpiryDate = discountCode.ExpiryDate,
+                ExpiryDate = discountCode.ExpiryDate.ToString("yyyy-MM-dd"),
                 UsageLimit = discountCode.UsageLimit
             };
 
@@ -133,7 +133,7 @@ namespace WebsiteCoffeeShop.Controllers
             {
                 var hasUsedCode = await _context.Orders
                     .AnyAsync(o => o.UserId == userId && o.DiscountCodeId == discountCode.Id);
-                
+
                 if (hasUsedCode)
                 {
                     return Json(new

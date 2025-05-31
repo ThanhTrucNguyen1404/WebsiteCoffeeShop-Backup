@@ -399,5 +399,14 @@ namespace we.Controllers
 
             return View(order);
         }
+
+        [HttpGet]
+        [AllowAnonymous]
+        public IActionResult GetCartCount()
+        {
+            var cart = HttpContext.Session.GetObjectFromJson<ShoppingCart>("Cart") ?? new ShoppingCart();
+            int count = cart.Items.Sum(item => item.Quantity);
+            return Json(count);
+        }
     }
 }
