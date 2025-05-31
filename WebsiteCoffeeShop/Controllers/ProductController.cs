@@ -109,23 +109,23 @@ namespace WebsiteCoffeeShop.Controllers
             return Json(new { success = false, message = "Validation failed", errors = ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage) });
         }
 
-        [Authorize(Roles = "Admin")] // Chỉ Admin mới có quyền xóa
+        [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             var product = await _productRepository.GetByIdAsync(id);
-            if (product == null) return NotFound();
-            return View(product);
-        }
+            if (product == null)
+                return Json(new { success = false, message = "Không tìm thấy sản phẩm." });
 
-        [HttpPost, ActionName("DeleteConfirmed")]
-        [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var product = await _productRepository.GetByIdAsync(id);
-            if (product == null) return NotFound();
-            await _productRepository.DeleteAsync(id);
-            TempData["SuccessMessage"] = "Product deleted successfully!";
-            return RedirectToAction(nameof(Index));
+            try
+            {
+                await _productRepository.DeleteAsync(id);
+                return Json(new { success = true, message = "Xóa sản phẩm thành công!" });
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = ex.Message });
+            }
         }
 
         private async Task<string> SaveImage(IFormFile image)
