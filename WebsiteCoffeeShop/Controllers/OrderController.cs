@@ -19,15 +19,13 @@ namespace WebsiteCoffeeShop.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly UserManager<ApplicationUser> _userManager;
-        private readonly IOrderRepository _orderRepository; // Inject IOrderRepository
+        private readonly IOrderRepository _orderRepository;
 
         public OrderController(ApplicationDbContext context, UserManager<ApplicationUser> userManager, IOrderRepository orderRepository)
         {
             _context = context;
             _userManager = userManager;
-            _orderRepository = orderRepository;  // Thêm vào constructor
-
-
+            _orderRepository = orderRepository;
         }
 
         public IActionResult Checkout()
@@ -72,16 +70,52 @@ namespace WebsiteCoffeeShop.Controllers
                 Price = i.Price
             }).ToList();
 
+            // Áp dụng mã giảm giá nếu có
+            if (order.DiscountCodeId.HasValue)
+            {
+                var discount = await _context.DiscountCodes.FindAsync(order.DiscountCodeId.Value);
+                if (discount != null && discount.IsActive && discount.ExpiryDate >= DateTime.Now && discount.UsageLimit > 0)
+                {
+                    decimal discountAmount = 0;
+                    if (discount.IsPercentage)
+                    {
+                        discountAmount = order.TotalPrice * (decimal)discount.DiscountPercent / 100;
+                    }
+                    else
+                    {
+                        discountAmount = (decimal)discount.DiscountAmount;
+                    }
+
+                    // Đảm bảo không giảm quá tổng tiền
+                    if (discountAmount > order.TotalPrice)
+                        discountAmount = order.TotalPrice;
+
+                    order.TotalPrice -= discountAmount;
+                    if (order.TotalPrice < 0) order.TotalPrice = 0;
+
+                    // Giảm số lượt sử dụng của mã giảm giá
+                    discount.UsageLimit--;
+                    _context.Update(discount);
+                }
+                else
+                {
+                    // Nếu mã giảm giá không hợp lệ, đặt lại về null
+                    order.DiscountCodeId = null;
+                }
+            }
+
             _context.Orders.Add(order);
             await _context.SaveChangesAsync();
 
-            // ✅ Cộng điểm thưởng (1% tổng giá trị đơn hàng)
+            // Cộng điểm thưởng (1% tổng giá trị đơn hàng)
             int pointsEarned = (int)(order.TotalPrice * 0.01m);
             user.RewardPoints += pointsEarned;
             await _userManager.UpdateAsync(user);
 
-            // Xóa giỏ hàng sau khi đặt hàng thành công
+            // Xóa giỏ hàng và mã giảm giá sau khi đặt hàng thành công
             HttpContext.Session.Remove("Cart");
+            HttpContext.Session.Remove("AppliedDiscountCode");
+            HttpContext.Session.Remove("AppliedDiscountId");
 
             if (order.PaymentMethod == "COD")
             {
@@ -94,7 +128,6 @@ namespace WebsiteCoffeeShop.Controllers
             else if (order.PaymentMethod == "VNPAY")
             {
                 return RedirectToAction("CreatePaymentUrl", "PaymentController", new { amount = order.TotalPrice, orderId = order.Id });
-
             }
 
             TempData["ErrorMessage"] = "Phương thức thanh toán không hợp lệ!";
@@ -106,6 +139,7 @@ namespace WebsiteCoffeeShop.Controllers
             var order = await _context.Orders
                 .Include(o => o.OrderDetails)
                 .ThenInclude(d => d.Product)
+                .Include(o => o.DiscountCode)
                 .FirstOrDefaultAsync(o => o.Id == id);
 
             if (order == null)
@@ -114,23 +148,57 @@ namespace WebsiteCoffeeShop.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
-            return View("Completed", order);
+            // Tính toán và truyền thông tin mã giảm giá vào ViewData
+            if (order.DiscountCode != null)
+            {
+                decimal originalTotal = order.OrderDetails.Sum(od => od.Price * od.Quantity);
+                decimal discountAmount = 0;
 
+                if (order.DiscountCode.IsPercentage)
+                {
+                    discountAmount = originalTotal * (order.DiscountCode.DiscountPercent / 100m);
+                }
+                else
+                {
+                    discountAmount = (decimal)order.DiscountCode.DiscountAmount;
+                }
+
+                // Đảm bảo không giảm quá tổng tiền gốc
+                if (discountAmount > originalTotal)
+                    discountAmount = originalTotal;
+
+                ViewData["DiscountCodeAmount"] = discountAmount;
+                ViewData["DiscountCodeName"] = order.DiscountCode.Code;
+                ViewData["OriginalTotal"] = originalTotal;
+                ViewData["FinalTotal"] = order.TotalPrice;
+            }
+
+            // Tạo CartItems từ OrderDetails để hiển thị
+            var cartItems = order.OrderDetails.Select(od => new CartItem
+            {
+                ProductId = od.ProductId,
+                Name = od.Product?.Name ?? "Unknown Product",
+                Price = od.Price,
+                Quantity = od.Quantity,
+                ImageUrl = od.Product?.ImageUrl ?? ""
+            }).ToList();
+
+            ViewData["CartItems"] = cartItems;
+
+            return View("Completed", order);
         }
+
         [HttpGet]
         public async Task<IActionResult> PrintInvoice(int id)
         {
-            
             var order = await _orderRepository.GetOrderByIdToPrint(id);
             if (order == null || order.ApplicationUser == null || order.OrderDetails == null || !order.OrderDetails.Any())
             {
                 return NotFound("Dữ liệu đơn hàng không đầy đủ.");
             }
 
-
             var pdfBytes = InvoiceGenerator.GenerateInvoicePdf(order);
             return File(pdfBytes, "application/pdf", $"HoaDon-{order.Id}.pdf");
-
         }
 
         public async Task<IActionResult> BankTransferInstructions(int id)
@@ -145,33 +213,56 @@ namespace WebsiteCoffeeShop.Controllers
             return View(order);
         }
 
-        [Authorize] // Chỉ cho phép người dùng đã đăng nhập
+        [Authorize]
         public async Task<IActionResult> History()
         {
-            var userId = _userManager.GetUserId(User); // Lấy ID người dùng từ Claims
+            var userId = _userManager.GetUserId(User);
 
             var orders = await _context.Orders
                 .Where(o => o.UserId == userId)
                 .Include(o => o.OrderDetails)
                     .ThenInclude(od => od.Product)
+                .Include(o => o.DiscountCode)
                 .OrderByDescending(o => o.OrderDate)
-                .AsNoTracking()  // ⚡ Quan trọng: Lấy dữ liệu mới nhất, không dùng cache
+                .AsNoTracking()
                 .ToListAsync();
 
             return View(orders);
         }
-
 
         public async Task<IActionResult> Details(int id)
         {
             var order = await _context.Orders
                 .Include(o => o.OrderDetails)
                 .ThenInclude(d => d.Product)
+                .Include(o => o.DiscountCode)
                 .FirstOrDefaultAsync(o => o.Id == id);
 
             if (order == null)
             {
                 return NotFound();
+            }
+
+            // Tính toán và truyền thông tin mã giảm giá vào ViewData
+            if (order.DiscountCode != null && order.DiscountCode.IsActive && order.DiscountCode.ExpiryDate >= DateTime.Now)
+            {
+                decimal originalTotal = order.OrderDetails.Sum(od => od.Price * od.Quantity);
+                decimal discountAmount = 0;
+
+                if (order.DiscountCode.IsPercentage)
+                {
+                    discountAmount = originalTotal * (order.DiscountCode.DiscountPercent / 100m);
+                }
+                else
+                {
+                    discountAmount = (decimal)order.DiscountCode.DiscountAmount;
+                }
+
+                if (discountAmount > originalTotal)
+                    discountAmount = originalTotal;
+
+                ViewData["DiscountCodeAmount"] = discountAmount;
+                ViewData["DiscountCodeName"] = order.DiscountCode.Code;
             }
 
             return View(order);
@@ -182,7 +273,8 @@ namespace WebsiteCoffeeShop.Controllers
         {
             var order = await _context.Orders
                 .Include(o => o.OrderDetails)
-                    .ThenInclude(od => od.Product) // Đảm bảo lấy cả thông tin sản phẩm
+                    .ThenInclude(od => od.Product)
+                .Include(o => o.DiscountCode)
                 .FirstOrDefaultAsync(o => o.Id == id);
 
             if (order == null)
@@ -192,6 +284,7 @@ namespace WebsiteCoffeeShop.Controllers
 
             return View(order);
         }
+
         [HttpPost]
         [Authorize]
         public async Task<IActionResult> Edit(Order order)
@@ -202,7 +295,8 @@ namespace WebsiteCoffeeShop.Controllers
             }
 
             var existingOrder = await _context.Orders
-                .Include(o => o.OrderDetails)  // ⚡ Đảm bảo OrderDetails không bị mất
+                .Include(o => o.OrderDetails)
+                .Include(o => o.DiscountCode)
                 .FirstOrDefaultAsync(o => o.Id == order.Id);
 
             if (existingOrder == null)
@@ -211,11 +305,11 @@ namespace WebsiteCoffeeShop.Controllers
                 return NotFound();
             }
 
-            // ⚡ Cập nhật dữ liệu đơn hàng
+            // Cập nhật dữ liệu đơn hàng
             existingOrder.ShippingAddress = order.ShippingAddress;
             existingOrder.Notes = order.Notes;
             existingOrder.Status = order.Status;
-            existingOrder.TotalPrice = order.TotalPrice;  // Đảm bảo không bị reset
+            existingOrder.TotalPrice = order.TotalPrice;
             existingOrder.PaymentMethod = order.PaymentMethod;
 
             try
@@ -232,14 +326,13 @@ namespace WebsiteCoffeeShop.Controllers
             return RedirectToAction("History");
         }
 
-
-
         [Authorize]
         public async Task<IActionResult> RemoveItem(int orderId, int productId)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var order = await _context.Orders
                 .Include(o => o.OrderDetails)
+                .Include(o => o.DiscountCode)
                 .FirstOrDefaultAsync(o => o.Id == orderId && o.UserId == userId);
 
             if (order == null || order.Status != "Chờ xác nhận")
@@ -262,30 +355,33 @@ namespace WebsiteCoffeeShop.Controllers
         {
             var order = await _context.Orders
                 .Include(o => o.ApplicationUser)
-                .Include(o => o.DiscountCode) // Load mã giảm giá nếu có
+                .Include(o => o.DiscountCode)
                 .FirstOrDefaultAsync(o => o.Id == orderId);
 
             if (order == null) return NotFound();
             if (order.ApplicationUser == null) return BadRequest("Người dùng không tồn tại.");
 
-            // ✅ Áp dụng mã giảm giá nếu có
+            // Áp dụng mã giảm giá nếu có
             if (order.DiscountCode != null && order.DiscountCode.IsActive && order.DiscountCode.ExpiryDate >= DateTime.Now)
             {
+                decimal discountAmount = 0;
                 if (order.DiscountCode.IsPercentage)
                 {
-                    var discount = order.TotalPrice * (order.DiscountCode.DiscountPercent / 100);
-                    order.TotalPrice -= discount;
+                    discountAmount = order.TotalPrice * (order.DiscountCode.DiscountPercent / 100m);
                 }
                 else
                 {
-                    order.TotalPrice -= order.DiscountCode.DiscountAmount;
+                    discountAmount = (decimal)order.DiscountCode.DiscountAmount;
                 }
 
-                // Đảm bảo không bị âm
+                if (discountAmount > order.TotalPrice)
+                    discountAmount = order.TotalPrice;
+
+                order.TotalPrice -= discountAmount;
                 if (order.TotalPrice < 0) order.TotalPrice = 0;
             }
 
-            // ✅ Cộng điểm thưởng từ giá trị đơn hàng
+            // Cộng điểm thưởng từ giá trị đơn hàng
             int rewardPoints = (int)(order.TotalPrice / 1000); // 1,000 VND = 1 điểm
             order.RewardPointsEarned = rewardPoints;
             order.ApplicationUser.RewardPoints += rewardPoints;
@@ -294,7 +390,7 @@ namespace WebsiteCoffeeShop.Controllers
             _context.Update(order.ApplicationUser);
             await _context.SaveChangesAsync();
 
-            // ✅ Cập nhật Claim mới
+            // Cập nhật Claim mới
             var claimsIdentity = (ClaimsIdentity)User.Identity;
             var existingClaim = claimsIdentity.FindFirst("RewardPoints");
 
@@ -308,7 +404,5 @@ namespace WebsiteCoffeeShop.Controllers
 
             return RedirectToAction("OrderHistory");
         }
-
-
     }
 }

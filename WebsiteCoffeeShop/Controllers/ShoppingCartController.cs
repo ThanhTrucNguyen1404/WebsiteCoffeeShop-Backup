@@ -34,12 +34,13 @@ namespace we.Controllers
 
             var order = new Order
             {
-                TotalPrice = cartItems.Sum(item => item.Price * item.Quantity)
+                TotalPrice = cartItems.Sum(item => (decimal)(item.Price * item.Quantity)) // Explicitly cast 'double' to 'decimal'
             };
 
             ViewData["CartItems"] = cartItems; // Truyền danh sách sản phẩm vào View
             return View(order);
         }
+
 
         [HttpPost]
         public async Task<IActionResult> Checkout(Order order)
@@ -77,7 +78,7 @@ namespace we.Controllers
             order.OrderDate = DateTime.UtcNow;
 
             // Tính tổng tiền từ giỏ hàng
-            decimal subTotal = cart.Items.Sum(item => item.Price * item.Quantity);
+            double subTotal = (double)cart.Items.Sum(item => item.Price * item.Quantity);
 
             // Áp dụng giảm giá từ điểm thưởng nếu có
             if (order.RewardPointsUsed > 0)
@@ -92,7 +93,7 @@ namespace we.Controllers
                 order.DiscountFromPoints = order.RewardPointsUsed * 1000;
             }
 
-            order.TotalPrice = subTotal - order.DiscountFromPoints;
+            order.TotalPrice = (decimal)subTotal - order.DiscountFromPoints;
 
             // Áp dụng mã giảm giá nếu có
             if (order.DiscountCodeId.HasValue)
@@ -117,12 +118,12 @@ namespace we.Controllers
                         // Áp dụng giảm giá theo phần trăm hoặc số tiền cố định
                         if (discountCode.IsPercentage)
                         {
-                            decimal discountAmount = order.TotalPrice * discountCode.DiscountPercent / 100;
+                            decimal discountAmount = order.TotalPrice * (decimal)discountCode.DiscountPercent / 100;
                             order.TotalPrice -= discountAmount;
                         }
                         else
                         {
-                            order.TotalPrice = Math.Max(0, order.TotalPrice - discountCode.DiscountAmount);
+                            order.TotalPrice = Math.Max(0, order.TotalPrice - (decimal)discountCode.DiscountAmount);
                         }
                     }
                 }
@@ -138,7 +139,7 @@ namespace we.Controllers
             {
                 ProductId = i.ProductId,
                 Quantity = i.Quantity,
-                Price = i.Price
+                Price = (decimal)i.Price // Explicitly cast 'double' to 'decimal'
             }).ToList();
 
             // Tính điểm thưởng được nhận (1.000đ = 1 điểm)
@@ -242,7 +243,7 @@ namespace we.Controllers
                     {
                         ProductId = item.ProductId,
                         Name = product.Name,
-                        Price = item.Price,
+                        Price = (decimal)item.Price,
                         Quantity = item.Quantity,
                         ImageUrl = product.ImageUrl
                     });
@@ -257,8 +258,8 @@ namespace we.Controllers
                 var discountCode = await _context.DiscountCodes.FindAsync(order.DiscountCodeId.Value);
                 if (discountCode != null)
                 {
-                    decimal subtotal = cartItems.Sum(item => item.Price * item.Quantity);
-                    decimal discountAmount = 0;
+                    double subtotal = (double)cartItems.Sum(item => item.Price * item.Quantity);
+                    double discountAmount = 0;
 
                     // Tính số tiền giảm giá dựa trên loại giảm giá
                     if (discountCode.IsPercentage)
@@ -273,8 +274,7 @@ namespace we.Controllers
                     }
 
                     // Trừ đi giảm giá từ điểm thưởng để tính chính xác số tiền giảm từ mã giảm giá
-                    decimal adjustedSubtotal = subtotal - order.DiscountFromPoints;
-                    if (discountCode.IsPercentage)
+                    double adjustedSubtotal = subtotal - (double)order.DiscountFromPoints; if (discountCode.IsPercentage)
                     {
                         discountAmount = adjustedSubtotal * discountCode.DiscountPercent / 100;
                     }
@@ -306,7 +306,7 @@ namespace we.Controllers
             {
                 ProductId = productId,
                 Name = product.Name,
-                Price = product.Price,
+                Price = (decimal)product.Price,
                 ImageUrl = imageUrl,  // ✅ Đã chuẩn hóa đường dẫn
                 Quantity = quantity
             });

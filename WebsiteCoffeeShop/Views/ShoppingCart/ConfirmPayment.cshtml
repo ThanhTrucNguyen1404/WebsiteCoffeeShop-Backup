@@ -1,21 +1,31 @@
 ﻿@model Order
-
 <div class="confirmation-container">
     <h2 class="text-center">✅ Xác nhận thanh toán</h2>
     <p class="text-center">Đơn hàng của bạn đã được tạo thành công!</p>
-
     <div class="order-details">
         <p><strong>Mã đơn hàng:</strong> @Model.Id</p>
-        <p><strong>Tổng tiền:</strong> @Model.TotalPrice.ToString("#,##0") VND</p>
+
+        @* Hiển thị giá gốc nếu có mã giảm giá *@
+        @if (!string.IsNullOrEmpty(ViewBag.CouponCode as string))
+        {
+            <p><strong>Tổng tiền gốc:</strong> <span class="original-price">@ViewBag.OriginalPrice.ToString("#,##0") VND</span></p>
+            <p><strong>Mã giảm giá:</strong> <span class="coupon-code">@ViewBag.CouponCode</span></p>
+            <p><strong>Giảm giá:</strong> <span class="discount-amount">-@ViewBag.DiscountAmount.ToString("#,##0") VND</span></p>
+            <hr class="price-divider">
+            <p class="final-price"><strong>Tổng tiền thanh toán:</strong> @Model.TotalPrice.ToString("#,##0") VND</p>
+        }
+        else
+        {
+            <p><strong>Tổng tiền:</strong> @Model.TotalPrice.ToString("#,##0") VND</p>
+        }
+
         <p><strong>Địa chỉ giao hàng:</strong> @Model.ShippingAddress</p>
     </div>
-
     <form asp-action="ProcessPayment" asp-controller="ShoppingCart" method="post">
         <input type="hidden" name="orderId" value="@Model.Id" />
         <button type="submit" class="btn-payment">Thanh toán ngay</button>
     </form>
 </div>
-
 <style>
     .confirmation-container {
         max-width: 450px;
@@ -40,6 +50,41 @@
         color: #555;
     }
 
+    .original-price {
+        text-decoration: line-through;
+        color: #999;
+    }
+
+    .coupon-code {
+        background: #e8f5e8;
+        color: #2e7d32;
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .discount-amount {
+        color: #d32f2f;
+        font-weight: bold;
+    }
+
+    .price-divider {
+        border: none;
+        border-top: 1px solid #ddd;
+        margin: 10px 0;
+    }
+
+    .final-price {
+        font-size: 18px;
+        color: #2e7d32;
+        font-weight: bold;
+        background: #f0f8f0;
+        padding: 8px;
+        border-radius: 6px;
+        border-left: 4px solid #4caf50;
+    }
+
     .btn-payment {
         background: #ff5722;
         color: white;
@@ -50,6 +95,7 @@
         border-radius: 8px;
         cursor: pointer;
         transition: all 0.3s ease-in-out;
+        margin-top: 10px;
     }
 
         .btn-payment:hover {

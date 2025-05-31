@@ -297,8 +297,8 @@ namespace WebsiteCoffeeShop.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("DiscountAmount")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<double>("DiscountAmount")
+                        .HasColumnType("float");
 
                     b.Property<int>("DiscountPercent")
                         .HasColumnType("int");
@@ -311,6 +311,9 @@ namespace WebsiteCoffeeShop.Migrations
 
                     b.Property<bool>("IsPercentage")
                         .HasColumnType("bit");
+
+                    b.Property<int>("UsageLimit")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

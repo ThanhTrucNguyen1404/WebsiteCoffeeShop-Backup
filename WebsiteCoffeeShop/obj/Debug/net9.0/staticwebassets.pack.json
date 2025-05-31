@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\Images\\1e5223a8-3d3f-4a03-9387-a02790b7901a.png"
     },
     {
+      "Id": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\2281607e-c9a3-419a-98b1-b2063b74d5df.jpg",
+      "PackagePath": "staticwebassets\\Images\\2281607e-c9a3-419a-98b1-b2063b74d5df.jpg"
+    },
+    {
       "Id": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\331f4358-4440-4dec-8dc1-a4bef244d478.jpg",
       "PackagePath": "staticwebassets\\Images\\331f4358-4440-4dec-8dc1-a4bef244d478.jpg"
     },
@@ -31,6 +35,10 @@
     {
       "Id": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\45abfda1-179e-404c-bc22-3139cb58bd27.jpg",
       "PackagePath": "staticwebassets\\Images\\45abfda1-179e-404c-bc22-3139cb58bd27.jpg"
+    },
+    {
+      "Id": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\5073d597-9e6a-4531-ad09-6dc9a598b2a3.jpg",
+      "PackagePath": "staticwebassets\\Images\\5073d597-9e6a-4531-ad09-6dc9a598b2a3.jpg"
     },
     {
       "Id": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\508e7f20-3493-439a-b5b3-b25c4556d4a0_R.jpg",
@@ -121,6 +129,10 @@
       "PackagePath": "staticwebassets\\Images\\cfa535ff-80b5-4419-bb24-10e1780b401e.jpg"
     },
     {
+      "Id": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\coffee-banner.jpg",
+      "PackagePath": "staticwebassets\\Images\\coffee-banner.jpg"
+    },
+    {
       "Id": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\coffee-hero.jpg",
       "PackagePath": "staticwebassets\\Images\\coffee-hero.jpg"
     },
@@ -135,10 +147,6 @@
     {
       "Id": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\fdc2496f-8725-48f2-945e-8b4324b0952e.jpg",
       "PackagePath": "staticwebassets\\Images\\fdc2496f-8725-48f2-945e-8b4324b0952e.jpg"
-    },
-    {
-      "Id": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\matcha-banner.jpg",
-      "PackagePath": "staticwebassets\\Images\\matcha-banner.jpg"
     },
     {
       "Id": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\css\\site.css",
