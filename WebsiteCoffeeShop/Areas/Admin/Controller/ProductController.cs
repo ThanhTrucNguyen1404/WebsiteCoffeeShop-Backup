@@ -1,11 +1,15 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using WebsiteCoffeeShop.Models;
+using Microsoft.EntityFrameworkCore;
 using WebsiteCoffeeShop.IRepository;
+using WebsiteCoffeeShop.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace WebsiteCoffeeShop.Controllers
+namespace WebsiteCoffeeShop.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     [Authorize(Roles = "Admin")]
     public class ProductController : Controller
     {
@@ -119,14 +123,22 @@ namespace WebsiteCoffeeShop.Controllers
 
         [HttpPost, ActionName("DeleteConfirmed")]
         [Authorize(Roles = "Admin")]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var product = await _productRepository.GetByIdAsync(id);
-            if (product == null) return NotFound();
-            await _productRepository.DeleteAsync(id);
-            TempData["SuccessMessage"] = "Product deleted successfully!";
-            return RedirectToAction(nameof(Index));
-        }
+public async Task<IActionResult> DeleteConfirmed(int id)
+{
+    var product = await _productRepository.GetByIdAsync(id);
+    if (product == null)
+        return Json(new { success = false, message = "Không tìm thấy sản phẩm." });
+
+    try
+    {
+        await _productRepository.DeleteAsync(id);
+        return Json(new { success = true, message = "Xóa sản phẩm thành công!" });
+    }
+    catch (Exception ex)
+    {
+        return Json(new { success = false, message = ex.Message });
+    }
+}
 
         private async Task<string> SaveImage(IFormFile image)
         {

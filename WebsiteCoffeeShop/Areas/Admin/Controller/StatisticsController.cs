@@ -10,7 +10,7 @@ namespace WebsiteCoffeeShop.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = "Admin")]
-    public class StatisticsController : Controller
+    public class StatisticsController : Microsoft.AspNetCore.Mvc.Controller
     {
         private IStatisticsRepository _statisticsRepository;
 

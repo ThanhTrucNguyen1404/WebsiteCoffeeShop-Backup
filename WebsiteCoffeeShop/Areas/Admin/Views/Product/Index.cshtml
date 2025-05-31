@@ -286,7 +286,7 @@
             // Lấy anti-forgery token từ form hoặc meta tag (nếu có)
             const token = document.querySelector('input[name="__RequestVerificationToken"]')?.value;
 
-            fetch(`/Product/Delete/${id}`, {
+            fetch(`/Product/DeleteConfirmed/${id}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -294,19 +294,20 @@
                 },
                 credentials: 'same-origin' // Quan trọng để gửi cookies bao gồm authentication
             })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Lỗi khi xóa sản phẩm');
+            .then(async response => {
+                const contentType = response.headers.get('content-type');
+                if (contentType && contentType.indexOf('application/json') !== -1) {
+                    return response.json();
+                } else {
+                    const text = await response.text();
+                    throw new Error('Server trả về lỗi: ' + text);
                 }
-                return response.json();
             })
             .then(data => {
                 if (data.success) {
                     // Tìm và xóa card sản phẩm khỏi DOM
                     const productCard = document.querySelector(`.delete-product[data-id="${id}"]`).closest('.product-card');
                     productCard.remove();
-
-                    // Hiển thị thông báo thành công (có thể thêm thư viện toast notification)
                     alert('Xóa sản phẩm thành công!');
                 } else {
                     alert(data.message || 'Có lỗi xảy ra khi xóa sản phẩm.');

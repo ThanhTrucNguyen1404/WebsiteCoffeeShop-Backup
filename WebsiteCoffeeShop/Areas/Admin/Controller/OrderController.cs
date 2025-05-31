@@ -4,14 +4,12 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebsiteCoffeeShop.IRepository;
-using WebsiteCoffeeShop.Models;
-
 
 namespace WebsiteCoffeeShop.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = "Admin")]
-    public class OrderController : Controller
+    public class OrderController : Microsoft.AspNetCore.Mvc.Controller
     {
         private readonly IOrderRepository _orderRepository; // Inject IOrderRepository
         public OrderController(IOrderRepository orderRepository)

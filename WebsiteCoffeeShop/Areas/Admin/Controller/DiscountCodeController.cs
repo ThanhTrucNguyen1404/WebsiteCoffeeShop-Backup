@@ -12,7 +12,7 @@ namespace WebsiteCoffeeShop.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = "Admin")]
-    public class DiscountCodeController : Controller
+    public class DiscountCodeController : Microsoft.AspNetCore.Mvc.Controller
     {
         private readonly ApplicationDbContext _context;
 

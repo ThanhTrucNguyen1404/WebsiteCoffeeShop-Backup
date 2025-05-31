@@ -7,7 +7,7 @@ namespace WebsiteCoffeeShop.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize(Roles = "Admin")]
-    public class CategoriesController : Controller
+    public class CategoriesController : Microsoft.AspNetCore.Mvc.Controller
     {
 
         private readonly ICategoryRepository _categoryRepository;

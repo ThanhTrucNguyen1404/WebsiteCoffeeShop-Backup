@@ -13,6 +13,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -559,30 +561,36 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
-                    <!-- Common navigation items for all users -->
                     @if (SignInManager.IsSignedIn(User))
                     {
-                 
-                        @if (User.IsInRole("Admin"))
+                        if (User.IsInRole("Customer"))
                         {
-                            <!-- Items for Employees and Admins -->
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="ShoppingCart" asp-action="Index">Giỏ hàng</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Order" asp-action="History">Lịch sử đơn hàng</a>
+                            </li>
+                        }
+                        else if (User.IsInRole("Admin") || User.IsInRole("Employer"))
+                        {
                             <li class="nav-link">
                                 <a class="nav-link" asp-area="Admin" asp-controller="Statistics" asp-action="Index">Thống kê đơn hàng</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Product" asp-action="Index">Quản lý sản phẩm</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Categories" asp-action="Index">Quản lý danh mục</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Order" asp-action="History">Quản Lý Đơn hàng</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="dropdown-item" asp-area="Admin" asp-controller="DiscountCode" asp-action="Index">Quản lý mã khuyến mãi</a>
+                            </li>
                         }
                     }
-                    <li class="nav-item">
-                        <a class="nav-link" asp-area="Admin" asp-controller="Product" asp-action="Index">Quản lý sản phẩm</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-area="Admin" asp-controller="Categories" asp-action="Index">Quản lý danh mục</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-area="Admin" asp-controller="Order" asp-action="History">Quản Lý Đơn hàng</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="dropdown-item" asp-area="Admin" asp-controller="DiscountCode" asp-action="Index">Quản lý mã khuyến mãi</a>
-                    </li>
                 </ul>
 
                 <div class="d-flex align-items-center">
@@ -699,6 +707,9 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <!-- DataTables JavaScript -->
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
 
     <script>
         // Update cart count from session when page loads
