@@ -118,37 +118,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DiscountCode.cs",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\DiscountCode.cs",
-              "RelativeDocumentMoniker": "Models\\DiscountCode.cs",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\DiscountCode.cs",
-              "RelativeToolTip": "Models\\DiscountCode.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAACAAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T08:45:28.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ShoppingCartController.cs",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\ShoppingCartController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ShoppingCartController.cs",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\ShoppingCartController.cs",
-              "RelativeToolTip": "Controllers\\ShoppingCartController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T11:12:22.428Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -180,8 +154,8 @@
               "Title": "Checkout.cshtml",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\Checkout.cshtml",
               "RelativeDocumentMoniker": "Views\\ShoppingCart\\Checkout.cshtml",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\Checkout.cshtml*",
-              "RelativeToolTip": "Views\\ShoppingCart\\Checkout.cshtml*",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\Checkout.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\Checkout.cshtml",
               "ViewState": "AgIAADoCAAAAAAAAAAAIwNcCAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-25T11:13:35.176Z",
@@ -227,6 +201,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderCompleted.cshtml",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\OrderCompleted.cshtml",
+              "RelativeDocumentMoniker": "Views\\ShoppingCart\\OrderCompleted.cshtml",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\OrderCompleted.cshtml",
+              "RelativeToolTip": "Views\\ShoppingCart\\OrderCompleted.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-31T08:53:24.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShoppingCartController.cs",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\ShoppingCartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ShoppingCartController.cs",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Controllers\\ShoppingCartController.cs",
+              "RelativeToolTip": "Controllers\\ShoppingCartController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T11:12:22.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DiscountCode.cs",
+              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\DiscountCode.cs",
+              "RelativeDocumentMoniker": "Models\\DiscountCode.cs",
+              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Models\\DiscountCode.cs",
+              "RelativeToolTip": "Models\\DiscountCode.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T08:45:28.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "20250531091556_DBGithub.cs",
               "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Migrations\\20250531091556_DBGithub.cs",
@@ -249,19 +262,6 @@
               "ViewState": "AgIAABgAAAAAAAAAAAAowO0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-31T09:22:35.688Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "OrderCompleted.cshtml",
-              "DocumentMoniker": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\OrderCompleted.cshtml",
-              "RelativeDocumentMoniker": "Views\\ShoppingCart\\OrderCompleted.cshtml",
-              "ToolTip": "D:\\CSDL N\u00E2ng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\Views\\ShoppingCart\\OrderCompleted.cshtml",
-              "RelativeToolTip": "Views\\ShoppingCart\\OrderCompleted.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-31T08:53:24.015Z",
               "EditorCaption": ""
             },
             {
