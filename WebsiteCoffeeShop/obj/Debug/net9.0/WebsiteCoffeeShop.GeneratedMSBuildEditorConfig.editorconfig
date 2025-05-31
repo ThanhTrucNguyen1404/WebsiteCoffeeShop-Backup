@@ -84,8 +84,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Admin/Views/Product/Display.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxEaXNwbGF5LmNzaHRtbA==
+[D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Admin/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/CSDL Nâng cao/WebsiteCoffeeShop-Backup/WebsiteCoffeeShop/Areas/Admin/Views/Product/Index.cshtml]

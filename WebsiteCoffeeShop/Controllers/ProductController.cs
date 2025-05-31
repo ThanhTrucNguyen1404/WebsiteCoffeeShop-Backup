@@ -154,5 +154,30 @@ namespace WebsiteCoffeeShop.Controllers
 
             return View(product);
         }
+
+        [HttpGet]
+        [AllowAnonymous]
+        [Authorize(Roles = "Customer")]
+        public async Task<IActionResult> Search(string query)
+        {
+            if (string.IsNullOrWhiteSpace(query))
+                return Json(new List<object>());
+
+            var products = await _productRepository.SearchProductsAsync(query);
+            var result = products.Select(p => new
+            {
+                id = p.Id,
+                name = p.Name,
+                imageUrl = p.ImageUrl,
+                formattedPrice = p.Price.ToString("#,##0") + " VND"
+            }).ToList();
+
+            // Nếu là request AJAX (từ ô tìm kiếm), trả về JSON
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+                return Json(result);
+
+            // Nếu là truy cập trực tiếp (Enter), trả về view kết quả tìm kiếm
+            return View("SearchResults", products);
+        }
     }
 }

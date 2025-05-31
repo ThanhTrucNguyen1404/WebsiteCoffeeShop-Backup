@@ -118,11 +118,21 @@
     }
 
     .in-stock {
-        color: #28a745;
+        color: #16a34a;
+        background: #dcfce7;
+        padding: 4px 12px;
+        border-radius: 12px;
+        font-weight: 600;
+        display: inline-block;
     }
 
     .out-of-stock {
-        color: #dc3545;
+        color: #dc2626;
+        background: #fee2e2;
+        padding: 4px 12px;
+        border-radius: 12px;
+        font-weight: 600;
+        display: inline-block;
     }
 
     .add-to-cart {
@@ -194,9 +204,13 @@
             ☕ Quán Cà Phê Việt
         </h2>
 
-        <div class="product-container">
-            <div class="d-flex justify-content-between align-items-center mb-4">
-                <h3 class="m-0">Thực đơn cà phê</h3>
+        <!-- Thanh tìm kiếm và sắp xếp -->
+        <div class="row mb-4 align-items-center">
+            <div class="col-md-8 mb-2 mb-md-0 position-relative">
+                <input type="text" id="productSearchBox" class="form-control" placeholder="Tìm sản phẩm..." autocomplete="off">
+                <ul id="productSuggestions" class="list-group position-absolute w-100" style="z-index: 1000; display: none;"></ul>
+            </div>
+            <div class="col-md-4 text-md-end">
                 <select id="sortSelect" class="sort-control">
                     <option value="default">Sắp xếp theo</option>
                     <option value="price-asc">Giá tăng dần</option>
@@ -204,6 +218,12 @@
                     <option value="name-asc">Tên A-Z</option>
                     <option value="name-desc">Tên Z-A</option>
                 </select>
+            </div>
+        </div>
+
+        <div class="product-container">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h3 class="m-0">Thực đơn cà phê</h3>
             </div>
 
             <div class="row g-4" id="productContainer">
@@ -238,10 +258,10 @@
                                     else
                                     {
                                         <p class="stock-status out-of-stock">
-                                            <i class="bi bi-x-circle-fill"></i> Tạm hết
+                                            <i class="bi bi-x-circle-fill"></i> Hết hàng
                                         </p>
                                         <button class="btn btn-secondary w-100" disabled>
-                                            Tạm hết
+                                            Hết hàng
                                         </button>
                                     }
                                 </div>
@@ -262,16 +282,59 @@
             $(this).attr("src", "/images/coffee-placeholder.jpg");
         });
 
-        $("#sortSelect").on("change", function () {
+        // Real-time product search with image, name, price
+        $('#productSearchBox').on('input', function () {
+            const query = $(this).val();
+            const suggestions = $('#productSuggestions');
+            if (query.length >= 2) {
+                $.ajax({
+                    url: '/Product/Search',
+                    data: { query: query },
+                    success: function (products) {
+                        suggestions.empty();
+                        if (products.length === 0) {
+                            suggestions.append('<li class="list-group-item">Không tìm thấy sản phẩm</li>');
+                            suggestions.show();
+                            return;
+                        }
+                        products.forEach(function (product) {
+                            suggestions.append(`
+                                <li class="list-group-item list-group-item-action d-flex align-items-center product-suggestion-item" data-id="${product.id}">
+                                    <img src="${product.imageUrl || '/images/coffee-placeholder.jpg'}" style="width:40px;height:40px;object-fit:cover;margin-right:10px">
+                                    <div>
+                                        <div>${product.name}</div>
+                                        <small class="text-muted">${product.formattedPrice}</small>
+                                    </div>
+                                </li>
+                            `);
+                        });
+                        suggestions.show();
+                    }
+                });
+            } else {
+                suggestions.empty().hide();
+            }
+        });
+        // Chọn sản phẩm từ gợi ý
+        $(document).on('click', '.product-suggestion-item', function () {
+            const id = $(this).data('id');
+            window.location.href = `/Product/Detail/${id}`;
+        });
+        // Ẩn gợi ý khi click ra ngoài
+        $(document).on('click', function (e) {
+            if (!$(e.target).closest('#productSearchBox, #productSuggestions').length) {
+                $('#productSuggestions').hide();
+            }
+        });
+        // Sắp xếp sản phẩm (giữ nguyên logic cũ)
+        $('#sortSelect').on('change', function () {
             var sortType = $(this).val();
             var products = $(".product-item").get();
-
             products.sort(function (a, b) {
                 var priceA = parseInt($(a).data("price"));
                 var priceB = parseInt($(b).data("price"));
                 var nameA = $(a).data("name").toLowerCase();
                 var nameB = $(b).data("name").toLowerCase();
-
                 switch (sortType) {
                     case "price-asc": return priceA - priceB;
                     case "price-desc": return priceB - priceA;
@@ -280,7 +343,6 @@
                     default: return 0;
                 }
             });
-
             $("#productContainer").html(products);
         });
     });

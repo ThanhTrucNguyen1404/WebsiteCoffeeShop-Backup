@@ -123,22 +123,22 @@ namespace WebsiteCoffeeShop.Areas.Admin.Controllers
 
         [HttpPost, ActionName("DeleteConfirmed")]
         [Authorize(Roles = "Admin")]
-public async Task<IActionResult> DeleteConfirmed(int id)
-{
-    var product = await _productRepository.GetByIdAsync(id);
-    if (product == null)
-        return Json(new { success = false, message = "Không tìm thấy sản phẩm." });
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var product = await _productRepository.GetByIdAsync(id);
+            if (product == null)
+                return Json(new { success = false, message = "Không tìm thấy sản phẩm." });
 
-    try
-    {
-        await _productRepository.DeleteAsync(id);
-        return Json(new { success = true, message = "Xóa sản phẩm thành công!" });
-    }
-    catch (Exception ex)
-    {
-        return Json(new { success = false, message = ex.Message });
-    }
-}
+            try
+            {
+                await _productRepository.DeleteAsync(id);
+                return Json(new { success = true, message = "Xóa sản phẩm thành công!" });
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = ex.Message });
+            }
+        }
 
         private async Task<string> SaveImage(IFormFile image)
         {
@@ -165,6 +165,31 @@ public async Task<IActionResult> DeleteConfirmed(int id)
             ViewBag.CategoryName = category != null ? category.Name : "Unknown";
 
             return View(product);
+        }
+
+        [HttpGet]
+        [AllowAnonymous]
+        [Authorize(Roles = "Customer")]
+        public async Task<IActionResult> Search(string query)
+        {
+            if (string.IsNullOrWhiteSpace(query))
+                return Json(new List<object>());
+
+            var products = await _productRepository.SearchProductsAsync(query);
+            var result = products.Select(p => new
+            {
+                id = p.Id,
+                name = p.Name,
+                imageUrl = p.ImageUrl,
+                formattedPrice = p.Price.ToString("#,##0") + " VND"
+            }).ToList();
+
+            // Nếu là request AJAX (từ ô tìm kiếm), trả về JSON
+            if (Request.Headers["X-Requested-With"] == "XMLHttpRequest")
+                return Json(result);
+
+            // Nếu là truy cập trực tiếp (Enter), trả về view kết quả tìm kiếm
+            return View("SearchResults", products);
         }
     }
 }
