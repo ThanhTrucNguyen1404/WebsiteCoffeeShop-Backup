@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2rr4QFdlr6MCzDBDqDGmApB87zr0+FYlEzkYOZ0IwEM=",
+  "Hash": "d6OIdKQvI3cWwpL1oMIrLVRcfPOnnKJrUU1jGlB5Md8=",
   "Source": "WebsiteCoffeeShop",
   "BasePath": "_content/WebsiteCoffeeShop",
   "Mode": "Default",
@@ -4553,6 +4553,27 @@
       "OriginalItemSpec": "wwwroot\\Images\\58cb50a1-010d-4ea9-a225-b03af6cc1217.jpg"
     },
     {
+      "Identity": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\5ca788e6-68f1-4a19-9614-28c57dde98d1.jpg",
+      "SourceId": "WebsiteCoffeeShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\",
+      "BasePath": "_content/WebsiteCoffeeShop",
+      "RelativePath": "Images/5ca788e6-68f1-4a19-9614-28c57dde98d1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0mdp75fmuo",
+      "Integrity": "KBykmHVFMWYRnz/2cg+FJjj4+901k8kt1Gwc8v0VlyQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\5ca788e6-68f1-4a19-9614-28c57dde98d1.jpg"
+    },
+    {
       "Identity": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\623547b3-3ae6-4fef-9e37-912f83a51459.jpg",
       "SourceId": "WebsiteCoffeeShop",
       "SourceType": "Discovered",
@@ -4910,6 +4931,27 @@
       "OriginalItemSpec": "wwwroot\\Images\\a650ff4f-b847-4f06-bbd3-357fbd699576.jpg"
     },
     {
+      "Identity": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\a69272d5-62be-42a9-9639-9ed3d4ce3fc8.jpg",
+      "SourceId": "WebsiteCoffeeShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\",
+      "BasePath": "_content/WebsiteCoffeeShop",
+      "RelativePath": "Images/a69272d5-62be-42a9-9639-9ed3d4ce3fc8#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0mdp75fmuo",
+      "Integrity": "KBykmHVFMWYRnz/2cg+FJjj4+901k8kt1Gwc8v0VlyQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\a69272d5-62be-42a9-9639-9ed3d4ce3fc8.jpg"
+    },
+    {
       "Identity": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\b232b169-31e6-4ec8-a200-99e0f7307d90.jpg",
       "SourceId": "WebsiteCoffeeShop",
       "SourceType": "Discovered",
@@ -5160,6 +5202,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\fdc2496f-8725-48f2-945e-8b4324b0952e.jpg"
+    },
+    {
+      "Identity": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\ffb07ebd-805d-4d10-9428-6c55fbd24196.jpg",
+      "SourceId": "WebsiteCoffeeShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\",
+      "BasePath": "_content/WebsiteCoffeeShop",
+      "RelativePath": "Images/ffb07ebd-805d-4d10-9428-6c55fbd24196#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5m2jef2xwu",
+      "Integrity": "/V3w9iirWIM5aiAFDWyPNHfFxVJg/sfavJ+nq/KS5N4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ffb07ebd-805d-4d10-9428-6c55fbd24196.jpg"
     },
     {
       "Identity": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\VNPAY\\VNPAY.png",
@@ -17492,6 +17555,88 @@
       ]
     },
     {
+      "Route": "Images/5ca788e6-68f1-4a19-9614-28c57dde98d1.0mdp75fmuo.jpg",
+      "AssetFile": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\5ca788e6-68f1-4a19-9614-28c57dde98d1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44403"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KBykmHVFMWYRnz/2cg+FJjj4+901k8kt1Gwc8v0VlyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 11:43:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0mdp75fmuo"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/5ca788e6-68f1-4a19-9614-28c57dde98d1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KBykmHVFMWYRnz/2cg+FJjj4+901k8kt1Gwc8v0VlyQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/5ca788e6-68f1-4a19-9614-28c57dde98d1.jpg",
+      "AssetFile": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\5ca788e6-68f1-4a19-9614-28c57dde98d1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44403"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KBykmHVFMWYRnz/2cg+FJjj4+901k8kt1Gwc8v0VlyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 11:43:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KBykmHVFMWYRnz/2cg+FJjj4+901k8kt1Gwc8v0VlyQ="
+        }
+      ]
+    },
+    {
       "Route": "Images/623547b3-3ae6-4fef-9e37-912f83a51459.jpg",
       "AssetFile": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\623547b3-3ae6-4fef-9e37-912f83a51459.jpg",
       "Selectors": [],
@@ -18886,6 +19031,88 @@
       ]
     },
     {
+      "Route": "Images/a69272d5-62be-42a9-9639-9ed3d4ce3fc8.0mdp75fmuo.jpg",
+      "AssetFile": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\a69272d5-62be-42a9-9639-9ed3d4ce3fc8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44403"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KBykmHVFMWYRnz/2cg+FJjj4+901k8kt1Gwc8v0VlyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 11:39:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0mdp75fmuo"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/a69272d5-62be-42a9-9639-9ed3d4ce3fc8.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KBykmHVFMWYRnz/2cg+FJjj4+901k8kt1Gwc8v0VlyQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/a69272d5-62be-42a9-9639-9ed3d4ce3fc8.jpg",
+      "AssetFile": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\a69272d5-62be-42a9-9639-9ed3d4ce3fc8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "44403"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KBykmHVFMWYRnz/2cg+FJjj4+901k8kt1Gwc8v0VlyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 11:39:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KBykmHVFMWYRnz/2cg+FJjj4+901k8kt1Gwc8v0VlyQ="
+        }
+      ]
+    },
+    {
       "Route": "Images/b232b169-31e6-4ec8-a200-99e0f7307d90.jpg",
       "AssetFile": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\b232b169-31e6-4ec8-a200-99e0f7307d90.jpg",
       "Selectors": [],
@@ -19866,6 +20093,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-xm25RQhzufL+snEjwgBKeF0RLL7HPtir+kl+i0rG9Pc="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ffb07ebd-805d-4d10-9428-6c55fbd24196.5m2jef2xwu.jpg",
+      "AssetFile": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\ffb07ebd-805d-4d10-9428-6c55fbd24196.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/V3w9iirWIM5aiAFDWyPNHfFxVJg/sfavJ+nq/KS5N4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 11:43:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5m2jef2xwu"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/ffb07ebd-805d-4d10-9428-6c55fbd24196.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/V3w9iirWIM5aiAFDWyPNHfFxVJg/sfavJ+nq/KS5N4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/ffb07ebd-805d-4d10-9428-6c55fbd24196.jpg",
+      "AssetFile": "D:\\CSDL Nâng cao\\WebsiteCoffeeShop-Backup\\WebsiteCoffeeShop\\wwwroot\\Images\\ffb07ebd-805d-4d10-9428-6c55fbd24196.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "146571"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/V3w9iirWIM5aiAFDWyPNHfFxVJg/sfavJ+nq/KS5N4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 11:43:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/V3w9iirWIM5aiAFDWyPNHfFxVJg/sfavJ+nq/KS5N4="
         }
       ]
     },
