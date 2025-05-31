@@ -73,7 +73,7 @@ namespace WebsiteCoffeeShop.Controllers
             if (product == null) return NotFound();
             var categories = await _categoryRepository.GetAllAsync();
             ViewBag.Categories = new SelectList(categories, "Id", "Name", product.CategoryId);
-            return View(product);
+            return View("~/Areas/Admin/Views/Product/Update.cshtml", product);
         }
 
         [HttpPost]

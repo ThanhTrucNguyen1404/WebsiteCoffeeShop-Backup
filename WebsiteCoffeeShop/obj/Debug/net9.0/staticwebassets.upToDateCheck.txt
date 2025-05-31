@@ -75,6 +75,7 @@ wwwroot\Images\25e4ac4d-e38f-4c56-b9f9-b624472237bf.jpg
 wwwroot\Images\2b479daf-7db8-4302-a25f-bfdb4119b1cc.jpg
 wwwroot\Images\331f4358-4440-4dec-8dc1-a4bef244d478.jpg
 wwwroot\Images\3531948b-67f6-4581-af8c-fa4e3c657f7f.jpg
+wwwroot\Images\38b9534a-35f5-4088-a519-0e4192e358ba.jpg
 wwwroot\Images\3bce9eec-cae9-411d-91a8-4dac40491220.jpg
 wwwroot\Images\3cbe9db4-4746-4a63-ab00-a6d1e7ad434e_R.jpg
 wwwroot\Images\45abfda1-179e-404c-bc22-3139cb58bd27.jpg
@@ -104,6 +105,7 @@ wwwroot\Images\a650ff4f-b847-4f06-bbd3-357fbd699576.jpg
 wwwroot\Images\b232b169-31e6-4ec8-a200-99e0f7307d90.jpg
 wwwroot\Images\bc84c8c5-43d3-45e9-be7a-8dfc8686d44f.jpg
 wwwroot\Images\bc9ad558-2429-432a-899e-628403b85785.png
+wwwroot\Images\c3773730-b1ec-4f51-9215-de67af136bde.jpg
 wwwroot\Images\cd0c642b-ae76-482a-a96c-495a5dabc658.jpg
 wwwroot\Images\cfa535ff-80b5-4419-bb24-10e1780b401e.jpg
 wwwroot\Images\coffee-banner.jpg
