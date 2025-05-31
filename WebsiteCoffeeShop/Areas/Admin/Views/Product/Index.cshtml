@@ -28,6 +28,10 @@
                         <p class="price">💰 @item.Price.ToString("N0") đ</p>
                         <p class="category">📂 Loại: @(item.Category?.Name ?? "Không có loại")</p>
                         <p class="quantity">📦 Số lượng: <strong>@item.Quantity</strong></p>
+                        @if (item.Quantity == 0)
+                        {
+                            <div class="out-of-stock-badge">Hết hàng</div>
+                        }
 
                         <div class="product-actions">
                             <a asp-action="Display" asp-route-id="@item.Id" class="btn btn-info btn-sm btn-pastel-action">👁️ Xem</a>
@@ -256,15 +260,50 @@
             background-color: #fb7185;
         }
 
-    {
-        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-        gap: 20px;
+    .out-of-stock-badge {
+        background-color: #ef4444;
+        color: white;
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        display: inline-block;
+        margin: 10px 0;
+        animation: pulse 2s infinite;
     }
 
-    .product-container {
-        padding: 20px 15px;
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+            opacity: 1;
+        }
+        50% {
+            transform: scale(1.05);
+            opacity: 0.8;
+        }
+        100% {
+            transform: scale(1);
+            opacity: 1;
+        }
     }
 
+    .product-card {
+        position: relative;
+    }
+
+    .product-card.out-of-stock {
+        opacity: 0.8;
+    }
+
+    .product-card.out-of-stock::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.1);
+        pointer-events: none;
     }
 </style>
 
@@ -286,7 +325,7 @@
             // Lấy anti-forgery token từ form hoặc meta tag (nếu có)
             const token = document.querySelector('input[name="__RequestVerificationToken"]')?.value;
 
-            fetch(`/Product/DeleteConfirmed/${id}`, {
+            fetch(`/Product/Delete/${id}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
