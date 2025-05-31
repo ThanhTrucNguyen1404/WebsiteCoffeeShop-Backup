@@ -65,7 +65,12 @@
         <!-- Current Image -->
         <div class="mb-3">
             <label class="form-label fw-bold">Ảnh sản phẩm hiện tại</label><br />
-            <img src="@Model.ImageUrl" id="currentImage" alt="Ảnh sản phẩm" class="border rounded img-thumbnail" width="150" height="150" /><br />
+            <img src="@Model.ImageUrl"
+                 id="currentImage"
+                 alt="Ảnh sản phẩm"
+                 class="border rounded img-thumbnail"
+                 width="150" height="150"
+                 onerror="this.onerror=null;this.src='';" /><br />
 
             <!-- Upload New Image -->
             <label class="form-label mt-2">Chọn ảnh mới</label>
@@ -126,5 +131,82 @@
                 }
             }
         }
+
+        // Handle form submission
+        $(document).ready(function() {
+            $('form').on('submit', function(e) {
+                e.preventDefault();
+                
+                var formData = new FormData(this);
+                
+                $.ajax({
+                    url: $(this).attr('action'),
+                    type: 'POST',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function(response) {
+                        if (response.success) {
+                            // Show success message
+                            const toast = $(`
+                                <div class="toast position-fixed bottom-0 end-0 m-3" role="alert" aria-live="assertive" aria-atomic="true">
+                                    <div class="toast-header bg-success text-white">
+                                        <strong class="me-auto">Thành công</strong>
+                                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+                                    </div>
+                                    <div class="toast-body">
+                                        ${response.message}
+                                    </div>
+                                </div>
+                            `);
+                            
+                            $('body').append(toast);
+                            const bsToast = new bootstrap.Toast(toast);
+                            bsToast.show();
+                            
+                            // Redirect to main page after a short delay
+                            setTimeout(function() {
+                                window.location.href = '/Product/Index';
+                            }, 1000);
+                        } else {
+                            // Show error message
+                            const toast = $(`
+                                <div class="toast position-fixed bottom-0 end-0 m-3" role="alert" aria-live="assertive" aria-atomic="true">
+                                    <div class="toast-header bg-danger text-white">
+                                        <strong class="me-auto">Lỗi</strong>
+                                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+                                    </div>
+                                    <div class="toast-body">
+                                        ${response.message}
+                                    </div>
+                                </div>
+                            `);
+                            
+                            $('body').append(toast);
+                            const bsToast = new bootstrap.Toast(toast);
+                            bsToast.show();
+                        }
+                    },
+                    error: function() {
+                        // Show error message
+                        const toast = $(`
+                            <div class="toast position-fixed bottom-0 end-0 m-3" role="alert" aria-live="assertive" aria-atomic="true">
+                                <div class="toast-header bg-danger text-white">
+                                    <strong class="me-auto">Lỗi</strong>
+                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+                                </div>
+                                <div class="toast-body">
+                                    Đã xảy ra lỗi khi cập nhật sản phẩm. Vui lòng thử lại sau.
+                                </div>
+                            </div>
+                        `);
+                        
+                        $('body').append(toast);
+                        const bsToast = new bootstrap.Toast(toast);
+                        bsToast.show();
+                    }
+                });
+            });
+        });
     </script>
 }

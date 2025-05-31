@@ -37,7 +37,19 @@ namespace WebsiteCoffeeShop.Repositories
         {
             var product = await _context.Products.FindAsync(id);
             _context.Products.Remove(product);
-            await _context.SaveChangesAsync();
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException ex)
+            {
+                // Nếu lỗi do ràng buộc khóa ngoại (FK)
+                if (ex.InnerException != null && ex.InnerException.Message.Contains("REFERENCE"))
+                {
+                    throw new Exception("Không thể xóa sản phẩm vì đã có đơn hàng hoặc dữ liệu liên quan!");
+                }
+                throw;
+            }
         }
 
         public async Task<List<Product>> GetPaginatedProductsAsync(int page, int pageSize)

@@ -493,7 +493,8 @@
         let discountAmount = 0;
         let rewardPointsDiscount = 0;
         let selectedDiscountCodeId = null;
-        let currentDiscountCode = null; // Thêm biến để theo dõi mã giảm giá hiện tại
+        let currentDiscountCode = null;
+        let isPercentageDiscount = true; // Thêm biến để theo dõi loại giảm giá
 
         // Hằng số
         const POINTS_CONVERSION_RATE = 100; // 100 điểm = 10,000 VND
@@ -581,46 +582,45 @@
                 const res = await axios.get(`/DiscountCode/VerifyDiscountCode?code=${code}`);
                 const data = res.data;
 
+                // Thêm log debug
+                console.log('API trả về:', data.data);
+                console.log('subtotal:', subtotal, 'discountPercent:', data.data ? data.data.discountPercent : null, 'isPercentageDiscount:', data.data ? data.data.isPercentage : null);
+
                 if (data.success) {
-                    discountPercent = data.data.DiscountPercent;
-                    discountAmount = data.data.DiscountAmount;
-                    selectedDiscountCodeId = data.data.Id;
+                    isPercentageDiscount = data.data.isPercentage;
+                    discountPercent = Number(data.data.discountPercent) || 0;
+                    discountAmount = Number(data.data.discountAmount) || 0;
+                    selectedDiscountCodeId = data.data.id;
                     selectedDiscountCodeIdInput.value = selectedDiscountCodeId;
                     currentDiscountCode = code;
 
-                    const message = data.data.IsPercentage
-                        ? `Áp dụng thành công: Giảm ${discountPercent}%`
-                        : `Áp dụng thành công: Giảm ${discountAmount.toLocaleString()}đ`;
-
-                    discountAmount = subtotal * (discountPercent / 100);
-
-                    if (discountPercent > 0) {
-                        discountRow.style.display = 'flex';
-                        discountAmountElement.textContent = `-${formatCurrency(discountAmount)} đ`;
-                    } else {
-                        discountRow.style.display = 'none';
+                    // Tính toán số tiền giảm giá
+                    if (isPercentageDiscount) {
+                        if (subtotal > 0 && discountPercent > 0) {
+                            discountAmount = subtotal * (discountPercent / 100);
+                        } else {
+                            discountAmount = 0;
+                            showDiscountMessage('Không thể áp dụng giảm giá: tổng tiền hoặc phần trăm giảm giá không hợp lệ!', 'error');
+                            return;
+                        }
                     }
 
-                    const totalAfterDiscount = Math.max(0, subtotal - discountAmount - rewardPointsDiscount);
-
-                    // Cập nhật hiển thị tổng tiền
-                    totalPriceElement.textContent = `${formatCurrency(totalAfterDiscount)} đ`;
-
-                    // Cập nhật điểm thưởng nhận được (1 điểm cho mỗi 1000 VND)
-                    const pointsEarned = Math.floor(totalAfterDiscount / 1000);
-                    document.getElementById('pointsEarned').textContent = `${pointsEarned} điểm`;
+                    // Đảm bảo discountAmount là số hợp lệ
+                    let displayAmount = (typeof discountAmount === 'number' && !isNaN(discountAmount)) ? discountAmount : 0;
+                    const message = isPercentageDiscount
+                        ? `Áp dụng thành công: Giảm ${discountPercent}%`
+                        : `Áp dụng thành công: Giảm ${displayAmount.toLocaleString()}đ`;
 
                     showDiscountMessage(message, 'success');
                     createCancelButton();
+                    updateTotalPrice();
                 } else {
-                    showDiscountMessage(data.message, 'danger');
+                    showDiscountMessage(data.message, 'error');
                 }
             } catch (error) {
-                showDiscountMessage('Có lỗi xảy ra khi xác thực mã giảm giá', 'danger');
                 console.error('Error verifying discount code:', error);
+                showDiscountMessage('Có lỗi xảy ra khi xác minh mã giảm giá', 'error');
             }
-
-            updateTotalPrice();
         }
 
         // Hiển thị thông báo giảm giá
@@ -628,15 +628,18 @@
             discountMessage.innerHTML = `<div class="alert alert-${type} py-1">${message}</div>`;
         }
 
-        // Reset thông tin giảm giá
+        // Reset mã giảm giá
         function resetDiscount() {
             discountPercent = 0;
+            discountAmount = 0;
             selectedDiscountCodeId = null;
             selectedDiscountCodeIdInput.value = '';
-            currentDiscountCode = null; // Reset mã giảm giá hiện tại
-            discountCodeInput.value = ''; // Xóa nội dung input mã giảm giá
-            showDiscountMessage('Đã hủy mã giảm giá', 'info'); // Thông báo đã hủy
-            removeCancelButton(); // Xóa nút hủy
+            currentDiscountCode = null;
+            discountCodeInput.value = '';
+            discountMessage.textContent = '';
+            discountMessage.className = '';
+            discountRow.style.display = 'none';
+            removeCancelButton();
             updateTotalPrice();
         }
 
@@ -667,33 +670,43 @@
 
         // Cập nhật tổng tiền
         function updateTotalPrice() {
-            // Tính giảm giá từ mã
-            discountAmount = subtotal * (discountPercent / 100);
+            let finalTotal = subtotal;
 
-            // Hiển thị hoặc ẩn hàng giảm giá từ mã
-            if (discountPercent > 0) {
+            // Áp dụng giảm giá từ mã
+            if (selectedDiscountCodeId) {
+                if (isPercentageDiscount) {
+                    finalTotal -= discountAmount;
+                } else {
+                    finalTotal -= discountAmount;
+                }
+            }
+
+            // Áp dụng giảm giá từ điểm thưởng
+            if (useRewardPointsCheckbox.checked) {
+                finalTotal -= rewardPointsDiscount;
+            }
+
+            // Đảm bảo tổng tiền không âm
+            finalTotal = Math.max(0, finalTotal);
+
+            // Cập nhật hiển thị
+            totalPriceElement.textContent = formatCurrency(finalTotal) + ' đ';
+
+            // Hiển thị/ẩn dòng giảm giá
+            if (selectedDiscountCodeId) {
                 discountRow.style.display = 'flex';
                 discountAmountElement.textContent = `-${formatCurrency(discountAmount)} đ`;
             } else {
                 discountRow.style.display = 'none';
             }
-            // Hiển thị hoặc ẩn hàng giảm giá từ điểm thưởng
-            if (rewardPointsDiscount > 0) {
+
+            // Hiển thị/ẩn dòng điểm thưởng
+            if (useRewardPointsCheckbox.checked) {
                 rewardPointsRow.style.display = 'flex';
                 rewardPointsAmountElement.textContent = `-${formatCurrency(rewardPointsDiscount)} đ`;
             } else {
                 rewardPointsRow.style.display = 'none';
             }
-
-            // Tính tổng tiền sau khi trừ các loại giảm giá
-            const totalAfterDiscount = Math.max(0, subtotal - discountAmount - rewardPointsDiscount);
-
-            // Cập nhật hiển thị tổng tiền
-            totalPriceElement.textContent = `${formatCurrency(totalAfterDiscount)} đ`;
-
-            // Cập nhật điểm thưởng nhận được (1 điểm cho mỗi 1000 VND)
-            const pointsEarned = Math.floor(totalAfterDiscount / 1000);
-            document.getElementById('pointsEarned').textContent = `${pointsEarned} điểm`;
         }
 
         // Định dạng số thành tiền tệ

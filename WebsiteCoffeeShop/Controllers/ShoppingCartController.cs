@@ -113,6 +113,12 @@ namespace we.Controllers
                         TempData["WarningMessage"] = "Mã giảm giá không còn hiệu lực!";
                         order.DiscountCodeId = null;
                     }
+                    // Kiểm tra số lượt sử dụng
+                    else if (discountCode.UsageLimit <= 0)
+                    {
+                        TempData["WarningMessage"] = "Mã giảm giá đã hết lượt sử dụng!";
+                        order.DiscountCodeId = null;
+                    }
                     else
                     {
                         // Áp dụng giảm giá theo phần trăm hoặc số tiền cố định
@@ -125,6 +131,9 @@ namespace we.Controllers
                         {
                             order.TotalPrice = Math.Max(0, order.TotalPrice - (decimal)discountCode.DiscountAmount);
                         }
+                        // Trừ lượt sử dụng
+                        discountCode.UsageLimit -= 1;
+                        _context.DiscountCodes.Update(discountCode);
                     }
                 }
                 else
